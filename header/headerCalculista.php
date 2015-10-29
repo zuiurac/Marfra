@@ -45,7 +45,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="orcamento_definitivo.php"><i class="fa fa-users"></i> <span class="nav-label">Usuários</span><span class="label label-primary pull-right" title="Todos usuários cadastrados visualizados">8 / 8</span></a>
+                    <a href="TodosUsuarios_master.php"><i class="fa fa-users"></i> <span class="nav-label">Usuários</span><span class="label label-primary pull-right" title="Todos usuários cadastrados visualizados">8 / 8</span></a>
                 </li>
                 <li>
                     <a href="orcamento_definitivo.php"><i class="fa fa-suitcase"></i> <span class="nav-label">Clientes</span><span class="label label-primary pull-right" title="Todos clientes cadastrados visualizados">8 / 8</span></a>
@@ -77,7 +77,7 @@
                     </a>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle count-info" title="notificações gerais" data-toggle="dropdown" href="#">
+                    <a class="dropdown-toggle count-info" title="notificações gerais" data-toggle="dropdown" href="notificacoes_todas.php">
                         <i class="fa fa-certificate" ></i>  <span class="label label-primary">8</span>
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
@@ -110,7 +110,7 @@
                         <li class="divider"></li>
                         <li>
                             <div class="text-center link-block">
-                                <a href="notificacoes.php">
+                                <a href="notificacoes_todas.php">
                                     <strong>Veja todas as notificações</strong>
                                     <i class="fa fa-angle-right"></i>
                                 </a>
@@ -119,7 +119,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle count-info" title="notificações especificas" data-toggle="dropdown" href="http://localhost/marfra/notificacoesUsuarioOuDepartamento_masterAdmin.php">
+                    <a class="dropdown-toggle count-info" title="notificações calculista" data-toggle="dropdown" href="#">
                         <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
@@ -152,8 +152,8 @@
                         <li class="divider"></li>
                         <li>
                             <div class="text-center link-block">
-                                <a href="notificacoes.php">
-                                    <strong>Veja todas as notificações</strong>
+                                <a href="#">
+                                    <strong>Veja todas as notificações do calculista</strong>
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </div>

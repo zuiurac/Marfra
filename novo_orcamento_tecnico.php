@@ -39,7 +39,7 @@
                             <label class="control-label">Nº do pedido</label>
                             <input type="text" class="form-control" disabled placeholder="#MF 2015000001">
                         </div>
-                        <div class="col-lg-1 has-error">
+                        <div class="col-lg-1">
                             <label class="control-label">Versão</label>
                               <select class="form-control m-b" name="account">
                                   <option>v.1</option>
@@ -47,10 +47,7 @@
                                   <option>v.3</option>
                                   <option>v.4</option>
                               </select>
-
-                        </div><div class="clear alert alert-danger">
-                                  Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                              </div>
+                        </div>
                  </div>
                         <div class="hr-line-dashed clear_both visibility_none" style="margin: 10px 0;"></div>
                     </div>
@@ -141,7 +138,7 @@
                                 <div class="panel panel-info">
                                   <div class="panel-heading">
                                     <h4 class="panel-title">
-                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                       <a href="#">
                                         <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                       </a>
@@ -424,7 +421,7 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Fechamento de Vão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Fechamento de Vão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                         </a>
@@ -727,7 +724,7 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                         </a>
@@ -913,7 +910,7 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                         </a>
@@ -1053,7 +1050,7 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                         </a>
@@ -1238,7 +1235,7 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
                                         </a>

@@ -39,8 +39,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="novo_orcamento_tecnico_final.html" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
@@ -50,8 +50,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="novo_orcamento_tecnico_final.html" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -61,8 +61,8 @@
                                 <td>23/10/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="novo_orcamento_tecnico_final.html" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -72,8 +72,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="novo_orcamento_tecnico_final.html" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                   <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
@@ -82,8 +82,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
@@ -92,8 +92,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
@@ -102,8 +102,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
@@ -112,8 +112,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
@@ -122,8 +122,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
@@ -132,8 +132,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
@@ -142,8 +142,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
@@ -152,8 +152,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
@@ -162,8 +162,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
@@ -172,8 +172,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -183,8 +183,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -194,8 +194,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -205,8 +205,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -216,8 +216,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -227,8 +227,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -238,8 +238,8 @@
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>

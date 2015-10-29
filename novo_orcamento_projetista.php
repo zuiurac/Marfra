@@ -160,9 +160,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Painéis de Grade</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseTwo" class="panel-collapse collapse p-sm">
@@ -182,9 +179,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">Painéis de Vidro</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item <i class="fa fa-trash text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseFour" class="panel-collapse collapse p-sm">
@@ -212,9 +206,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Porta de pedestre</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseFive" class="panel-collapse collapse p-sm p-top-30">
@@ -254,9 +245,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Portão de garagem</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
@@ -376,9 +364,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">Painéis de Grade</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSeven" class="panel-collapse collapse p-sm">
@@ -398,9 +383,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion10" href="#collapseTen">Painel Fixo Lateral</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTen" class="panel-collapse collapse p-sm">
@@ -420,9 +402,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion11" href="#collapseEleven">Painel Fixo Superior</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseEleven" class="panel-collapse collapse p-sm">
@@ -442,9 +421,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion8" href="#collapseEight">Painéis de Vidro</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseEight" class="panel-collapse collapse p-sm">
@@ -472,9 +448,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion12" href="#collapseTwelve">Porta de pedestre</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwelve" class="panel-collapse collapse p-sm p-top-30">
@@ -514,9 +487,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion13" href="#collapseThirteen">Portão de garagem</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseThirteen" class="panel-collapse collapse p-sm p-top-30">
@@ -675,9 +645,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion15" href="#collapseFifteen">Travessão removível</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseFifteen" class="panel-collapse collapse p-sm">
@@ -697,9 +664,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion16" href="#collapseSixteen">Trilho no piso</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSixteen" class="panel-collapse collapse p-sm">
@@ -719,9 +683,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion17" href="#collapseSeventeen">Porta de pedestre embutida</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSeventeen" class="panel-collapse collapse p-sm p-top-30">
@@ -840,9 +801,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion19" href="#collapseNineteen">Painel Fixo Lateral</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseNineteen" class="panel-collapse collapse p-sm">
@@ -862,9 +820,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion20" href="#collapseTwenty">Painel Fixo Superior</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwenty" class="panel-collapse collapse p-sm">
@@ -955,9 +910,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion22" href="#collapseTwentyTwo">Painéis de grade</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyTwo" class="panel-collapse collapse p-sm">
@@ -977,9 +929,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion23" href="#collapseTwentyThree">Painéis de vidro</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyThree" class="panel-collapse collapse p-sm">
@@ -1007,9 +956,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion24" href="#collapseTwentyFour">Porta de pedestre</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyFour" class="panel-collapse collapse p-sm p-top-30">

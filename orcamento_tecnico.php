@@ -39,7 +39,6 @@
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr></a>
@@ -52,7 +51,6 @@
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -65,7 +63,6 @@
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -78,7 +75,6 @@
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -90,7 +86,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -102,7 +97,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -114,7 +108,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -126,7 +119,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -138,7 +130,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -150,7 +141,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -162,7 +152,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -174,7 +163,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -186,7 +174,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -198,7 +185,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -211,7 +197,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -224,7 +209,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -237,7 +221,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -250,7 +233,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -263,7 +245,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -276,7 +257,6 @@
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
