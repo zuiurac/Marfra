@@ -30,6 +30,7 @@
                                 <th>Nome</th>
                                 <th>Tipo</th>
                                 <th>Tel.Fixo</th>
+                                <th>Bairro</th>
                                 <th>E-mail</th>
                                 <th>Ações</th>
                             </tr>
@@ -40,6 +41,7 @@
                                 <td>Mark</td>
                                 <td>Condomínio</td>
                                 <td>7485-6523</td>
+                                <td>Glória</td>
                                 <td>condominio_mark@gmail.com</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -52,6 +54,7 @@
                                 <td>Jacob</td>
                                 <td>Empresa</td>
                                 <td>2568-5123</td>
+                                <td>Flamengo</td>
                                 <td>empresa_jacob@gmail.com</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -64,6 +67,7 @@
                                 <td>Larry</td>
                                 <td>Governo</td>
                                 <td>2455-5893</td>
+                                <td>Botafogo</td>
                                 <td>governo_larry@gmail.com</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -76,6 +80,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Cinelândia</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -87,6 +92,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -98,6 +104,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -109,6 +116,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -120,6 +128,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -131,6 +140,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -142,6 +152,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -153,6 +164,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -164,6 +176,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -175,6 +188,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -186,6 +200,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -198,6 +213,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -210,6 +226,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -222,6 +239,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -234,6 +252,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -246,6 +265,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -258,6 +278,7 @@
                                 <td>Hudson</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
+                                <td>Catete</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>

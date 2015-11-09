@@ -15,14 +15,33 @@
         <div class="row">
             <div class="col-lg-12">
         <div class="wrapper wrapper-content animated fadeInRight">
-                            <div class="col-sm-6">
-                  <div class="row m-b-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                            <div class="search-form">
+                                  <form action="index.html" method="get">
+                                      <div class="input-group">
+                                          <input type="text" placeholder="Digite aqui o termo da busca" name="search" class="form-control input-lg">
+                                          <div class="input-group-btn">
+                                              <button class="btn btn-lg btn-primary" type="submit">
+                                                  Procurar
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </form>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <!--<div class="row m-b-lg">
                     <div class="col-sm-6">
                       <div id="editable_filter">
                         <input type="search" class="form-control input-sm" placeholder="Procurar" aria-controls="editable">
                       </div>
                     </div>
-                  </div>
+                  </div>-->
                   <span>
                     <strong>Versão 1</strong>
                   </span>
@@ -40,7 +59,7 @@
                   </address>
                 </div>
 
-                <div class="col-sm-6 text-right">
+                <div class="col-sm-8 text-right">
                   <p>
                     <strong>Responsável pelo pedido</strong>
                     <br>
@@ -56,6 +75,7 @@
                       <strong>Data limite de aprovação:</strong> Março 24, 2014</span>
                   </p>
                 </div>
+              </div>
         <div class="col-lg-12 padding-0 p_r_0">
         <div class="ibox float-e-margins">
           <div class="ibox-title">
