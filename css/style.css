@@ -6712,7 +6712,11 @@ ul#side-menu li{
     color: #009933;
     text-decoration: underline;
   }
-  
+  .sub_description{
+    color: #009933;
+    font-size: 12px;
+  }
+
   /*dropzone*/
 .dropzone .dz-default.dz-message{
     width: 528px;
@@ -6756,4 +6760,9 @@ top: 6px;
  .alert-produto{
   padding: 7px !important;
   margin-top:0px !important;
+ }
+
+ .download_projetista .download_wda{
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
  }
