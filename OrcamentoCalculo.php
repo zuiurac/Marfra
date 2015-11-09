@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-lg-12">
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                             <div class="search-form">
@@ -32,38 +32,28 @@
                           </div>
                       </div>
                     </div>
-                  </div>
+                  </div>-->
               <div class="row">
                 <div class="col-sm-4">
-                  <!--<div class="row m-b-lg">
-                    <div class="col-sm-6">
-                      <div id="editable_filter">
-                        <input type="search" class="form-control input-sm" placeholder="Procurar" aria-controls="editable">
-                      </div>
-                    </div>
-                  </div>-->
-                  <span>
-                    <strong>Versão 1</strong>
-                  </span>
-                  <h4>Orçamento:
-                    <span class="text-navy"> #MF 2015000001</span>
-                  </h4>
-                  <br />
+                  <h2 class="orcamento">Orçamento:
+                    <span class="text-navy"> #MF 2015000001</span> <span class="version">(Versão 01)</span>
+                  </h2>
+                 <br />
                   <address>
                     <strong>Nome da Empresa LTDA.</strong>
                     <br> Rua Frederico Edelweiss, 1080
                     <br> Bloco 2, Apto.2201
-                    <br> Rio de Janeiro, RJ
+                    <br> Rio de Janeiro, RJ - Botafogo
                     <br>
-                    <abbr title="Phone">T:</abbr> (21) 3358-4321
+                    <abbr title="Phone">Telefone:</abbr> (21) 3358-4321
                   </address>
                 </div>
-
                 <div class="col-sm-8 text-right">
                   <p>
-                    <strong>Responsável pelo pedido</strong>
+                    <span>
+                    <strong>Responsável pelo pedido:</strong> Augusto</span>
                     <br>
-                    <abbr title="Phone">T:</abbr> (21) 9601-4590
+                    <abbr title="Phone">Telefone:</abbr> (21) 9601-4590
                     <br>
                   </p>
                   <br />

@@ -16,7 +16,7 @@
       </div>
       <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
-                <div class="col-lg-12">
+              <!--  <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
                             <h5>Dados gerais</h5>
@@ -52,9 +52,43 @@
                         <div class="hr-line-dashed clear_both visibility_none" style="margin: 10px 0;"></div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         
           <div class="col-lg-12">
+             <div class="row">
+                <div class="col-sm-4">
+                  <h2 class="orcamento">Orçamento:
+                    <span class="text-navy"> #MF 2015000001</span> <span class="version">(Versão 01)</span>
+                  </h2>
+                  <br />
+                  <address>
+                    <strong>Nome da Empresa LTDA.</strong>
+                    <br> Rua Frederico Edelweiss, 1080
+                    <br> Bloco 2, Apto.2201
+                    <br> Rio de Janeiro, RJ - Flamengo
+                    <br>
+                    <abbr title="Phone">Telefone:</abbr> (21) 3358-4321
+                  </address>
+                </div>
+
+                <div class="col-sm-8 text-right">
+                  <p>
+                    <span>
+                    <strong>Responsável pelo pedido:</strong> Augusto</span>
+                    <br>
+                    <abbr title="Phone">Telefone:</abbr> (21) 9601-4590
+                    <br>
+                  </p>
+                  <br />
+                  <p>
+                    <span>
+                      <strong>Data realização:</strong> Março 18, 2014</span>
+                    <br/>
+                    <span>
+                      <strong>Data limite de aprovação:</strong> Março 24, 2014</span>
+                  </p>
+                </div>
+              </div>
             <div class="ibox float-e-margins">
               <div class="ibox-title">
                 <h5>Lista de produtos</h5>
@@ -64,7 +98,7 @@
                   <label class="control-label">Selecione a lista de produtos</label>
                 </div>
                 <div class="col-lg-12 padding-0 m-b lista_produtos has-error">
-                  <div class="checkbox i-checks col-sm-1">
+                  <div class="checkbox i-checks col-sm-2">
                     <label class="primeiro_produto">
                       <input type="checkbox" value="" checked="">
                       <i></i> Grade
@@ -94,19 +128,23 @@
                       <i></i> Guarda corpo
                     </label>
                   </div>
-                  <div class="checkbox i-checks col-sm-1">
+                  <div class="checkbox i-checks col-sm-2">
                     <label>
                       <input type="checkbox" value="">
                       <i></i> Corrimão
                     </label>
                   </div>
-                  <div class="col-sm-2">
-                    <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Confirmar lista de produtos</button>
-                </div>
-
-                </div><div class="clear alert alert-danger">
+                <div class="clear alert alert-danger">
                       Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="col-sm-20">
+                        <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Confirmar lista de produtos</button>
+                    </div>
                   </div>
+                </div>
                 <div class="hr-line-dashed clear_both"></div>
                 <div class="col-lg-12 padding-0">
                   <div class="col-lg-2 padding-0">
@@ -193,7 +231,22 @@
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
-                                        <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        <div class="col-lg-2 padding-0">
+                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        </div>
+                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                            <select class="form-control m-b" name="account">
+                                                <option>Selecione</option>
+                                                <option>Painéis de grade</option>
+                                                <option>Painéis de vidro</option>
+                                                <option>Porta de pedestre</option>
+                                                <option>Portão de garagem</option>
+                                                <option>Corrimão</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-2 alert alert-danger alert-produto">
+                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          </div>
                                       </div>
                                       <div class="col-lg-12">
                                         <div class="ibox-content">
@@ -460,7 +513,22 @@
                                         </div>
                                       </div>
                                       <div class="col-lg-12">
-                                        <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        <div class="col-lg-2 padding-0">
+                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        </div>
+                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                            <select class="form-control m-b" name="account">
+                                                <option>Selecione</option>
+                                                <option>Painéis de grade</option>
+                                                <option>Painéis de vidro</option>
+                                                <option>Porta de pedestre</option>
+                                                <option>Portão de garagem</option>
+                                                <option>Corrimão</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-2 alert alert-danger alert-produto">
+                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -804,7 +872,22 @@
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
-                                        <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        <div class="col-lg-2 padding-0">
+                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        </div>
+                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                            <select class="form-control m-b" name="account">
+                                                <option>Selecione</option>
+                                                <option>Painéis de grade</option>
+                                                <option>Painéis de vidro</option>
+                                                <option>Porta de pedestre</option>
+                                                <option>Portão de garagem</option>
+                                                <option>Corrimão</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-2 alert alert-danger alert-produto">
+                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -989,8 +1072,23 @@
                                             </div>
                                           </div>
                                       </div>
-                                      <div class="col-lg-12">
-                                        <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                     <div class="col-lg-12">
+                                        <div class="col-lg-2 padding-0">
+                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        </div>
+                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                            <select class="form-control m-b" name="account">
+                                                <option>Selecione</option>
+                                                <option>Painéis de grade</option>
+                                                <option>Painéis de vidro</option>
+                                                <option>Porta de pedestre</option>
+                                                <option>Portão de garagem</option>
+                                                <option>Corrimão</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-2 alert alert-danger alert-produto">
+                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -1114,7 +1212,22 @@
                                         </div>
                                       </div>
                                       <div class="col-lg-12">
-                                        <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        <div class="col-lg-2 padding-0">
+                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
+                                        </div>
+                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                            <select class="form-control m-b" name="account">
+                                                <option>Selecione</option>
+                                                <option>Painéis de grade</option>
+                                                <option>Painéis de vidro</option>
+                                                <option>Porta de pedestre</option>
+                                                <option>Portão de garagem</option>
+                                                <option>Corrimão</option>
+                                            </select>
+                                          </div>
+                                          <div class="col-lg-2 alert alert-danger alert-produto">
+                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">

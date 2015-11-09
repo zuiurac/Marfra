@@ -6766,3 +6766,12 @@ top: 6px;
     border-top-right-radius: 3px !important;
     border-bottom-right-radius: 3px !important;
  }
+ .orcamento{
+      font-weight: 600;
+      margin-top: 0px;
+ }
+ .version{
+  font-style: normal; 
+  font-size: 13px;
+  font-weight:normal;
+ }
