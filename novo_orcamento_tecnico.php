@@ -85,7 +85,7 @@
                       <strong>Data realização:</strong> Março 18, 2014</span>
                     <br/>
                     <span>
-                      <strong>Data limite de aprovação:</strong> Março 24, 2014</span>
+                      <strong>Data de visita:</strong> Março 24, 2014</span>
                   </p>
                 </div>
               </div>
@@ -178,7 +178,7 @@
                                     <h4 class="panel-title">
                                       <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                       <a href="#">
-                                        <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                        <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                       </a>
                                     </h4>
                                   </div>
@@ -256,7 +256,7 @@
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Painéis de Grade</a>
                                                   <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                   </a>
                                                 </h4>
                                               </div>
@@ -284,7 +284,7 @@
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">Painéis de Vidro</a>
                                                   <a href="#">
-                                                    <span class="excluir_subitem">Excluir item <i class="fa fa-trash text-navy"></i></span>
+                                                    <span class="excluir_subitem">Excluir item <i class="fa fa-times text-navy"></i></span>
                                                   </a>
                                                 </h4>
                                               </div>
@@ -326,7 +326,7 @@
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Porta de pedestre</a>
                                                   <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                   </a>
                                                 </h4>
                                               </div>
@@ -378,7 +378,7 @@
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Portão de garagem</a>
                                                   <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                   </a>
                                                 </h4>
                                               </div>
@@ -476,7 +476,7 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Fechamento de Vão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                         </a>
                                       </h4>
                                     </div>
@@ -538,7 +538,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">Painéis de Grade</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -566,7 +566,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion10" href="#collapseTen">Painel Fixo Lateral</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -588,7 +588,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion11" href="#collapseEleven">Painel Fixo Superior</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -610,7 +610,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion8" href="#collapseEight">Painéis de Vidro</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -652,7 +652,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion12" href="#collapseTwelve">Porta de pedestre</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -703,7 +703,7 @@
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion13" href="#collapseThirteen">Portão de garagem</a>
                                                   <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                   </a>
                                                 </h4>
                                               </div>
@@ -794,7 +794,7 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                         </a>
                                       </h4>
                                     </div>
@@ -897,7 +897,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion15" href="#collapseFifteen">Travessão removível</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -925,7 +925,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion16" href="#collapseSixteen">Trilho no piso</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -953,7 +953,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion17" href="#collapseSeventeen">Porta de pedestre embutida</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -995,7 +995,7 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1098,7 +1098,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion19" href="#collapseNineteen">Painel Fixo Lateral</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -1120,7 +1120,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion20" href="#collapseTwenty">Painel Fixo Superior</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -1150,7 +1150,7 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1237,7 +1237,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion22" href="#collapseTwentyTwo">Painéis de grade</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -1265,7 +1265,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion23" href="#collapseTwentyThree">Painéis de vidro</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -1301,7 +1301,7 @@
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion24" href="#collapseTwentyFour">Porta de pedestre</a>
                                                     <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-trash text-navy"></i></span>
+                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
                                                     </a>
                                                   </h4>
                                                 </div>
@@ -1350,7 +1350,7 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-trash text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1505,7 +1505,7 @@
                                   <!--file upload-->
                                   <div class="btn-group m-b has-error">
                                     <span class="m upload_label">Faça upload de um arquivo</span>
-                                    <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-white">
+                                    <label title="Upload image file" for="inputImage" class="btn btn-primary Upload_wda">
                                       <input type="file" accept="" name="file" id="inputImage" class="hide">
                                       <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
                                     </label>

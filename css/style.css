@@ -6660,8 +6660,7 @@ ul#side-menu li{
     top: 7px;
 }
 .Upload_wda{
-    border-top-left-radius: 3px !important;
-    border-bottom-left-radius: 3px !important;
+    border-radius: 3px !important;
 }
 .add_subitem{
   margin-bottom:20px !important 
@@ -6775,3 +6774,7 @@ top: 6px;
   font-size: 13px;
   font-weight:normal;
  }
+ .caret{
+      margin-left: 6px !important;
+ }
+ 

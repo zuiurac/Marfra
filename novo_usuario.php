@@ -16,7 +16,7 @@
             </div>
 
         <div class="wrapper wrapper-content animated fadeInRight">
-         <div class="row m-b-lg">
+        <!-- <div class="row m-b-lg">
                 <div class="col-lg-2">
                     <select class="form-control m-b" name="account">
                         <option>Escolha o tipo de cliente</option>
@@ -26,7 +26,23 @@
                         <option>Pessoa física</option>
                     </select>
                 </div>
-         </div>
+         </div>-->
+          <div class="row m-b-lg">
+                <div class="col-lg-2">
+              <div class="btn-group">
+                    <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Escolha o tipo de cliente<span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Governo</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Condomínio</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Empresa</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Pessoa física</a></li>
+                    </ul>
+                </div>
+                 </div>
+              </div>
          <div class="row">
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">

@@ -46,7 +46,7 @@
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
@@ -59,7 +59,7 @@
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -72,7 +72,7 @@
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -85,7 +85,7 @@
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
@@ -97,7 +97,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
@@ -109,7 +109,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
@@ -121,7 +121,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
@@ -133,7 +133,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
@@ -145,7 +145,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
@@ -157,7 +157,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
@@ -169,7 +169,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
@@ -181,7 +181,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
@@ -193,7 +193,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
@@ -205,7 +205,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -218,7 +218,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -231,7 +231,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -244,7 +244,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -257,7 +257,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -270,7 +270,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -283,7 +283,7 @@
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="#" title="abertura de orçamento"><i class="fa fa-dollar text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
 

@@ -25,6 +25,7 @@
                                 <th>Nome do cliente</th>
                                 <th>Data da abertura</th>
                                 <th>Nº Orçamento</th>
+                                <th>Bairro</th>
                                 <th>Status</th>
                                 <th>Ações</th>
                             </tr>
@@ -36,6 +37,7 @@
                                 <td>Mark</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -48,6 +50,7 @@
                                 <td>Jacob</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -60,6 +63,7 @@
                                 <td>Larry</td>
                                 <td>23/10/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -72,6 +76,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
                                     <a href="novo_orcamento_tecnico.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -83,6 +88,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -94,6 +100,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -105,6 +112,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -116,6 +124,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -127,6 +136,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -138,6 +148,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -149,6 +160,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -160,6 +172,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -171,6 +184,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -182,6 +196,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -194,6 +209,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -206,6 +222,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -218,6 +235,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -230,6 +248,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -242,6 +261,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
@@ -254,6 +274,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>

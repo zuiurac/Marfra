@@ -44,7 +44,7 @@
                                     <div class="form-group col-lg-2 m-t-md">
                                         <label class="control-label">Senha</label>
                                         <input type="password" class="form-control m-b-xs" placeholder="Senha" disabled>
-                                        <a class="clique_aqui" href="#modal-form" data-toggle="modal">Clique aqui para redefinir a senha</a>
+                                       <!-- <a class="clique_aqui" href="#modal-form" data-toggle="modal">Clique aqui para redefinir a senha</a>-->
                                     </div>
                                     <div class="form-group col-lg-3 m-t-md">
                                         <label class="control-label">Cargo</label>

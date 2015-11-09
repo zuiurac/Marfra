@@ -55,7 +55,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-warning">Orçamento</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -64,7 +64,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-warning">Orçamento</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -73,7 +73,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-warning">Orçamento</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -82,7 +82,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-warning">Orçamento</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
@@ -90,7 +90,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
@@ -98,7 +98,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
@@ -106,7 +106,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
@@ -114,7 +114,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
@@ -122,7 +122,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
@@ -130,7 +130,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
@@ -138,7 +138,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
@@ -146,7 +146,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
@@ -154,7 +154,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
@@ -162,7 +162,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -171,7 +171,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -180,7 +180,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <F#a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <F#a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -189,7 +189,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -198,7 +198,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -207,7 +207,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -216,7 +216,7 @@
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
                                 <th><label class="label label-primary">Pedido</label></th>
                                 <td>
-                                    <a href="#modal-form" title="excluir" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>

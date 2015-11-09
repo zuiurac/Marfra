@@ -32,6 +32,7 @@
                                 <th>Tipo de cliente</th>
                                 <th>Nome do cliente</th>
                                 <th>Tipo de serviço</th>
+                                <th>Bairro</th>
                                 <th>Data da visita orçamentária</th>
                                 <th>Ações</th>
                             </tr>
@@ -42,10 +43,11 @@
                                 <td>Condomínio</td>
                                 <td>Mark</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
@@ -53,10 +55,11 @@
                                 <td>Empresa</td>
                                 <td>Jacob</td>
                                 <td>Reparo na garantia</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -64,10 +67,11 @@
                                 <td>Governo</td>
                                 <td>Larry</td>
                                 <td>Serviço extra</td>
+                                <td>Glória</td>
                                 <td>23/10/2015</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -75,110 +79,121 @@
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Serviço extra</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Reparo na garantia</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Serviço extra</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
                                 <td>Pessoa Física</td>
                                 <td>Hudson</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -187,9 +202,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -198,9 +214,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -209,9 +226,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -220,9 +238,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -231,9 +250,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -242,9 +262,10 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>Novo produto</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>

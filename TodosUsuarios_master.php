@@ -48,7 +48,7 @@
                                 <th><label class="label label-primary">Ativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
@@ -60,7 +60,7 @@
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -72,7 +72,7 @@
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -84,7 +84,7 @@
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
                                    <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
@@ -95,7 +95,7 @@
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
@@ -106,7 +106,7 @@
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
@@ -117,7 +117,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
@@ -128,7 +128,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
@@ -139,7 +139,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
@@ -150,7 +150,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
@@ -161,7 +161,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
@@ -172,7 +172,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
@@ -183,7 +183,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
@@ -194,7 +194,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -206,7 +206,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -218,7 +218,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -230,7 +230,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -242,7 +242,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -254,7 +254,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -266,7 +266,7 @@
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
                                     <a href="novo_usuario.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="excluir"><i class="fa fa-trash text-navy"></i></a>
+                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>

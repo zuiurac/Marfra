@@ -28,6 +28,7 @@
                                 <th>Nome do cliente</th>
                                 <th>Data da abertura</th>
                                 <th>Nº Orçamento</th>
+                                <th>Bairro</th>
                                 <th>Ações</th>
                             </tr>
                             </thead>
@@ -38,6 +39,7 @@
                                 <td>Mark</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -49,6 +51,7 @@
                                 <td>Jacob</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -60,6 +63,7 @@
                                 <td>Larry</td>
                                 <td>23/10/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -71,6 +75,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                    <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -81,6 +86,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -91,6 +97,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -101,6 +108,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -111,6 +119,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -121,6 +130,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -131,6 +141,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -141,6 +152,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -151,6 +163,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -161,6 +174,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -171,6 +185,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -182,6 +197,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -193,6 +209,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -204,6 +221,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -215,6 +233,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -226,6 +245,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
@@ -237,6 +257,7 @@
                                 <td>Hudson</td>
                                 <td>27/11/2015</td>
                                 <td>MF 2015000001</td>
+                                <td>Glória</td>
                                 <td>
                                     <a href="novo_orcamento_tecnico_final.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>

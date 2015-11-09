@@ -17,7 +17,7 @@
   <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
       <div class="col-lg-12">
-        <div class="ibox float-e-margins">
+       <!-- <div class="ibox float-e-margins">
           <div class="ibox-title">
             <h5>Dados gerais</h5>
           </div>
@@ -42,7 +42,41 @@
             </div>
             <div class="hr-line-dashed clear_both visibility_none" style="margin: 10px 0;"></div>
           </div>
-        </div>
+        </div>-->
+        <div class="row">
+                <div class="col-sm-4">
+                  <h2 class="orcamento">Orçamento:
+                    <span class="text-navy"> #MF 2015000001</span> <span class="version">(Versão 01)</span>
+                  </h2>
+                  <br />
+                  <address>
+                    <strong>Nome da Empresa LTDA.</strong>
+                    <br> Rua Frederico Edelweiss, 1080
+                    <br> Bloco 2, Apto.2201
+                    <br> Rio de Janeiro, RJ - Flamengo
+                    <br>
+                    <abbr title="Phone">Telefone:</abbr> (21) 3358-4321
+                  </address>
+                </div>
+
+                <div class="col-sm-8 text-right">
+                  <p>
+                    <span>
+                    <strong>Responsável pelo pedido:</strong> Augusto</span>
+                    <br>
+                    <abbr title="Phone">Telefone:</abbr> (21) 9601-4590
+                    <br>
+                  </p>
+                  <br />
+                  <p>
+                    <span>
+                      <strong>Data realização:</strong> Março 18, 2014</span>
+                    <br/>
+                    <span>
+                      <strong>Data limite de aprovação:</strong> Março 24, 2014</span>
+                  </p>
+                </div>
+              </div>
       </div>
 
       <div class="col-lg-12">
@@ -52,7 +86,7 @@
           </div>
           <div class="ibox-content">
             <div class="col-lg-12 padding-0 m-b lista_produtos">
-              <div class="checkbox i-checks col-sm-1">
+              <div class="checkbox i-checks col-sm-2">
                 <label class="primeiro_produto">
                   <input type="checkbox" value="" checked="" disabled="">
                   <i></i> Grade
@@ -82,7 +116,7 @@
                   <i></i> Guarda corpo
                 </label>
               </div>
-              <div class="checkbox i-checks col-sm-1">
+              <div class="checkbox i-checks col-sm-2">
                 <label>
                   <input type="checkbox" value="">
                   <i></i> Corrimão
