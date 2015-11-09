@@ -53,7 +53,62 @@
                     </div>
                 </div>
             </div>-->
-        
+        <div class="row">
+                <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <table class="table dataTables-example table-striped" id="editable">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Tipo de cliente</th>
+                                <th>Nome do cliente</th>
+                                <th>Tipo de serviço</th>
+                                <th>Bairro</th>
+                                <th>Data da visita orçamentária</th>
+                                <th>Versões</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <a href="#"><tr>
+                                <td>1</td>
+                                <td>Condomínio</td>
+                                <td>Mark</td>
+                                <td>Novo produto</td>
+                                <td>Glória</td>
+                                <td>27/11/2015</td>
+                                <td>
+                                    v.1
+                                </td>
+                            </tr></a>
+                            <tr>
+                                <td>2</td>
+                                <td>Empresa</td>
+                                <td>Jacob</td>
+                                <td>Reparo na garantia</td>
+                                <td>Glória</td>
+                                <td>27/11/2015</td>
+                                <td>
+                                   v.2
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Governo</td>
+                                <td>Larry</td>
+                                <td>Serviço extra</td>
+                                <td>Glória</td>
+                                <td>23/10/2015</td>
+                                <td>
+                                    v.3
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
           <div class="col-lg-12">
              <div class="row">
                 <div class="col-sm-4">

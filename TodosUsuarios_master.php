@@ -33,6 +33,7 @@
                                 <th>Nome do cliente</th>
                                 <th>Departamento</th>
                                 <th>Cargo</th>
+                                <th>Bairro</th>
                                 <th>Data da abertura</th>
                                 <th>Status</th>
                                 <th>Ações</th>
@@ -44,6 +45,7 @@
                                 <td>Mark</td>
                                 <td>Lorem ipsum</td>
                                 <td>Tec.Orçamentista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Ativo</label></th>
                                 <td>
@@ -56,6 +58,7 @@
                                 <td>Jacob</td>
                                 <td>Lorem ipsum</td>
                                 <td>Projetista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
@@ -68,6 +71,7 @@
                                 <td>Larry</td>
                                 <td>Lorem ipsum</td>
                                 <td>Atendimento</td>
+                                <td>Glória</td>
                                 <td>23/10/2015</td>
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
@@ -80,6 +84,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Comercial</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
@@ -91,6 +96,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
@@ -102,6 +108,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Inativo</th>
                                 <td>
@@ -113,6 +120,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -124,6 +132,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -135,6 +144,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -146,6 +156,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -157,6 +168,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -168,6 +180,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -179,6 +192,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -190,6 +204,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -202,6 +217,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -214,6 +230,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -226,6 +243,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -238,6 +256,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -250,6 +269,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>
@@ -262,6 +282,7 @@
                                 <td>Hudson</td>
                                 <td>Lorem ipsum</td>
                                 <td>Calculista</td>
+                                <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-danger">Inativo</label></th>
                                 <td>

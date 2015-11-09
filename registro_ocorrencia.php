@@ -88,7 +88,7 @@
                                 <td>5</td>
                                 <td>27/11/2015</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
-                                <th><label class="label label-primary">Atendimento finalizado</label></th>
+                                <th><label class="label label-danger">Atendimento parcial</label></th>
                                 <td>
                                     <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
@@ -96,7 +96,7 @@
                                 <td>6</td>
                                 <td>27/11/2015</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
-                                <th><label class="label label-primary">Atendimento finalizado</label></th>
+                                <th><label class="label label-danger">Atendimento parcial</label></th>
                                 <td>
                                     <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
@@ -104,7 +104,7 @@
                                 <td>7</td>
                                 <td>27/11/2015</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus Phasellus lobortis nibhlobortis nibh ultortis nibh ultibh ult...</td>
-                                <th><label class="label label-primary">Atendimento finalizado</label></th>
+                                <th><label class="label label-danger">Atendimento parcial</label></th>
                                 <td>
                                     <a href="#modal-form" title="desabilitar" data-toggle="modal"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
