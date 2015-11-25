@@ -17,32 +17,6 @@
   <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
       <div class="col-lg-12">
-       <!-- <div class="ibox float-e-margins">
-          <div class="ibox-title">
-            <h5>Dados gerais</h5>
-          </div>
-          <div class="ibox-content">
-            <div class="form-group col-lg-12 padding-0 m-b-none">
-              <div class="col-lg-2 padding-0">
-                <label class="control-label">Cliente</label>
-                <input type="text" class="form-control" disabled placeholder="Luiz Carlos Silva">
-              </div>
-              <div class="col-lg-2">
-                <label class="control-label">Bairro</label>
-                <input type="text" class="form-control" disabled placeholder="Flamengo">
-              </div>
-              <div class="col-lg-2">
-                <label class="control-label">Responsável pelo pedido</label>
-                <input type="text" class="form-control" disabled placeholder="Luiz Carlos Silva">
-              </div>
-              <div class="col-lg-2">
-                <label class="control-label">Nº do pedido</label>
-                <input type="text" class="form-control" disabled placeholder="#MF 2015000001">
-              </div>
-            </div>
-            <div class="hr-line-dashed clear_both visibility_none" style="margin: 10px 0;"></div>
-          </div>
-        </div>-->
         <div class="row">
                 <div class="col-sm-4">
                   <h2 class="orcamento">Orçamento:

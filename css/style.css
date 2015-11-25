@@ -3352,6 +3352,9 @@ body.body-small .footer.fixed {
 .no-padding {
   padding: 0 !important;
 }
+.p-b5{
+  padding-bottom:5px !important;
+}
 .no-borders {
   border: none !important;
 }
@@ -6638,7 +6641,7 @@ ul#side-menu li{
   color: #a94442;
   margin: -5px 10px 0 0;
   border-left: 1px solid #a94442;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .excluir_produto{
   color:#fff !important;
@@ -6706,6 +6709,24 @@ ul#side-menu li{
   }
   .lista_produtos label{
     padding-left: 0px !important;
+  }
+  .header_listagem .col-lg-2,.header_listagem .col-lg-3{
+      text-align:right;
+  }
+  .acoes_massa{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .header_listagem .col-lg-3 a{
+    color: #333;
+  }
+  .w100{
+    width: 100%;
+  }
+  .m-l-17{
+    margin-left: 17px;
   }
   .clique_aqui{
     color: #009933;
@@ -6777,4 +6798,36 @@ top: 6px;
  .caret{
       margin-left: 6px !important;
  }
- 
+ .m-b-0{margin-bottom:0px;}
+ .m-b-10{margin-bottom:10px;}
+ table.table_listagem thead th:first-child.sorting_asc,table.table_listagem thead th:first-child.sorting_desc {
+   /* display: none*/
+ }
+ .t-center{
+ text-align:center
+}
+.espec-produto label{
+    font-weight: bold !important;
+    color: #ADADAD;
+}
+.total_geral{
+    color: #fff !important;
+    border-left: 1px solid #fff;
+    margin: -5px 15px 0 0;
+    float: right;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.peso_geral{
+    color: #fff !important;
+    border-left: 0px solid #fff;
+    margin: -1px 15px 0 0;
+    float: right;
+}
+.b-l-0{
+  border-left: 0px solid #fff;
+}
+.produto{
+  float:left;
+}

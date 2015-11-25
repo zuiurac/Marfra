@@ -16,92 +16,121 @@
       </div>
       <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
-              <!--  <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>Dados gerais</h5>
+              <div class="col-lg-12 padding-0">
+                    <div class="col-sm-10 padding-0">
+                        <h2 class="orcamento m-b-none">Orçamento:
+                          <span class="text-navy"> #MF 2015000001</span> <span class="version">(Opção 01)</span>
+                        </h2>
+                        <div class="col-sm-2 padding-0">
+                          <h3><span class="version produto"><strong>Status: </strong>Orçamento novo</span></h3>
                         </div>
-                <div class="ibox-content">
-                <div class="form-group col-lg-12 padding-0 m-b-none">
-                        <div class="col-lg-2 padding-0">
-                            <label class="control-label">Cliente</label>
-                            <input type="text" class="form-control" disabled placeholder="Luiz Carlos Silva">
+                        <div class="col-sm-2">
+                          <h3><span class="version"><strong>Produto: </strong>Grade composta</span></h3>
                         </div>
-                        <div class="col-lg-2">
-                            <label class="control-label">Bairro</label>
-                            <input type="text" class="form-control" disabled placeholder="Flamengo">
+                        <clear class="both"></clear>
+                     </div> 
+                        <div class="col-sm-2 text-right padding-0 p_r_0">
+                        <p>
+                          <strong>Cargo: </strong>Zelador
+                          <br>
+                          <span>
+                          <strong>Responsável 2: </strong> Augusto</span><br>
+                          <abbr title="Phone">Telefone:</abbr> (21) 9601-4590
+                          <br>
+                        </p>
                         </div>
-                        <div class="col-lg-2">
-                            <label class="control-label">Responsável pelo pedido</label>
-                            <input type="text" class="form-control" disabled placeholder="Luiz Carlos Silva">
-                        </div>
-                        <div class="col-lg-2">
-                            <label class="control-label">Nº do pedido</label>
-                            <input type="text" class="form-control" disabled placeholder="#MF 2015000001">
-                        </div>
-                        <div class="col-lg-1">
-                            <label class="control-label">Versão</label>
-                              <select class="form-control m-b" name="account">
-                                  <option>v.1</option>
-                                  <option>v.2</option>
-                                  <option>v.3</option>
-                                  <option>v.4</option>
-                              </select>
-                        </div>
-                 </div>
-                        <div class="hr-line-dashed clear_both visibility_none" style="margin: 10px 0;"></div>
+                   <div class="row">
+                      <div class="col-sm-4">
+                        <address>
+                          <strong>Nome da Empresa LTDA.</strong>
+                          <br> Rua Frederico Edelweiss, 1080 - Bloco 2, Apto.2201
+                          <br> Rio de Janeiro, RJ - Flamengo
+                          <br>
+                          <br>
+                          <strong>Cargo: </strong>Zelador
+                          <br>
+                          <strong>Responsável: </strong>Maicon
+                          <br>
+                          <abbr title="Phone">Telefone:</abbr> (21) 3358-4321
+                        </address>
+                      </div>
+                      <div class="col-sm-8 text-right">
+                        <p>
+                          <strong>Cargo: </strong>Zelador
+                          <br>
+                          <span>
+                          <strong>Responsável 3:</strong> Francisco</span><br><abbr title="Phone">Telefone:</abbr> (21) 9601-4590
+                          <br>
+                        </p>
+                        <br>
+                        <p>
+                          <span>
+                            <strong>Data realização:</strong> Março 18, 2014</span>
+                          <br>
+                          <span>
+                            <strong>Data máxima de visita:</strong> Março 24, 2014</span>
+                        </p>
+                      </div>
                     </div>
-                </div>
-            </div>-->
-        <div class="row">
+                  </div>   
+          <div class="col-lg-12 padding-0">
+            <div class="row">
                 <div class="col-lg-12">
                 <div class="ibox float-e-margins">
+                  <div class="ibox-title">
+                    <h5>Opções</h5>
+                    <div class="ibox-tools">
+                      <a class="collapse-link">
+                          <i class="fa fa-chevron-up"></i>
+                      </a>
+                    </div>
+                  </div>
                     <div class="ibox-content">
                         <table class="table dataTables-example table-striped" id="editable">
                             <thead>
                             <tr>
-                                <th>#</th>
-                                <th>Tipo de cliente</th>
-                                <th>Nome do cliente</th>
-                                <th>Tipo de serviço</th>
+                                <th>Opção</th>
+                                <th>Resp.técnico</th>
+                                <th>Status</th>
                                 <th>Bairro</th>
-                                <th>Data da visita orçamentária</th>
-                                <th>Versões</th>
+                                <th>Data</th>
+                                <th>Projeto (linha de produção)</th>
+                                <th>Responsável</th>
                             </tr>
                             </thead>
                             <tbody>
                             <a href="#"><tr>
-                                <td>1</td>
-                                <td>Condomínio</td>
-                                <td>Mark</td>
+                                <td>
+                                    01
+                                </td>
+                                <td>Responsável 1</td>
                                 <td>Novo produto</td>
                                 <td>Glória</td>
                                 <td>27/11/2015</td>
-                                <td>
-                                    v.1
-                                </td>
+                                <td>Tubular quadrado / retangular</td>
+                                <td>Mark</td>
                             </tr></a>
                             <tr>
-                                <td>2</td>
-                                <td>Empresa</td>
-                                <td>Jacob</td>
+                                <td>
+                                   02
+                                </td>
+                                <td>Responsável 2</td>
                                 <td>Reparo na garantia</td>
                                 <td>Glória</td>
                                 <td>27/11/2015</td>
-                                <td>
-                                   v.2
-                                </td>
+                                <td>Tubular quadrado / retangular</td>
+                                <td>Jacob</td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td>Governo</td>
-                                <td>Larry</td>
+                                <td>
+                                    03
+                                </td>
+                                <td>Responsável 1</td>
                                 <td>Serviço extra</td>
                                 <td>Glória</td>
                                 <td>23/10/2015</td>
-                                <td>
-                                    v.3
-                                </td>
+                                <td>Tubular quadrado / retangular</td>
+                                <td>Larry</td>
                             </tr>
                             </tbody>
                         </table>
@@ -109,60 +138,64 @@
                 </div>
             </div>
             </div>
-          <div class="col-lg-12">
-             <div class="row">
-                <div class="col-sm-4">
-                  <h2 class="orcamento">Orçamento:
-                    <span class="text-navy"> #MF 2015000001</span> <span class="version">(Versão 01)</span>
-                  </h2>
-                  <br />
-                  <address>
-                    <strong>Nome da Empresa LTDA.</strong>
-                    <br> Rua Frederico Edelweiss, 1080
-                    <br> Bloco 2, Apto.2201
-                    <br> Rio de Janeiro, RJ - Flamengo
-                    <br>
-                    <abbr title="Phone">Telefone:</abbr> (21) 3358-4321
-                  </address>
-                </div>
-
-                <div class="col-sm-8 text-right">
-                  <p>
-                    <span>
-                    <strong>Responsável pelo pedido:</strong> Augusto</span>
-                    <br>
-                    <abbr title="Phone">Telefone:</abbr> (21) 9601-4590
-                    <br>
-                  </p>
-                  <br />
-                  <p>
-                    <span>
-                      <strong>Data realização:</strong> Março 18, 2014</span>
-                    <br/>
-                    <span>
-                      <strong>Data de visita:</strong> Março 24, 2014</span>
-                  </p>
+            <div class="row">
+          <div class="form-group col-lg-12">
+            <div class="ibox float-e-margins">
+              <div class="ibox-title">
+                <h5>Faça upload de seu arquivo</h5>
+                <div class="ibox-tools">
+                  <a class="collapse-link">
+                      <i class="fa fa-chevron-up"></i>
+                  </a>
                 </div>
               </div>
+              <div class="ibox-content">
+                <div class="form-group col-md-1 padding-0">
+                  <div class="btn-group m-b">
+                    <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                      <input type="file" accept="" name="file" id="inputImage" class="hide">
+                      <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-2 form-group">
+                  <span class="m upload_label">Esboço.pdf</span>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <span class="m upload_label">Projeto_Orçamentario.pdf</span>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <span class="m upload_label">Desenho_tecnico.pdf</span>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <input type="text" class="form-control" placeholder="Edite o nome do arquivo">
+                </div>
+                <div class="form-group col-md-2">
+                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
+                  <div class="hr-line-dashed clear_both"></div>
+                  <a href="#" class="clique_aqui arquivo_upload">Salvar</a>
+                </div>
+                <div class="hr-line-dashed clear_both visibility_none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
             <div class="ibox float-e-margins">
               <div class="ibox-title">
                 <h5>Lista de produtos</h5>
+                <div class="ibox-tools">
+                  <a class="collapse-link">
+                      <i class="fa fa-chevron-up"></i>
+                  </a>
+                </div>
               </div>
               <div class="ibox-content">
-                <div class="col-lg-12 padding-0 m-b-xs">
-                  <label class="control-label">Selecione a lista de produtos</label>
-                </div>
-                <div class="col-lg-12 padding-0 m-b lista_produtos has-error">
+                <div class="col-lg-12 padding-0 m-b lista_produtos">
                   <div class="checkbox i-checks col-sm-2">
                     <label class="primeiro_produto">
                       <input type="checkbox" value="" checked="">
                       <i></i> Grade
-                    </label>
-                  </div>
-                  <div class="checkbox i-checks col-sm-2">
-                    <label>
-                      <input type="checkbox" value="" class="js-switch">
-                      <i></i> Fechamento de vão
                     </label>
                   </div>
                   <div class="checkbox i-checks col-sm-2" class="js-switch2">
@@ -189,35 +222,31 @@
                       <i></i> Corrimão
                     </label>
                   </div>
-                <div class="clear alert alert-danger">
-                      Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-12">
-                    <div class="col-sm-20">
-                        <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Confirmar lista de produtos</button>
+                    <div class="col-sm-2 padding-0 m-b-xs">
+                      <label class="control-label">Confirme ou edite a lista de produtos e clique no botão confirmar</label>
+                    </div>
+                    <div class="col-sm-2 padding-0">
+                        <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Confirmar lista</button>
                     </div>
                   </div>
                 </div>
                 <div class="hr-line-dashed clear_both"></div>
-                <div class="col-lg-12 padding-0">
+                <div class="col-lg-12 padding-0 m-t-sm">
                   <div class="col-lg-2 padding-0">
                     <button type="button" class="add_subitem btn-addProduto btn btn-w-m"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar produto</button>
                   </div>
-                  <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                  <div class="col-lg-2 padding-0 info-padrao-produto">
                     <select class="form-control m-b" name="account">
                         <option>Selecione</option>
                         <option>Grade</option>
-                        <option>Fechamento de vão</option>
                         <option>Portão de garagem</option>
                         <option>Porta de pedestre</option>
                         <option>Guarda corpo</option>
                         <option>Corrimão</option>
                     </select>
-                  </div>
-                  <div class="col-lg-2 alert alert-danger alert-produto">
-                      Esse campo é <a class="alert-link" href="#">obrigatório.</a>
                   </div>
                 </div>
                 <div class="panel">
@@ -233,74 +262,77 @@
                                     <h4 class="panel-title">
                                       <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                       <a href="#">
-                                        <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
+                                        <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="total_geral">R$800,00</span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="peso_geral">100kg</span>
                                       </a>
                                     </h4>
                                   </div>
                                   <div id="collapseThree" class="panel-collapse collapse">
                                     <div class="panel-body">
                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-t-md m-b-none">
-                                        <div class="form-group col-lg-2">
-                                          <label class="control-label">Modelo</label>
+                                        <div class="form-group col-lg-3">
+                                          <label class="control-label">Linha de produção</label>
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
-                                                <option>opção 1</option>
+                                                <option>Tubular quadrado / retangular</option>
                                                 <option>opção 2</option>
                                                 <option>opção 3</option>
                                                 <option>opção 4</option>
                                             </select>
+                                        </div>
+                                        <div class="col-lg-2 padding-0">
+                                          <label class="control-label">Peso total (kg)</label>
+                                          <input type="text" class="form-control" disabled placeholder="100">
+                                        </div>
+                                        <div class="col-lg-2 padding-0">
+                                          <label class="control-label">Valor total (R$)</label>
+                                          <input type="text" class="form-control" disabled placeholder="800,00">
+                                        </div>
+                                      </div>
+                                      <div class="form-group espec-produto col-lg-12 m-b-none">
+                                        <label class="control-label">Especificações técnicas</label>
+                                        <div class="hr-line-dashed clear_both m-t-none"></div>
+                                      </div>
+                                      <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                        <div class="form-group col-lg-1">
+                                          <label class="control-label">Comprimento</label>
+                                          <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-lg-1">
+                                          <label class="control-label">Altura</label>
+                                          <input type="text" class="form-control">
                                         </div>
                                         <div class="form-group col-lg-2">
                                           <label class="control-label">Cor</label>
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
-                                                <option>opção 1</option>
+                                                <option>Fumê - 8mm</option>
                                                 <option>opção 2</option>
                                                 <option>opção 3</option>
                                                 <option>opção 4</option>
                                             </select>
                                         </div>
-                                        <div class="form-group col-lg-2">
-                                          <label class="control-label">Comprimento</label>
+                                        
+                                         <div class="form-group col-lg-2">
+                                           <label class="control-label">Qtd. painéis de grade</label>
                                           <input type="text" class="form-control">
-                                        </div>
-                                        <div class="form-group col-lg-2">
-                                          <label class="control-label">Altura</label>
+                                         </div>
+                                         <div class="form-group col-lg-2">
+                                           <label class="control-label">Qtd. painéis de vidro</label>
                                           <input type="text" class="form-control">
-                                        </div>
-                                         <div class="form-group col-lg-3">
-                                            <label class="control-label">Sistema de instalação</label>
-                                            <div class="clear_both"></div>
-                                            <div class="checkbox i-checks col-sm-6">
-                                              <label class="primeiro_produto">
-                                                <input type="checkbox" value="" checked="">
-                                                <i></i> Chumbamento
-                                              </label>
-                                            </div>
-                                            <div class="checkbox i-checks col-sm-6">
-                                              <label>
-                                                <input type="checkbox" value="">
-                                                <i></i> Portalete
-                                              </label>
-                                            </div>
+                                         </div>
+                                          <div class="form-group col-lg-2">
+                                            <label class="control-label">Qtd. colunas no piso</label>
+                                            <input type="text" class="form-control">
                                           </div>
-                                      </div>
-                                      <div class="col-lg-12">
-                                        <div class="col-lg-2 padding-0">
-                                          <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
-                                        </div>
-                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
-                                            <select class="form-control m-b" name="account">
-                                                <option>Selecione</option>
-                                                <option>Painéis de grade</option>
-                                                <option>Painéis de vidro</option>
-                                                <option>Porta de pedestre</option>
-                                                <option>Portão de garagem</option>
-                                                <option>Corrimão</option>
-                                            </select>
-                                          </div>
-                                          <div class="col-lg-2 alert alert-danger alert-produto">
-                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                          <div class="form-group col-lg-2">
+                                            <label class="control-label">Qtd. colunas na mureta</label>
+                                            <input type="text" class="form-control">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
@@ -309,25 +341,137 @@
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Painéis de Grade</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                  </a>
+                                                  <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Perfis <span class="sub_description">- valor total: R$800</span></a>
                                                 </h4>
                                               </div>
-                                              <div id="collapseTwo" class="panel-collapse collapse p-sm">
+                                             <div id="collapseTwo" class="panel-collapse collapse p-sm">
                                                 <div class="panel-body">
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
-                                                    <div class="form-group col-lg-3">
-                                                      <label class="control-label">Quantidade total</label>
-                                                      <select class="form-control m-b" name="account">
-                                                          <option>Selecione</option>
-                                                          <option>opção 1</option>
-                                                          <option>opção 2</option>
-                                                          <option>opção 3</option>
-                                                          <option>opção 4</option>
-                                                      </select>
-                                                    </div>
+                                                      <!--inicio modelo item-->
+                                                      <div class="espec-produto col-lg-12 m-t">
+                                                        <label class="control-label">Tubo quadrado 80x80 mm</label>
+                                                        <div class="hr-line-dashed clear_both m-t-none m-b-sm"></div>
+                                                      </div>
+                                                      <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Quantidade</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Espessura</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="1,8">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Barra</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="9,156">
+                                                        </div>
+                                                        
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Preço (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Total (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                      </div>
+                                                      <!--fim modelo item-->
+                                                      <div class="espec-produto col-lg-12 m-t">
+                                                        <label class="control-label">Tubo retangular 2 3/8" x 1 1/2" (60x38 mm)</label>
+                                                        <div class="hr-line-dashed clear_both m-t-none m-b-sm"></div>
+                                                      </div>
+                                                      <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Quantidade</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Espessura</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="1,8">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Barra</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="9,156">
+                                                        </div>
+                                                        
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Preço (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Total (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                      </div>
+                                                      <!--fim modelo item-->
+                                                      <div class="espec-produto col-lg-12 m-t">
+                                                        <label class="control-label">Tubo quadrado 1 1/2" x 1 1/2" (38x38 mm)</label>
+                                                        <div class="hr-line-dashed clear_both m-t-none m-b-sm"></div>
+                                                      </div>
+                                                      <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Quantidade</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Espessura</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="1,8">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Barra</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="9,156">
+                                                        </div>
+                                                        
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Preço (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Total (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                      </div>
+                                                      <!--fim modelo item-->
+                                                      <div class="espec-produto col-lg-12 m-t">
+                                                        <label class="control-label">Tubo retangular 2 x 1/2" (régua)</label>
+                                                        <div class="hr-line-dashed clear_both m-t-none m-b-sm"></div>
+                                                      </div>
+                                                      <div class="form-group info-padrao-produto col-lg-12 padding-0">
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Quantidade</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Espessura</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="1,8">
+                                                        </div>
+                                                        <div class="form-group col-lg-1">
+                                                          <label class="control-label">Barra</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="9,156">
+                                                        </div>
+                                                        
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Preço (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                        <div class="form-group col-lg-2">
+                                                          <label class="control-label">Total (R$)</label>
+                                                            <input type="text" class="form-control" disabled="" placeholder="146,15">
+                                                        </div>
+                                                      </div>
+                                                      <!--fim modelo item-->
+                                                        <div class="hr-line-dashed clear_both"></div>
+                                                      <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                        <div class="form-group col-lg-4">
+                                                          <label class="control-label">Peso total (kg)</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="90">
+                                                        </div>
+                                                        <div class="form-group col-lg-4">
+                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <input type="text" class="form-control" disabled="" placeholder="239,156">
+                                                        </div>
+                                                      </div>
+                                                      <!--fim modelo item-->
                                                   </div>
                                                 </div>
                                               </div>
@@ -337,10 +481,7 @@
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">Painéis de Vidro</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item <i class="fa fa-times text-navy"></i></span>
-                                                  </a>
+                                                  <a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">Anodização / Pintura <span class="sub_description">- valor total: R$800</span></a>
                                                 </h4>
                                               </div>
                                               <div id="collapseFour" class="panel-collapse collapse p-sm">
@@ -379,10 +520,7 @@
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Porta de pedestre</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                  </a>
+                                                  <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Vidros <span class="sub_description">- valor total: R$800</span></a>
                                                 </h4>
                                               </div>
                                               <div id="collapseFive" class="panel-collapse collapse p-sm p-top-30">
@@ -427,14 +565,461 @@
                                               </div>
                                             </div>
                                           </div>
+                                          <div class="panel-group" id="accordion5">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Chapeados <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseFive" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                   
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="panel-group" id="accordion5">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">Acessórios <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseFive" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
                                           <div class="panel-group" id="accordion6">
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
-                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Portão de garagem</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                  </a>
+                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Pedestres - automação / mecanização <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Deslizante</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-5">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Comum
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-7">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Industrial
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                      <div class="form-group col-lg-3">
+                                                          <div class="form-group col-sm-7">
+                                                            <label class="control-label">Travessão removível</label>
+                                                            <div class="clear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                          </div>
+                                                          <div class="form-group col-sm-5">
+                                                            <label class="control-label">Trilho no piso</label>
+                                                            <div class="clear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="panel-group" id="accordion6">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Pivotantes - automação / mecanização <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Deslizante</label>
+                                                      <div class="clear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-5">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Comum
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-7">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Industrial
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                      <div class="form-group col-lg-3">
+                                                          <div class="form-group col-sm-7">
+                                                            <label class="control-label">Travessão removível</label>
+                                                            <div class="fdskjhclear_both"></div>
+                                                             
+                                                          </div>
+                                                          <div class="form-group col-sm-5">
+                                                            <label class="control-label">Trilho no piso</label>
+                                                            <div class="fdskjhclear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                     <select class="form-control m-b" name="account">
+                                                        <option>Selecione</option>
+                                                        <option>opção 1</option>
+                                                        <option>opção 2</option>
+                                                        <option>opção 3</option>
+                                                        <option>opção 4</option>
+                                                    </select>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="panel-group" id="accordion6">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Pivô robô - automação <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="fdskjhclear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Deslizante</label>
+                                                      <div class="fdskjhclear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-5">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Comum
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-7">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Industrial
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                      <div class="form-group col-lg-3">
+                                                          <div class="form-group col-sm-7">
+                                                            <label class="control-label">Travessão removível</label>
+                                                            <div class="fdskjhclear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                          </div>
+                                                          <div class="form-group col-sm-5">
+                                                            <label class="control-label">Trilho no piso</label>
+                                                            <div class="fdskjhclear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="panel-group" id="accordion6">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Portão deslizante - automação / mecanização <span class="sub_description">- valor total: R$800</span></a>
+                                                </h4>
+                                              </div>
+                                              <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
+                                                <div class="panel-body">
+                                                  <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Sistema de abertura</label>
+                                                        <select class="form-control m-b" name="account">
+                                                              <option>opção 1</option>
+                                                              <option>opção 2</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Quantidade total</label>
+                                                      <select class="form-control m-b" name="account">
+                                                          <option>Selecione</option>
+                                                          <option>opção 1</option>
+                                                          <option>opção 2</option>
+                                                          <option>opção 3</option>
+                                                          <option>opção 4</option>
+                                                      </select>
+                                                    </div>
+                                                    <div class="form-group col-lg-3">
+                                                      <label class="control-label">Processo</label>
+                                                      <div class="fdskjhclear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-4">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Mecanizado
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-6">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Automatizado
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-2">
+                                                      <label class="control-label">Deslizante</label>
+                                                      <div class="fdskjhclear_both"></div>
+                                                      <div class="checkbox i-checks col-sm-5">
+                                                        <label class="primeiro_produto">
+                                                          <input type="checkbox" value="" checked="">
+                                                          <i></i> Comum
+                                                        </label>
+                                                      </div>
+                                                      <div class="checkbox i-checks col-sm-7">
+                                                        <label>
+                                                          <input type="checkbox" value="">
+                                                          <i></i> Industrial
+                                                        </label>
+                                                      </div>
+                                                    </div>
+                                                      <div class="form-group col-lg-3">
+                                                          <div class="form-group col-sm-7">
+                                                            <label class="control-label">Travessão removível</label>
+                                                            <div class="clear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                          </div>
+                                                          <div class="form-group col-sm-5">
+                                                            <label class="control-label">Trilho no piso</label>
+                                                            <div class="clear_both"></div>
+                                                              <select class="form-control m-b" name="account">
+                                                                  <option>Selecione</option>
+                                                                  <option>opção 1</option>
+                                                                  <option>opção 2</option>
+                                                                  <option>opção 3</option>
+                                                                  <option>opção 4</option>
+                                                              </select>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="panel-group" id="accordion6">
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                  <a data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">Portão basculhante - automação / mecanização <span class="sub_description">- valor total: R$800</span></a>
                                                 </h4>
                                               </div>
                                               <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
@@ -529,10 +1114,16 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Fechamento de Vão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
-                                        <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Grade 2 <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                          <a href="#">
+                                          <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
                                         </a>
+                                        <a href="#">
+                                          <span class="total_geral">R$800,00</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="peso_geral">100kg</span>
+                                      </a>
                                       </h4>
                                     </div>
                                     <div id="collapseNine" class="panel-collapse collapse">
@@ -571,7 +1162,7 @@
                                         <div class="col-lg-2 padding-0">
                                           <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
                                         </div>
-                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                        <div class="col-lg-2 padding-0 info-padrao-produto">
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
                                                 <option>Painéis de grade</option>
@@ -581,9 +1172,6 @@
                                                 <option>Corrimão</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-2 alert alert-danger alert-produto">
-                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -591,10 +1179,7 @@
                                               <div class="panel panel-default">
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">Painéis de Grade</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
+                                                    <a data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">Acessórios</a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSeven" class="panel-collapse collapse p-sm">
@@ -620,9 +1205,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion10" href="#collapseTen">Painel Fixo Lateral</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTen" class="panel-collapse collapse p-sm">
@@ -642,9 +1224,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion11" href="#collapseEleven">Painel Fixo Superior</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseEleven" class="panel-collapse collapse p-sm">
@@ -664,9 +1243,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion8" href="#collapseEight">Painéis de Vidro</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseEight" class="panel-collapse collapse p-sm">
@@ -706,9 +1282,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion12" href="#collapseTwelve">Porta de pedestre</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwelve" class="panel-collapse collapse p-sm p-top-30">
@@ -757,9 +1330,6 @@
                                               <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                   <a data-toggle="collapse" data-parent="#accordion13" href="#collapseThirteen">Portão de garagem</a>
-                                                  <a href="#">
-                                                    <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                  </a>
                                                 </h4>
                                               </div>
                                               <div id="collapseThirteen" class="panel-collapse collapse p-sm p-top-30">
@@ -848,9 +1418,12 @@
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
-                                        <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
-                                        </a>
+                                            <a href="#">
+                                            <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral b-l-0">R$800,00</span>
+                                          </a>
                                       </h4>
                                     </div>
                                     <div id="collapseFourteen" class="panel-collapse collapse">
@@ -930,7 +1503,7 @@
                                         <div class="col-lg-2 padding-0">
                                           <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
                                         </div>
-                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                        <div class="col-lg-2 padding-0 info-padrao-produto">
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
                                                 <option>Painéis de grade</option>
@@ -940,9 +1513,6 @@
                                                 <option>Corrimão</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-2 alert alert-danger alert-produto">
-                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -951,9 +1521,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion15" href="#collapseFifteen">Travessão removível</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseFifteen" class="panel-collapse collapse p-sm">
@@ -979,9 +1546,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion16" href="#collapseSixteen">Trilho no piso</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSixteen" class="panel-collapse collapse p-sm">
@@ -1007,9 +1571,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion17" href="#collapseSeventeen">Porta de pedestre embutida</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseSeventeen" class="panel-collapse collapse p-sm p-top-30">
@@ -1050,7 +1611,10 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="b-l-0 total_geral">R$800,00</span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1131,7 +1695,7 @@
                                         <div class="col-lg-2 padding-0">
                                           <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
                                         </div>
-                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                        <div class="col-lg-2 padding-0 info-padrao-produto">
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
                                                 <option>Painéis de grade</option>
@@ -1141,9 +1705,6 @@
                                                 <option>Corrimão</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-2 alert alert-danger alert-produto">
-                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -1152,9 +1713,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion19" href="#collapseNineteen">Painel Fixo Lateral</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseNineteen" class="panel-collapse collapse p-sm">
@@ -1174,9 +1732,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion20" href="#collapseTwenty">Painel Fixo Superior</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwenty" class="panel-collapse collapse p-sm">
@@ -1205,7 +1760,10 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="b-l-0 total_geral">R$800,00</span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1270,7 +1828,7 @@
                                         <div class="col-lg-2 padding-0">
                                           <button type="button" class="add_subitem btn btn-w-m btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Adicionar item</button>
                                         </div>
-                                        <div class="col-lg-2 padding-0 info-padrao-produto has-error">
+                                        <div class="col-lg-2 padding-0 info-padrao-produto">
                                             <select class="form-control m-b" name="account">
                                                 <option>Selecione</option>
                                                 <option>Painéis de grade</option>
@@ -1280,9 +1838,6 @@
                                                 <option>Corrimão</option>
                                             </select>
                                           </div>
-                                          <div class="col-lg-2 alert alert-danger alert-produto">
-                                              Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                          </div>
                                       </div>
                                         <div class="col-lg-12">
                                           <div class="ibox-content">
@@ -1291,9 +1846,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion22" href="#collapseTwentyTwo">Painéis de grade</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyTwo" class="panel-collapse collapse p-sm">
@@ -1319,9 +1871,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion23" href="#collapseTwentyThree">Painéis de vidro</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyThree" class="panel-collapse collapse p-sm">
@@ -1355,9 +1904,6 @@
                                                 <div class="panel-heading">
                                                   <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion24" href="#collapseTwentyFour">Porta de pedestre</a>
-                                                    <a href="#">
-                                                      <span class="excluir_subitem">Excluir item<i class="fa fa-times text-navy"></i></span>
-                                                    </a>
                                                   </h4>
                                                 </div>
                                                 <div id="collapseTwentyFour" class="panel-collapse collapse p-sm p-top-30">
@@ -1405,7 +1951,10 @@
                                       <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
                                         <a href="#">
-                                          <span class="excluir_subitem excluir_produto">Excluir produto <i class="fa fa-times text-navy"></i></span>
+                                          <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="b-l-0 total_geral">R$800,00</span>
                                         </a>
                                       </h4>
                                     </div>
@@ -1465,114 +2014,6 @@
                               <!--fim tab engloba-->
                             </div>
                             <div class="hr-line-dashed clear_both"></div>
-                            <div class="row">
-                              <div class="col-lg-12">
-                                <div class="ibox-content">
-                                  <div class="form-group col-lg-12 padding-0 m-b-none has-error">
-                                    <div class="form-group col-lg-2 padding-0">
-                                      <label class="control-label">Caixa de correio</label>
-                                      <select class="form-control m-b" name="account">
-                                        <option>Quantidade</option>
-                                        <option>10kg</option>
-                                        <option>20kg</option>
-                                        <option>30kg</option>
-                                        <option>40kg</option>
-                                      </select>
-                                      <div class="alert alert-danger">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                    </div>
-                                    <div class="form-group col-lg-2">
-                                      <label class="control-label">Retirada de grade</label>
-                                      <select class="form-control m-b" name="account">
-                                        <option>Material</option>
-                                        <option>Ferro</option>
-                                        <option>Alumínio</option>
-                                      </select>
-                                      <div class="alert alert-danger">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                    </div>
-                                    <div class="form-group col-lg-2">
-                                      <label class="control-label">Montante móvel</label>
-                                      <select class="form-control m-b" name="account">
-                                        <option>Quantidade</option>
-                                        <option>10kg</option>
-                                        <option>20kg</option>
-                                        <option>30kg</option>
-                                        <option>40kg</option>
-                                      </select>
-                                      <div class="alert alert-danger">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                    </div>
-                                  </div>
-                                  <div class="hr-line-dashed clear_both"></div>
-                                  <div class="col-lg-12 padding-0">
-                                    <label>Trilho</label>
-                                  </div>
-                                  <div class="ibox-content">
-                                    <div class="col-lg-6 padding-0 m-b-none">
-                                      <div class="checkbox i-checks col-sm-2">
-                                        <label class="primeiro_produto">
-                                          <input type="checkbox" value="" checked="">
-                                          <i></i> Reaproveitar
-                                        </label>
-                                      </div>
-                                      <div class="checkbox i-checks col-sm-2">
-                                        <label>
-                                          <input type="checkbox" value="">
-                                          <i></i> Produzir
-                                        </label>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="hr-line-dashed clear_both"></div>
-                            <div class="row">
-                              <div class="col-lg-12">
-                                <div class="ibox-content">
-                                  <div class="form-group col-lg-12 padding-0 has-error">
-                                    <div class="form-group col-lg-5 padding-0">
-                                      <input type="checkbox" class="i-checks">
-                                      <label class="control-label">Contém pedra de granito, mármore ou acabamento no local?</label>
-                                      <input type="text" class="form-control m-t-md" placeholder="Descreva">
-                                      <div class="alert alert-danger">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                    </div>
-                                    <div class="form-group col-lg-2">
-                                      <select class="form-control m-t-xxl" name="account">
-                                        <option>Quantidade</option>
-                                        <option>20kg</option>
-                                        <option>30kg</option>
-                                        <option>40kg</option>
-                                      </select>
-                                      <div class="alert alert-danger">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                    </div>
-
-                                  </div>
-
-                                  <!--file upload-->
-                                  <div class="btn-group m-b has-error">
-                                    <span class="m upload_label">Faça upload de um arquivo</span>
-                                    <label title="Upload image file" for="inputImage" class="btn btn-primary Upload_wda">
-                                      <input type="file" accept="" name="file" id="inputImage" class="hide">
-                                      <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
-                                    </label>
-                                    <div class="alert alert-danger m-t-md">
-                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
-                                    </div>
-                                  </div>
-                                  <!--file upload fim-->
-                                </div>
-                              </div>
-                            </div>
-                            <div class="hr-line-dashed clear_both"></div>
                             <div class="form-group">
                               <div class="col-sm-12">
                                 <button class="btn btn-white btn_cancel" type="submit"><i class="fa fa-times"></i>&nbsp;&nbsp;Cancelar</button>
@@ -1590,15 +2031,16 @@
                 </div>
               </div>
             </div>
-          <div class="hr-line-dashed clear_both visibility_none"></div>
         </div>
       </div>
     </div>
-
+</div>
    <div class="footer">
         <div class="text-center">
           <strong>Dúvidas?</strong> 2014-2015
         </div>
+      </div>
+      
       </div>
 
 
