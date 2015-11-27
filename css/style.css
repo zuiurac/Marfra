@@ -6856,3 +6856,15 @@ a[title="não atendido"] i.fa.fa-times.text-navy{
 a[title="acessar"] i.fa.fa-arrow-right.text-navy{
     color:#676a6c;
 }
+.invoice-table th,.invoice-table td{
+  text-align:left;
+}
+.border-b{
+  border-bottom:1px solid #e7eaec;
+  padding-bottom:5px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+}
+.border-0{
+  border:0px;
+}

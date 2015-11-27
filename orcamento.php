@@ -1,6 +1,6 @@
 <?php include('header/headerAtendimento.php'); ?>
             <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h2>Listagem de Orçamentos</h2>
                     <ol class="breadcrumb">
                         <li>
@@ -11,31 +11,18 @@
                         </li>
                     </ol>
                 </div>
-                <div class="col-lg-2">
+                 <div class="col-lg-4">
+                    <div class="title-action">
+                        <a href="#" class="btn btn-white"><i class="fa fa-phone"></i> Sem telefone </a>
+                        <a href="#" class="btn btn-white"><i class="fa fa-phone "></i> Telefone </a>
+                        <a href="impressao_orcamento.php" target="_blank" class="btn btn-primary"><i class="fa fa-print"></i> Imprimir </a>
+                    </div>
                 </div>
             </div>
         <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row m-b-xs m-b-12">
+            <div class="row m-b-md m-b-12">
                 <div class="col-lg-8">
                     <a href="novo_orcamento.php"><button type="button" class="btn btn-primary">Cadastrar novo</button></a>
-                </div>
-                <div class="form-group col-lg-3">
-                  <label class="control-label col-sm-3 m-t-sm">Telefone</label>
-                  <div class="checkbox i-checks col-sm-3">
-                    <label class="primeiro_produto">
-                      <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><div class="icheckbox_square-greenMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                      <i></i> Sim
-                    </label>
-                  </div>
-                  <div class="checkbox i-checks col-sm-3">
-                    <label class="">
-                      <div class="icheckbox_square-blueMarfra" style="position: relative;"><div class="icheckbox_square-greenMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                      <i></i> Não
-                    </label>
-                  </div>
-                </div>
-                <div class="col-lg-1">
-                    <a href="#"><button type="button" class="btn btn-default">Imprimir</button></a>
                 </div>
             </div>
             <!--menu superior-->

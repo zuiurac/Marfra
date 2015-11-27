@@ -65,10 +65,11 @@
 <!-- Data picker -->
     <script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            
+     <!-- Custom and plugin javascript -->
+    <script src="js/inspinia.js"></script>
 
+    <script>
+        $(document).ready(function() {            
             /* Init DataTables */
             var oTable = $('#editable').dataTable();
 
