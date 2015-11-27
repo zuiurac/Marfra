@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MARFRA | Técnico Orçamentista</title>
+    <title>MARFRA | Projetista</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                              </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-md"> <strong class="font-bold">João Dias</strong>
-                             </span> <span class="text-muted text-xs block">Técnico Orçamentista<b class="caret"></b></span> </span> </a>
+                             </span> <span class="text-muted text-xs block">Projetista<b class="caret"></b></span> </span> </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
                             <li><a href="perfil.php">Perfil</a></li>
                             <li class="divider"></li>

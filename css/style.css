@@ -6806,9 +6806,20 @@ top: 6px;
  .t-center{
  text-align:center
 }
-.espec-produto label{
+.espec-tecnica{
+    padding-left:30px;
+}
+.espec-produto label,.espec-tecnica label{
     font-weight: bold !important;
     color: #ADADAD;
+}
+.title-produto label{
+   font-weight: bold !important;
+    color: #3E495F;
+    text-transform: uppercase;
+}
+.title-produto .hr-line-dashed{
+  border-top: 1px dashed #3E495F;
 }
 .total_geral{
     color: #fff !important;
@@ -6830,4 +6841,18 @@ top: 6px;
 }
 .produto{
   float:left;
+}
+a[title="atendido"] i.fa.fa-check.text-navy{
+    font-size: 14px;
+    top: 1px;
+    position: relative;
+}
+a[title="não atendido"] i.fa.fa-times.text-navy{
+    font-size: 14px;
+    top: 1px;
+    position: relative;
+    color:#ed5565;
+}
+a[title="acessar"] i.fa.fa-arrow-right.text-navy{
+    color:#676a6c;
 }

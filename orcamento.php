@@ -49,7 +49,7 @@
                             <select name="editable_length" aria-controls="editable" class="form-control">
                                 <option value="10">-- Ações em massa</option>
                                 <option value="25">Gerar baixa no orçamento</option>
-                                <option value="50">Desabilitar</option>
+                                <option value="50">atendido</option>
                             </select>
                         </label>
                             <button type="button" class="btn btn-default m-l-sm">Aplicar</button>
@@ -91,13 +91,15 @@
                             <thead>
                             <tr>
                                 <th><input type="checkbox" class="i-checks" name="input[]"></th>
-                                <th>Orçamento</th>
-                                <th>Data</th>
-                                <th>Responsável - técnico</th>
-                                <th>Responsável - projeto</th>
-                                <th>Telefone - Responsável projeto</th>
+                                <th>Cliente</th>
                                 <th>Bairro</th>
-                                <th>Prazo</th>
+                                <th>nº Orçamento</th>
+                                <th>Responsável</th>
+                                <th>Cargo</th>
+                                <th>Telefone</th>
+                                <th>Produto</th>
+                                <th>Data</th>
+                                <th>Tempo decorrido</th>
                                 <th>Ações</th>
                             </tr>
                             </thead>
@@ -105,272 +107,312 @@
                             <a href="#">
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
+                                <td>Souza Cruz</td>
+                                <td>Flamengo</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Porteiro</td>
+                                <td>(21) 98073-3837</td> 
+                                <td>Grade simples</td>
                                 <td>27/11/2015</td>
-                                <td>Responsável 1</td>
-                                <td>Mark</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
-                                <td>Mark</td>
-                                <td>(21) 98073-3837</td>
+                                <td>Souza Cruz</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Síndico</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Portões e outros</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
+                                <td>Souza Cruz</td>
+                                <td>Botafogo</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Subsíndico</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>
                                 <td>23/10/2015</td>
-                                <td>Responsável 2</td>
-                                <td>Mark</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
+                                <td>Vila Isabel</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Morador</td>
                                 <td>(21) 98073-3837</td>
-                                <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Porteiro</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 2</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-danger">6h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Síndico</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">26h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Subsíndico</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Morador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>#MF 2015000001</td>  
-                                <td>27/11/2015</td>
-                                <td>Responsável 1</td>
                                 <td>Mark</td>
-                                <td>(21) 98073-3837</td>
                                 <td>Glória</td>
-                                <td><label class="label label-warning">24h</label></td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="editar"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="#" title="desabilitar"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>
