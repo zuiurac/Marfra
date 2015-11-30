@@ -48,23 +48,24 @@
                  <div class="col-lg-6">
                     <div class="col-lg-3">
                         <select class="form-control m-b" name="account">
-                            <option>Selecione</option>
+                            <option>Ação</option>
+                            <option>Atendido</option>
+                            <option>Não atendido</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3">
+                        <select class="form-control m-b" name="account">
+                            <option>Bairro</option>
                             <option>opção 1</option>
-                            <option>opção 4</option>
+                            <option>opção 2</option>
                         </select>
                     </div>
                     <div class="col-lg-3">
                         <select class="form-control m-b" name="account">
-                            <option>Selecione</option>
-                            <option>opção 3</option>
-                            <option>opção 4</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-3">
-                        <select class="form-control m-b" name="account">
-                            <option>Selecione</option>
-                            <option>opção 3</option>
-                            <option>opção 4</option>
+                            <option>Produto</option>
+                            <option>Grade Simples</option>
+                            <option>Grade Composta</option>
+                            <option>Portões e outros</option>
                         </select>
                     </div>
                     <div class="col-lg-3">
@@ -91,7 +92,52 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <a href="#">
+                            <tr>
+                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
+                                <td>Mark</td>
+                                <td>Glória</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">13 dias</label></td>
+                                <td>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
+                                </td>
+                            </tr><tr>
+                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
+                                <td>Mark</td>
+                                <td>Glória</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">13 dias</label></td>
+                                <td>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
+                                </td>
+                            </tr><tr>
+                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
+                                <td>Mark</td>
+                                <td>Glória</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-danger">13 dias</label></td>
+                                <td>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
+                                </td>
+                            </tr>
                             <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
                                 <td>Souza Cruz</td>
@@ -102,7 +148,7 @@
                                 <td>(21) 98073-3837</td> 
                                 <td>Grade simples</td>
                                 <td>27/11/2015</td>
-                                <td><label class="label label-warning">6h</label></td>
+                                <td><label class="label label-warning">7 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
@@ -118,10 +164,41 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Portões e outros</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-warning">6h</label></td>
+                                <td><label class="label label-warning">7 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
+                                <td>Mark</td>
+                                <td>Glória</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">5 dias</label></td>
+                                <td>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
+                                </td>
+                            </tr><tr>
+                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
+                                <td>Mark</td>
+                                <td>Glória</td>
+                                <td>2015000001</td>
+                                <td>Carlos</td>
+                                <td>Zelador</td>
+                                <td>(21) 98073-3837</td>
+                                <td>Grade composta</td>  
+                                <td>27/11/2015</td>
+                                <td><label class="label label-warning">8 dias</label></td>
+                                <td>
+                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -134,7 +211,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>
                                 <td>23/10/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-primary">1 dia</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
@@ -150,7 +227,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-primary">2 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
@@ -165,12 +242,13 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-primary">3 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
                                 </td>
-                            </tr><tr>
+                            </tr>
+                            <tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
                                 <td>Mark</td>
                                 <td>Glória</td>
@@ -180,82 +258,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
-                                <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr><tr>
-                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>Mark</td>
-                                <td>Glória</td>
-                                <td>2015000001</td>
-                                <td>Carlos</td>
-                                <td>Zelador</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Grade composta</td>  
-                                <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
-                                <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
-                                </td>
-                            </tr><tr>
-                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>Mark</td>
-                                <td>Glória</td>
-                                <td>2015000001</td>
-                                <td>Carlos</td>
-                                <td>Zelador</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Grade composta</td>  
-                                <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
-                                <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr><tr>
-                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>Mark</td>
-                                <td>Glória</td>
-                                <td>2015000001</td>
-                                <td>Carlos</td>
-                                <td>Zelador</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Grade composta</td>  
-                                <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
-                                <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr><tr>
-                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>Mark</td>
-                                <td>Glória</td>
-                                <td>2015000001</td>
-                                <td>Carlos</td>
-                                <td>Zelador</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Grade composta</td>  
-                                <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
-                                <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
-                                </td>
-                            </tr><tr>
-                                <td><input type="checkbox" class="i-checks" name="input[]"></td>
-                                <td>Mark</td>
-                                <td>Glória</td>
-                                <td>2015000001</td>
-                                <td>Carlos</td>
-                                <td>Zelador</td>
-                                <td>(21) 98073-3837</td>
-                                <td>Grade composta</td>  
-                                <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-danger">13 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
@@ -270,7 +273,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-danger">13 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
@@ -285,7 +288,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-danger">13 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
@@ -300,7 +303,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger">26h</label></td>
+                                <td><label class="label label-danger">13 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
@@ -316,7 +319,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-warning">6h</label></td>
+                                <td><label class="label label-warning">6 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>

@@ -6868,3 +6868,7 @@ a[title="acessar"] i.fa.fa-arrow-right.text-navy{
 .border-0{
   border:0px;
 }
+.light{
+  font-weight: lighter;
+  text-transform: none !important;
+}

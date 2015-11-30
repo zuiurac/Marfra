@@ -55,47 +55,39 @@
                         <table class="table dataTables-example table-striped" id="editable">
                             <thead>
                             <tr>
-                                <th>Opção</th>
-                                <th>Resp.técnico</th>
-                                <th>Status</th>
-                                <th>Bairro</th>
+                                <th>Modificação</th>
+                                <th>Produto</th>
                                 <th>Data</th>
-                                <th>Projeto (linha de produção)</th>
-                                <th>Responsável</th>
+                                <th>Status</th>
+                                <th>Calculado por</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <a href="#"><tr>
+                            <tr>
                                 <td>
-                                    01
+                                    Atualização
                                 </td>
-                                <td>Responsável 1</td>
-                                <td>Novo produto</td>
-                                <td>Glória</td>
+                                <td>Grade</td>
                                 <td>27/11/2015</td>
-                                <td>Tubular quadrado / retangular</td>
+                                <td>Novo produto</td>
                                 <td>Mark</td>
                             </tr></a>
                             <tr>
                                 <td>
-                                   02
+                                   Atualização de custos
                                 </td>
-                                <td>Responsável 2</td>
-                                <td>Reparo na garantia</td>
-                                <td>Glória</td>
+                                <td>Grade, portão de garagem, corrimão</td>
                                 <td>27/11/2015</td>
-                                <td>Tubular quadrado / retangular</td>
+                                <td>Reparo na garantia</td>
                                 <td>Jacob</td>
                             </tr>
                             <tr>
                                 <td>
-                                    03
+                                    2ª Atualização
                                 </td>
-                                <td>Responsável 1</td>
-                                <td>Serviço extra</td>
-                                <td>Glória</td>
+                                <td>Portão de pedestre, guarda corpo</td>
                                 <td>23/10/2015</td>
-                                <td>Tubular quadrado / retangular</td>
+                                <td>Serviço extra</td>
                                 <td>Larry</td>
                             </tr>
                             </tbody>
@@ -240,6 +232,13 @@
                                   </div>
                                   <div id="collapseThree" class="panel-collapse collapse">
                                     <div class="panel-body">
+                                      <div class="form-group info-padrao-produto col-lg-12 m-t-lg m-b-none">
+                                        <div class="form-group col-lg-3 m-b-none">
+                                           <div class="col-sm-2 padding-0">
+                                              <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Nova opção</button>
+                                          </div>
+                                        </div>
+                                      </div>
                                       <div class="form-group info-padrao-produto col-lg-12 m-t-md m-b-none">
                                         <div class="form-group col-lg-3">
                                           <label class="control-label">Linha de produção</label>
@@ -322,7 +321,7 @@
                                              <div id="collapseOne" class="panel-collapse collapse p-m m-t-md">
                                                 <div class="panel-body">
                                                   <div class="form-group title-produto col-lg-12 m-b-none">
-                                                    <label class="control-label">Pedestres</label> <span class="sub_description">- Possui vidro?</span>
+                                                    <label class="control-label">Pedestres</label>
                                                     <div class="hr-line-dashed clear_both m-t-none"></div>
                                                   </div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
@@ -330,80 +329,28 @@
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Simples automático</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Simples mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Duplo automático</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Duplo mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       <!--fim modelo item-->
@@ -413,40 +360,14 @@
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Deslizante industrial</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Deslizante mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       </div>
@@ -454,7 +375,7 @@
                                                   </div>
                                                   <div class="panel-body">
                                                   <div class="form-group title-produto col-lg-12 m-b-none m-t-lg">
-                                                    <label class="control-label">Garagem</label> <span class="sub_description">- Possui vidro?</span>
+                                                    <label class="control-label">Garagem</label>
                                                     <div class="hr-line-dashed clear_both m-t-none"></div>
                                                   </div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
@@ -462,80 +383,28 @@
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Deslizante comum</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Desl. Semi industrial</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Deslizante industrial</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Deslizante mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       <!--fim modelo item-->
@@ -545,157 +414,53 @@
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Simples c/motor</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Simples mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Duplo c/motor</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">PIV. Duplo mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Pivo Robô</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Basculante Horizontal</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Basculante Vertical</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                        <!--inicio modelo item-->
                                                         <div class="espec-produto col-lg-3 m-t">
                                                             <label class="control-label">Basculante mecânico</label>
                                                           <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
-                                                            <div class="form-group">
-                                                                <div class="checkbox i-checks col-sm-4">
-                                                                  <label class="primeiro_produto">
-                                                                    <div class="icheckbox_square-blueMarfra checked" style="position: relative;"><input type="checkbox" value="" checked="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Sim
-                                                                  </label>
-                                                                </div>
-                                                                <div class="checkbox i-checks col-sm-6">
-                                                                  <label>
-                                                                    <div class="icheckbox_square-blueMarfra" style="position: relative;"><input type="checkbox" value="" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
-                                                                    <i></i> Não
-                                                                  </label>
-                                                                </div>
-                                                            </div>
+                                                            <input type="text" placeholder="Qtd." class="form-control">
                                                           </div>
                                                         </div>
                                                       </div>                                                      
@@ -1164,7 +929,7 @@
                                                      <!--inicio modelo item-->
                                                         <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                           <div class="form-group col-lg-2">
-                                                            <label class="control-label">Descrição</label>
+                                                            <label class="control-label">Cor</label>
                                                               <select class="form-control m-b" name="account">
                                                                 <option>Vidro incolor - 8 mm </option>
                                                                 <option>Vidro fumê - 8 mm </option>
@@ -1263,7 +1028,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1282,7 +1047,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1301,7 +1066,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1320,7 +1085,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1339,7 +1104,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1358,7 +1123,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1377,7 +1142,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1396,7 +1161,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1415,7 +1180,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1434,7 +1199,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1453,7 +1218,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1472,7 +1237,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1491,7 +1256,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1510,7 +1275,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1529,7 +1294,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1548,7 +1313,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1567,7 +1332,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1586,7 +1351,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1605,7 +1370,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1624,7 +1389,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1643,7 +1408,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1662,7 +1427,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1681,7 +1446,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1700,7 +1465,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1719,7 +1484,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1738,7 +1503,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1757,7 +1522,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1776,7 +1541,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1795,7 +1560,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1814,7 +1579,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1833,7 +1598,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1852,7 +1617,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1895,7 +1660,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1914,7 +1679,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1933,7 +1698,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1952,7 +1717,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1971,7 +1736,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -1990,7 +1755,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2009,7 +1774,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2028,7 +1793,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2047,7 +1812,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2066,7 +1831,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2109,7 +1874,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2128,7 +1893,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2148,7 +1913,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2168,7 +1933,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2188,7 +1953,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2208,7 +1973,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2227,7 +1992,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2247,7 +2012,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2267,7 +2032,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2287,7 +2052,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2307,7 +2072,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2327,7 +2092,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2347,7 +2112,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2367,7 +2132,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2387,7 +2152,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2407,7 +2172,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2427,7 +2192,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2447,7 +2212,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2467,7 +2232,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2487,7 +2252,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2531,7 +2296,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2550,7 +2315,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2569,7 +2334,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2588,7 +2353,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2631,7 +2396,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2650,7 +2415,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2669,7 +2434,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                        <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2688,7 +2453,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2707,7 +2472,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2726,7 +2491,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2745,7 +2510,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2764,7 +2529,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2783,7 +2548,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2802,7 +2567,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2821,7 +2586,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2840,7 +2605,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2859,7 +2624,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2878,7 +2643,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2897,7 +2662,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2916,7 +2681,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2935,7 +2700,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2954,7 +2719,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -2973,7 +2738,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3017,7 +2782,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3036,7 +2801,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3055,7 +2820,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                        <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3074,7 +2839,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3093,7 +2858,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3112,7 +2877,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3131,7 +2896,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3150,7 +2915,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3169,7 +2934,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3188,7 +2953,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3207,7 +2972,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
@@ -3226,7 +2991,7 @@
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0">
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Quantidade</label>
-                                                            <input type="text" class="form-control">
+                                                            <input disabled placeholder="3" type="text" class="form-control">
                                                         </div>
                                                         <div class="form-group col-lg-2">
                                                           <label class="control-label">Preço (R$)</label>
