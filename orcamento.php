@@ -50,7 +50,7 @@
                         <select class="form-control m-b" name="account">
                             <option>Ação</option>
                             <option>Atendido</option>
-                            <option>Não atendido</option>
+                            <option>Não aprovado</option>
                         </select>
                     </div>
                     <div class="col-lg-3">
@@ -151,7 +151,7 @@
                                 <td><label class="label label-warning">7 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr></a>
                             <tr>
@@ -167,7 +167,7 @@
                                 <td><label class="label label-warning">7 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-check text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -198,7 +198,7 @@
                                 <td><label class="label label-warning">8 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -214,7 +214,7 @@
                                 <td><label class="label label-primary">1 dia</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -230,7 +230,7 @@
                                 <td><label class="label label-primary">2 dias</label></td>
                                 <td>
                                     <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td><input type="checkbox" class="i-checks" name="input[]"></td>
@@ -245,7 +245,7 @@
                                 <td><label class="label label-primary">3 dias</label></td>
                                 <td>
                                     <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
-                                    <a href="#" title="não atendido"><i class="fa fa-times text-navy"></i></a>
+                                    <a href="#" title="Não aprovado"><i class="fa fa-times text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>

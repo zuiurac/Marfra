@@ -6618,9 +6618,6 @@ body.skin-3 {
 
 /*WDA*/
 
-.orcamento_tecnico tbody td:nth-child(5):before{
-  content:"# "
-}
 ul#side-menu li.nav-header{
   font-size:13px;
 }
@@ -6871,4 +6868,7 @@ a[title="acessar"] i.fa.fa-arrow-right.text-navy{
 .light{
   font-weight: lighter;
   text-transform: none !important;
+}
+.fa-eye.text-navy{
+  color:#676a6c;
 }

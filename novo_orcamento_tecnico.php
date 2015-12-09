@@ -232,13 +232,44 @@
                                   </div>
                                   <div id="collapseThree" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                      <div class="form-group info-padrao-produto col-lg-12 m-t-lg m-b-none">
-                                        <div class="form-group col-lg-3 m-b-none">
+                                      <div class="form-group info-padrao-produto col-lg-12 m-t-lg">
+                                        <div class="form-group col-lg-3 m-b-none padding-0">
                                            <div class="col-sm-2 padding-0">
                                               <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Nova opção</button>
                                           </div>
                                         </div>
+                                        <div class="col-lg-3"><button id="edit" class="btn btn-warning btn-xs m-l-sm" onclick="edit()" type="button">Editar aba</button>
+                            <button id="save" class="btn btn-primary  btn-xs" onclick="save()" type="button">Salvar edição</button></div>
+                           <!--  <div class="ibox-content no-padding">
+                            <div class="click2edit wrapper p-md">
+                                <h3>Lorem Ipsum is simply</h3>
+                                dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's</strong> standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                <br/>
+                                <br/>
+                                <ul>
+                                    <li>Remaining essentially unchanged</li>
+                                    <li>Make a type specimen book</li>
+                                    <li>Unknown printer</li>
+                                </ul>
+                              </div>
+                            </div>-->
                                       </div>
+                                      
+                                      <!--inicio tab-->
+                                      <div class="panel blank-panel">
+                                        <div class="panel-heading">
+                                            <div class="panel-options">
+                                                <ul class="nav nav-tabs">
+                                                    <li class="active"><a data-toggle="tab" href="#tab-1">First Tab</a></li>
+                                                    <li class=""><a data-toggle="tab" href="#tab-2">Second Tab</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    <div class="panel-body">
+                                      <div class="tab-content">
+                                        <div id="tab-1" class="tab-pane active">
                                       <div class="form-group info-padrao-produto col-lg-12 m-t-md m-b-none">
                                         <div class="form-group col-lg-3">
                                           <label class="control-label">Linha de produção</label>
@@ -310,7 +341,7 @@
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
-                                        <div class="ibox-content">
+                                      <!--subitens produto-->
                                            <div class="panel-group" id="accordion1">
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
@@ -469,7 +500,6 @@
                                                 </div>
                                               </div>
                                             </div>
-                                          </div>
                                           <div class="panel-group" id="accordion2">
                                             <div class="panel panel-default">
                                               <div class="panel-heading">
@@ -3017,8 +3047,15 @@
                                               </div>
                                             </div>
                                           </div>
+                                      <!--final subitens produto-->
                                         </div>
                                       </div>
+                                      <div id="tab-2" class="tab-pane">gf</div>
+                                    </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                      <!--final tab-->
                                     </div>
                                   </div>
                                 </div>
@@ -3183,7 +3220,22 @@
 
     <!-- iCheck -->
     <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <!-- SUMMERNOTE -->
+    <script src="js/plugins/summernote/summernote.min.js"></script>
+
     <script>
+        $(document).ready(function(){
+
+            $('.summernote').summernote();
+
+       });
+        var edit = function() {
+            $('.click2edit').summernote({focus: true});
+        };
+        var save = function() {
+            var aHTML = $('.click2edit').code(); //save HTML If you need(aHTML: array).
+            $('.click2edit').destroy();
+        };
       $(document).ready(function() {
         $('.i-checks').iCheck({
           checkboxClass: 'icheckbox_square-blueMarfra',
