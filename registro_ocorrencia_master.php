@@ -48,7 +48,7 @@
                                     <small class="text-navy">6:00 am</small>
                                 </div>
                                     <div class="col-xs-7 content no-top-border">
-                                        <p class="m-b-xs"><strong>Projetista</strong></p>
+                                        <p class="m-b-xs"><strong>desenhista</strong></p>
                                         <p>Fez upload de arquivo técnico "rabisco.pdf"</p>
                                     </div>
                             </div>
@@ -144,7 +144,7 @@
                                     <small class="text-navy">6:00am</small>
                                 </div>
                                 <div class="col-xs-7 content no-top-border">
-                                    <p class="m-b-xs"><strong>Projetista</strong></p>
+                                    <p class="m-b-xs"><strong>desenhista</strong></p>
                                     <p>Fez upload de arquivo técnico "rabisco.pdf"</p>
                                 </div>
                             </div>

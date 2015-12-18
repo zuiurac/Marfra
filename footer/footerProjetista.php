@@ -1,8 +1,6 @@
-
-
 <div class="footer">
             <div class="text-center">
-                <strong>Dúvidas?</strong> 2014-2015
+                <strong><a href="ramais.php">Acesso aos ramais</a></strong>
             </div>
         </div>
     </div>

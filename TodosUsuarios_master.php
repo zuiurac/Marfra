@@ -57,7 +57,7 @@
                                 <td>2</td>
                                 <td>Jacob</td>
                                 <td>Lorem ipsum</td>
-                                <td>Projetista</td>
+                                <td>desenhista</td>
                                 <td>Glória</td>
                                 <td>27/11/2015</td>
                                 <th><label class="label label-primary">Inativo</th>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MARFRA | Projetista</title>
+    <title>MARFRA | Desenhista</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -36,7 +36,7 @@
                              </span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-md"> <strong class="font-bold">João Dias</strong>
-                             </span> <span class="text-muted text-xs block">Projetista<b class="caret"></b></span> </span> </a>
+                             </span> <span class="text-muted text-xs block">Desenhista<b class="caret"></b></span> </span> </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
                             <li><a href="perfil.php">Perfil</a></li>
                             <li class="divider"></li>
@@ -48,10 +48,10 @@
                     </div>
                 </li>
                 <li class="active">
-                    <a href="orcamento_tecnico.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span><span class="label label-warning pull-right" title="Restam 8 orçamentos para serem finalizados">16 / 24</span></a>
+                    <a href="orcamento_tecnico.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span><span class="label label-danger pull-right" title="Restam 24 orçamentos para serem finalizados">24</span></a>
                 </li>
                 <li>
-                    <a href="orcamento_definitivo.php"><i class="fa fa-money"></i> <span class="nav-label">Pedido</span><span class="label label-primary pull-right" title="Todos orçamentos definitivos finalizados">8 / 8</span></a>
+                    <a href="orcamento_definitivo.php"><i class="fa fa-check"></i> <span class="nav-label">Pedido</span><span class="label label-primary pull-right" title="Todos os pedidos finalizados">0</span></a>
                 </li>
             </ul>
 

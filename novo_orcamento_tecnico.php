@@ -47,7 +47,7 @@
                     <h5>Histórico</h5>
                     <div class="ibox-tools">
                       <a class="collapse-link">
-                          <i class="fa fa-chevron-up"></i>
+                          <i class="fa fa-chevron-down"></i>
                       </a>
                     </div>
                   </div>
@@ -55,39 +55,48 @@
                         <table class="table dataTables-example table-striped" id="editable">
                             <thead>
                             <tr>
-                                <th>Modificação</th>
-                                <th>Produto</th>
                                 <th>Data</th>
+                                <th>Ação</th>
                                 <th>Status</th>
+                                <th>Produto</th>
                                 <th>Calculado por</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>
-                                    Atualização
-                                </td>
-                                <td>Grade</td>
                                 <td>27/11/2015</td>
+                                <td>
+                                    Modificação
+                                </td>
                                 <td>Novo produto</td>
+                                <td>Grade simples</td>
                                 <td>Mark</td>
                             </tr></a>
                             <tr>
+                                <td>27/11/2015</td>
                                 <td>
                                    Atualização de custos
                                 </td>
-                                <td>Grade, portão de garagem, corrimão</td>
-                                <td>27/11/2015</td>
                                 <td>Reparo na garantia</td>
+                                <td>Grade composta</td>
                                 <td>Jacob</td>
                             </tr>
                             <tr>
+                                <td>27/11/2015</td>
                                 <td>
-                                    2ª Atualização
+                                   2º Modificação
                                 </td>
-                                <td>Portão de pedestre, guarda corpo</td>
+                                <td>Reparo na garantia</td>
+                                <td>Grade composta</td>
+                                <td>Jacob</td>
+                            </tr>
+                            <tr>
                                 <td>23/10/2015</td>
+                                <td>
+                                    2ª Atualização de custos
+                                </td>
                                 <td>Serviço extra</td>
+                                <td>Portões e outros</td>
                                 <td>Larry</td>
                             </tr>
                             </tbody>
@@ -103,36 +112,110 @@
                 <h5>Faça upload de seu arquivo</h5>
                 <div class="ibox-tools">
                   <a class="collapse-link">
-                      <i class="fa fa-chevron-up"></i>
+                      <i class="fa fa-chevron-down"></i>
                   </a>
                 </div>
               </div>
               <div class="ibox-content">
-                <div class="form-group col-md-1 padding-0">
-                  <div class="btn-group m-b">
-                    <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
-                      <input type="file" accept="" name="file" id="inputImage" class="hide">
-                      <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
-                    </label>
+                <div class="form-group espec-tecnica col-lg-1 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="col-md-2 form-group">
-                  <span class="m upload_label">Esboço.pdf</span>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <span class="m upload_label">Projeto_Orçamentario.pdf</span>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <span class="m upload_label">Desenho_tecnico.pdf</span>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <input type="text" class="form-control" placeholder="Edite o nome do arquivo">
+                <div class="form-group espec-tecnica col-lg-1 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
                 </div>
-                <div class="form-group col-md-2">
-                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <a href="#" class="clique_aqui arquivo_upload">Editar</a>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <a href="#" class="clique_aqui arquivo_upload">Salvar</a>
+                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
+                </div>
+                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
+                </div>
+                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
+                </div>
+                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
+                </div>
+                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Especificações técnicas</label>
+                  <div class="hr-line-dashed clear_both m-t-none"></div>
+                  <!--rascunho-->
+                  <div class="col-md-2 form-group">
+                      <div class="btn-group m-b">
+                        <label title="Upload image file" for="inputImage" class=" Upload_wda btn btn-primary">
+                          <input type="file" accept="" name="file" id="inputImage" class="hide">
+                          <i class="fa fa-upload"></i>&nbsp;&nbsp;Enviar
+                        </label>
+                      </div>
+                      <div class="hr-line-dashed clear_both"></div>
+                  </div>
+                </div>
+                <div class="hr-line-dashed clear_both visibility_none"></div>
                 </div>
                 <div class="hr-line-dashed clear_both visibility_none"></div>
               </div>
@@ -144,7 +227,7 @@
                 <h5>Lista de produtos</h5>
                 <div class="ibox-tools">
                   <a class="collapse-link">
-                      <i class="fa fa-chevron-up"></i>
+                      <i class="fa fa-chevron-down"></i>
                   </a>
                 </div>
               </div>
@@ -218,16 +301,76 @@
                                 <div class="panel panel-info">
                                   <div class="panel-heading">
                                     <h4 class="panel-title">
-                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Grade&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
                                       <a href="#">
                                         <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
                                       </a>
                                       <a href="#">
-                                        <span class="total_geral">R$800,00</span>
+                                        <span class="total_geral">valores totais:</span>
                                       </a>
                                       <a href="#">
-                                        <span class="peso_geral">100kg</span>
+                                        <span class="quantidade_geral">R$800,00</span>
                                       </a>
+                                      <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                      <a href="#">
+                                        <span class="quantidade_geral">100kg</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral_label">PERFIL</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">R$800,00</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
                                     </h4>
                                   </div>
                                   <div id="collapseThree" class="panel-collapse collapse">
@@ -282,11 +425,11 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2 padding-0">
-                                          <label class="control-label">Peso total (kg)</label>
+                                          <label class="control-label">peso total (kg)</label>
                                           <input type="text" class="form-control" disabled placeholder="100">
                                         </div>
                                         <div class="col-lg-2 padding-0">
-                                          <label class="control-label">Valor total (R$)</label>
+                                          <label class="control-label">valor total (R$)</label>
                                           <input type="text" class="form-control" disabled placeholder="800,00">
                                         </div>
                                       </div>
@@ -897,11 +1040,11 @@
                                                         <div class="hr-line-dashed clear_both m-t-lg"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Peso total (kg)</label>
+                                                          <label class="control-label">peso total (kg)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="90">
                                                         </div>
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -1662,7 +1805,7 @@
                                                         <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -1876,7 +2019,7 @@
                                                       <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -2298,7 +2441,7 @@
                                                         <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -2398,7 +2541,7 @@
                                                         <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -2783,7 +2926,7 @@
                                                         <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total  (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -3036,7 +3179,7 @@
                                                         <div class="hr-line-dashed clear_both"></div>
                                                       <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
                                                         <div class="form-group col-lg-4">
-                                                          <label class="control-label">Valor total  (R$)</label>
+                                                          <label class="control-label">valor total (R$)</label>
                                                           <input type="text" class="form-control" disabled="" placeholder="239,156">
                                                         </div>
                                                       </div>
@@ -3050,7 +3193,7 @@
                                       <!--final subitens produto-->
                                         </div>
                                       </div>
-                                      <div id="tab-2" class="tab-pane">gf</div>
+                                      <div id="tab-2" class="tab-pane">conteúdo do novo produto</div>
                                     </div>
                                         </div>
                                       </div>
@@ -3065,16 +3208,76 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Grade 2 <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Grade 2 <i class="fa fa-chevron-down"></i></a>
                                           <a href="#">
                                           <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="total_geral">R$800,00</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                      <a href="#">
+                                        <span class="quantidade_geral">100kg</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral_label">PERFIL</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
                                         </a>
                                         <a href="#">
                                           <span class="total_geral">R$800,00</span>
                                         </a>
                                         <a href="#">
-                                          <span class="peso_geral">100kg</span>
+                                          <span class="traco_produto">--</span>
                                         </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
                                       </h4>
                                     </div>
                                     
@@ -3086,19 +3289,78 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
-                                            <a href="#">
+                                        <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                          <a href="#">
                                             <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                          </a>
+                                      <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="total_geral">R$800,00</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                      <a href="#">
+                                        <span class="quantidade_geral">100kg</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral_label">PERFIL</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="total_geral">R$800,00</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
                                           </a>
                                           <a href="#">
                                             <span class="total_geral">R$800,00</span>
                                           </a>
                                           <a href="#">
-                                            <span class="peso_geral">100kg</span>
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
                                           </a>
                                       </h4>
                                     </div>
-                                    
                                   </div>
                                 </div>
                               </div>
@@ -3107,19 +3369,78 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="total_geral">R$800,00</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                      <a href="#">
+                                        <span class="quantidade_geral">100kg</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral_label">PERFIL</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
                                         </a>
                                         <a href="#">
                                           <span class="total_geral">R$800,00</span>
                                         </a>
                                         <a href="#">
-                                          <span class="peso_geral">100kg</span>
+                                          <span class="traco_produto">--</span>
                                         </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
                                       </h4>
                                     </div>
-                                    
                                   </div>
                                 </div>
                               </div>
@@ -3128,16 +3449,76 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
+                                      </a>
+                                      <a href="#">
+                                        <span class="total_geral">R$800,00</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="traco_produto">--</span>
+                                        </a>
+                                      <a href="#">
+                                        <span class="quantidade_geral">100kg</span>
+                                      </a>
+                                      <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral_label">PERFIL</span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
                                         </a>
                                         <a href="#">
                                           <span class="total_geral">R$800,00</span>
                                         </a>
                                         <a href="#">
-                                          <span class="peso_geral">100kg</span>
+                                          <span class="traco_produto">--</span>
                                         </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                        <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
                                       </h4>
                                     </div>
                                     
@@ -3149,16 +3530,82 @@
                                   <div class="panel panel-info">
                                     <div class="panel-heading">
                                       <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
+                                        <a data-toggle="collapse" data-parent="#accordion25" href="#collapseTwentyFive">Corrimão&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
                                         <a href="#">
                                           <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                        </a>
+                                        <a href="#">
+                                        <span class="total_geral">valores totais:</span>
                                         </a>
                                         <a href="#">
                                           <span class="total_geral">R$800,00</span>
                                         </a>
                                         <a href="#">
-                                          <span class="peso_geral">100kg</span>
+                                          <span class="traco_produto">--</span>
                                         </a>
+                                        <a href="#">
+                                          <span class="quantidade_geral">100kg</span>
+                                        </a>
+                                        <a href="#">
+                                          <span class="barra_produto"> | </span>
+                                        </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">PERFIL</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="traco_produto">--</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="quantidade_geral">100kg</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="traco_produto">--</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="quantidade_geral">100kg</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">VIDROS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="barra_produto"> | </span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral_label">ACESSÓRIOS</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">valores totais:</span>
+                                          </a>
+                                          <a href="#">
+                                            <span class="total_geral">R$800,00</span>
+                                          </a>
                                       </h4>
                                     </div>
                                     
@@ -3188,10 +3635,10 @@
         </div>
       </div>
       <div class="footer">
-        <div class="text-center">
-          <strong>Dúvidas?</strong> 2014-2015
+            <div class="text-center">
+                <strong><a href="ramais.php">Acesso aos ramais</a></strong>
+            </div>
         </div>
-      </div>
     </div>
 </div>
   

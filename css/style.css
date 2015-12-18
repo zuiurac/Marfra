@@ -3197,14 +3197,14 @@ ol.unstyled {
   color: #e5e6e7;
 }
 /* FOOTER */
-.footer strong{
+.footer strong a{
   margin-right:20px;
 }
-.footer {
+.footer a{
     font-size: 15px;
     color:#acabb0;
  }
-.footer {
+.footer a{
   background: none repeat scroll 0 0 white;
   border-top: 1px solid #e7eaec;
   bottom: 0;
@@ -4075,16 +4075,16 @@ body.modal-open {
 .invoice-table tbody > tr > td:nth-child(4),
 .invoice-table tbody > tr > td:nth-child(3),
 .invoice-table tbody > tr > td:nth-child(2) {
-  text-align: right;
+  /*text-align: right;*/
 }
 .invoice-table thead > tr > th:last-child,
 .invoice-table thead > tr > th:nth-child(4),
 .invoice-table thead > tr > th:nth-child(3),
 .invoice-table thead > tr > th:nth-child(2) {
-  text-align: right;
+  /*text-align: right;*/
 }
 .invoice-total > tbody > tr > td:first-child {
-  text-align: right;
+  /*text-align: right;*/
 }
 .invoice-total > tbody > tr > td {
   border: 0 none;
@@ -6637,13 +6637,11 @@ ul#side-menu li{
   float: right;
   color: #a94442;
   margin: -5px 10px 0 0;
-  border-left: 1px solid #a94442;
-  padding-left: 10px;
 }
 .excluir_produto{
   color:#fff !important;
-  border-left: 1px solid #fff;
 }
+
 .excluir_subitem i{
     font-size: 19px;
     color: #a94442;
@@ -6701,8 +6699,12 @@ ul#side-menu li{
 .p_r_0{
   padding-right: 0px
 }
-.panel-info > .panel-heading h4.panel-title a:first-child{
+  .panel-info > .panel-heading h4.panel-title a:first-child{
     text-transform: uppercase;
+    margin-right:10px;
+  }
+  .panel-info > .panel-heading h4.panel-title a:first-child{
+    margin-right: 20px;
   }
   .lista_produtos label{
     padding-left: 0px !important;
@@ -6779,7 +6781,7 @@ top: 6px;
   margin-top:0px !important;
  }
 
- .download_projetista .download_wda{
+ .download_desenhista .download_wda{
     border-top-right-radius: 3px !important;
     border-bottom-right-radius: 3px !important;
  }
@@ -6820,18 +6822,25 @@ top: 6px;
 }
 .total_geral{
     color: #fff !important;
-    border-left: 1px solid #fff;
-    margin: -5px 15px 0 0;
-    float: right;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    font-weight: lighter;
+    font-size: 11px;
 }
-.peso_geral{
+.barra_produto{
+    left: 2px;
+    position: relative;
+}
+.total_geral_label{
+  padding: 0 5px 0 5px;
+  font-size: 12px;
+}
+.quantidade_geral{
     color: #fff !important;
     border-left: 0px solid #fff;
-    margin: -1px 15px 0 0;
-    float: right;
+    font-weight: lighter;
+    font-size: 11px;
+}
+h4 .panel-title a{
+  padding-right:5px;
 }
 .b-l-0{
   border-left: 0px solid #fff;
@@ -6853,6 +6862,9 @@ a[title="não atendido"] i.fa.fa-times.text-navy{
 a[title="acessar"] i.fa.fa-arrow-right.text-navy{
     color:#676a6c;
 }
+a[title="Adicionar novo orçamento"] i.fa.fa-plus.text-navy{
+    color:#676a6c;
+}
 .invoice-table th,.invoice-table td{
   text-align:left;
 }
@@ -6871,4 +6883,17 @@ a[title="acessar"] i.fa.fa-arrow-right.text-navy{
 }
 .fa-eye.text-navy{
   color:#676a6c;
+}
+.titulo_impressao{
+  background-color:#676a6c;
+  padding-top: 10px;
+}
+.titulo_impressao h4{
+  color:#fff;
+}
+table.table_listagem th{
+  width: auto !important;
+}
+table.orcamento_tecnico th{
+  width: auto !important;
 }

@@ -1,4 +1,4 @@
-<?php include('header/headerProjetista.php'); ?>
+<?php include('header/headerdesenhista.php'); ?>
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-10">
                     <h2>Listagem de Orçamentos</h2>
@@ -38,7 +38,7 @@
                                 <td>MF 2015000001</td>
                                 <td>Glória</td>
                                 <td>
-                                    <a href="novo_orcamento_projetista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr></a>
@@ -50,7 +50,7 @@
                                 <td>MF 2015000001</td>
                                 <td>Glória</td>
                                 <td>
-                                    <a href="novo_orcamento_projetista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -62,7 +62,7 @@
                                 <td>MF 2015000001</td>
                                 <td>Glória</td>
                                 <td>
-                                    <a href="novo_orcamento_projetista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -74,7 +74,7 @@
                                 <td>MF 2015000001</td>
                                 <td>Glória</td>
                                 <td>
-                                    <a href="novo_orcamento_projetista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="editar"><i class="fa fa-edit text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -268,4 +268,4 @@
             </div>
         
         </div>
-       <?php include('footer/footerProjetista.php'); ?>
+       <?php include('footer/footerdesenhista.php'); ?>

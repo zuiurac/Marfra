@@ -63,7 +63,7 @@
                                 <th><label class="label label-warning">Pendência Cliente</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -74,7 +74,7 @@
                                 <th><label class="label label-warning">Pendência Cliente</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -85,7 +85,7 @@
                                 <th><label class="label label-warning">Pendência Cliente</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -96,7 +96,7 @@
                                 <th><label class="label label-warning">Pendência Cliente</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>5</td>
@@ -106,7 +106,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>6</td>
@@ -116,7 +116,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>7</td>
@@ -126,7 +126,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>8</td>
@@ -136,7 +136,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>9</td>
@@ -146,7 +146,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>10</td>
@@ -156,7 +156,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>11</td>
@@ -166,7 +166,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>12</td>
@@ -176,7 +176,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>13</td>
@@ -186,7 +186,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
                                 <td>14</td>
@@ -196,7 +196,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -207,7 +207,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -228,7 +228,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -239,7 +239,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -250,7 +250,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             <tr>
@@ -261,7 +261,7 @@
                                 <th><label class="label label-danger">Pendência Marfra</label></th>
                                 <td>
                                     <a href="#modal-form" title="editar" data-toggle="modal"><i class="fa fa-edit text-navy"></i></a>
-                                    <a href="novo_orcamento_projetista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
+                                    <a href="novo_orcamento_desenhista.php" title="visualizar orçamento"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
                             </tbody>

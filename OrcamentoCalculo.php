@@ -1099,7 +1099,7 @@
 
             <div class="ibox float-e-margins">
               <div class="ibox-title">
-                <h5>Projetista<span class="sub_description"> - faça download de seu arquivo</span></h5>
+                <h5>desenhista<span class="sub_description"> - faça download de seu arquivo</span></h5>
                   <div class="ibox-tools">
                       <a class="collapse-link">
                           <i class="fa fa-chevron-up"></i>
@@ -1119,7 +1119,7 @@
                 </div>
                 <div class="col-md-1 form-group">
                 </div>
-                <div class="form-group col-md-1 padding-0 download_projetista">
+                <div class="form-group col-md-1 padding-0 download_desenhista">
                   <div class="btn-group">
                     <label title="Upload image file" for="inputImage" class="download_wda btn btn-primary">
                       <input type="file" accept="" name="file" id="inputImage" class="hide">
