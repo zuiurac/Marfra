@@ -105,72 +105,7 @@
                 </div>
             </div>
             </div>
-            <!--image-->
-             <div class="row">
-                <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title  back-change">
-                            <h5>Image cropper <small>http://fengyuanchen.github.io/cropper/</small></h5>
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <i class="fa fa-wrench"></i>
-                                </a>
-                                <ul class="dropdown-menu dropdown-user">
-                                    <li><a href="#">Config option 1</a>
-                                    </li>
-                                    <li><a href="#">Config option 2</a>
-                                    </li>
-                                </ul>
-                                <a class="close-link">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="ibox-content">
-                            <p>
-                                A simple jQuery image cropping plugin.
-                            </p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="image-crop">
-                                        <img src="img/p3.jpg">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h4>Preview image</h4>
-                                    <div class="img-preview img-preview-sm"></div>
-                                    <h4>Comon method</h4>
-                                    <p>
-                                        You can upload new image to crop container and easy download new cropped image.
-                                    </p>
-                                    <div class="btn-group">
-                                        <label title="Upload image file" for="inputImage" class="btn btn-primary">
-                                            <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                                            Upload new image
-                                        </label>
-                                        <label title="Donload image" id="download" class="btn btn-primary">Download</label>
-                                    </div>
-                                    <h4>Other method</h4>
-                                    <p>
-                                        You may set cropper options with <code>$({image}).cropper(options)</code>
-                                    </p>
-                                    <div class="btn-group">
-                                        <button class="btn btn-white" id="zoomIn" type="button">Zoom In</button>
-                                        <button class="btn btn-white" id="zoomOut" type="button">Zoom Out</button>
-                                        <button class="btn btn-white" id="rotateLeft" type="button">Rotate Left</button>
-                                        <button class="btn btn-white" id="rotateRight" type="button">Rotate Right</button>
-                                        <button class="btn btn-warning" id="setDrag" type="button">New crop</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--image fim-->
+            
         <div class="row">
           <div class="form-group col-lg-12 upload_content">
             <div class="ibox float-e-margins">
@@ -189,16 +124,19 @@
                       <div class="ibox ">
                           <div class="ibox-title">
                               <h5>Foto local</h5>
+                              <div class="img-crop" style="display: none;">
+                                <img src="img/p3.jpg">
+                            </div>
                           </div>
                           <div class="ibox-content">
-                              <div class="img-preview img-preview-sm"></div>
-                              <div class="btn-group">
-                                      <label title="Upload image file" for="inputImage" class="btn btn-primary">
-                                          <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                                          Upload new image
-                                      </label>
-                                      <label title="Donload image" id="download" class="btn btn-primary">Download</label>
-                                  </div>
+                            <div class="img-preview img-preview-sm img-1"></div>
+                            <div class="btn-group">
+                                <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                                    <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
+                                    Upload new image
+                                </label>
+                                <label title="Donload image" id="download" class="btn btn-primary">Download</label>
+                            </div>
                           </div>
                       </div>
                   </div>
@@ -206,10 +144,20 @@
                     <div class="ibox ">
                         <div class="ibox-title">
                             <h5>Rascunho</h5>
+                            <div class="img-crop2" style="display: none;">
+                                <img src="img/p3.jpg">
+                            </div>
                         </div>
                         <div class="ibox-content">
-                           
-                        </div>
+                            <div class="img-preview img-preview-sm img-2"></div>
+                            <div class="btn-group">
+                                <label title="Upload image file" for="inputImage2" class="btn btn-primary">
+                                    <input type="file" accept="image/*" name="file2" id="inputImage2" class="hide">
+                                    Upload new image
+                                </label>
+                                <label title="Donload image" id="download" class="btn btn-primary">Download</label>
+                            </div>
+                          </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -3853,10 +3801,12 @@
     <script>
 
         $(document).ready(function(){
-            var $image = $(".image-crop > img")
+            
+            // INICIO BLOCO 1
+            var $image = $(".img-crop > img");
             $($image).cropper({
                 aspectRatio: 1.618,
-                preview: ".img-preview",
+                preview: ".img-1",
                 done: function(data) {
                     // Output the result data for cropping image.
                 }
@@ -3888,12 +3838,57 @@
             } else {
                 $inputImage.addClass("hide");
             }
-
+            
             $("#download").click(function() {
                 window.open($image.cropper("getDataURL"));
             });
 
             $('.summernote').summernote();
+            // FIM BLOCO 2
+            
+            // INICIO BLOCO 2
+            var $image2 = $(".img-crop2 > img");
+            $($image2).cropper({
+                aspectRatio: 1.618,
+                preview: ".img-2",
+                done: function(data) {
+                    // Output the result data for cropping image.
+                }
+            });
+
+            var $inputImage2 = $("#inputImage2");
+            if (window.FileReader) {
+                $inputImage2.change(function() {
+                    var fileReader = new FileReader(),
+                            files = this.files,
+                            file;
+
+                    if (!files.length) {
+                        return;
+                    }
+
+                    file = files[0];
+
+                    if (/^image\/\w+$/.test(file.type)) {
+                        fileReader.readAsDataURL(file);
+                        fileReader.onload = function () {
+                            $inputImage2.val("");
+                            $image2.cropper("reset", true).cropper("replace", this.result);
+                        };
+                    } else {
+                        showMessage("Please choose an image file.");
+                    }
+                });
+            } else {
+                $inputImage2.addClass("hide");
+            }
+
+            $("#download").click(function() {
+                window.open($image2.cropper("getDataURL"));
+            });
+
+            $('.summernote').summernote();
+            // FIM BLOCO 2
 
        });
         var edit = function() {
