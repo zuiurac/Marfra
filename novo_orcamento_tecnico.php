@@ -105,8 +105,74 @@
                 </div>
             </div>
             </div>
-            <div class="row">
-          <div class="form-group col-lg-12">
+            <!--image-->
+             <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title  back-change">
+                            <h5>Image cropper <small>http://fengyuanchen.github.io/cropper/</small></h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">Config option 1</a>
+                                    </li>
+                                    <li><a href="#">Config option 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <p>
+                                A simple jQuery image cropping plugin.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="image-crop">
+                                        <img src="img/p3.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Preview image</h4>
+                                    <div class="img-preview img-preview-sm"></div>
+                                    <h4>Comon method</h4>
+                                    <p>
+                                        You can upload new image to crop container and easy download new cropped image.
+                                    </p>
+                                    <div class="btn-group">
+                                        <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                                            <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
+                                            Upload new image
+                                        </label>
+                                        <label title="Donload image" id="download" class="btn btn-primary">Download</label>
+                                    </div>
+                                    <h4>Other method</h4>
+                                    <p>
+                                        You may set cropper options with <code>$({image}).cropper(options)</code>
+                                    </p>
+                                    <div class="btn-group">
+                                        <button class="btn btn-white" id="zoomIn" type="button">Zoom In</button>
+                                        <button class="btn btn-white" id="zoomOut" type="button">Zoom Out</button>
+                                        <button class="btn btn-white" id="rotateLeft" type="button">Rotate Left</button>
+                                        <button class="btn btn-white" id="rotateRight" type="button">Rotate Right</button>
+                                        <button class="btn btn-warning" id="setDrag" type="button">New crop</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--image fim-->
+        <div class="row">
+          <div class="form-group col-lg-12 upload_content">
             <div class="ibox float-e-margins">
               <div class="ibox-title">
                 <h5>Faça upload de seu arquivo</h5>
@@ -117,8 +183,119 @@
                 </div>
               </div>
               <div class="ibox-content">
-                <div class="form-group espec-tecnica col-lg-1 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <!--blocos fotos-->
+                <div class="row">
+                  <div class="col-lg-4">
+                      <div class="ibox ">
+                          <div class="ibox-title">
+                              <h5>Foto local</h5>
+                          </div>
+                          <div class="ibox-content">
+                              <div class="img-preview img-preview-sm"></div>
+                              <div class="btn-group">
+                                      <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                                          <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
+                                          Upload new image
+                                      </label>
+                                      <label title="Donload image" id="download" class="btn btn-primary">Download</label>
+                                  </div>
+                          </div>
+                      </div>
+                  </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Rascunho</h5>
+                        </div>
+                        <div class="ibox-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Desenho orçamentário</h5>
+                        </div>
+                        <div class="ibox-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Rascunho ratificado</h5>
+                        </div>
+                        <div class="ibox-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Desenho de assinatura</h5>
+                        </div>
+                        <div class="ibox-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Desenho de produção</h5>
+                        </div>
+                        <div class="ibox-content">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Foto local finalizado</h5>
+                        </div>
+                        <div class="ibox-content">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Circle</h5>
+                        </div>
+                        <div class="ibox-content">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Cube grid</h5>
+                        </div>
+                        <div class="ibox-content">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="ibox ">
+                        <div class="ibox-title">
+                            <h5>Fading circle</h5>
+                        </div>
+                        <div class="ibox-content">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--blocos fotos fim-->
+                <div class="form-group col-lg-1 padding-0 m-b-none">
+                  <label class="control-label">Foto local</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -131,8 +308,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-1 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-1 padding-0 m-b-none">
+                  <label class="control-label">Rascunho</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -145,8 +322,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Desenho orçamentário</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -159,8 +336,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Rascunho ratificado</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -173,8 +350,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Desenho de assinatura</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -187,8 +364,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Desenho de produção</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -201,8 +378,8 @@
                       <div class="hr-line-dashed clear_both"></div>
                   </div>
                 </div>
-                <div class="form-group espec-tecnica col-lg-2 padding-0 m-b-none">
-                  <label class="control-label">Especificações técnicas</label>
+                <div class="form-group col-lg-2 padding-0 m-b-none">
+                  <label class="control-label">Foto local finalizada</label>
                   <div class="hr-line-dashed clear_both m-t-none"></div>
                   <!--rascunho-->
                   <div class="col-md-2 form-group">
@@ -3633,17 +3810,15 @@
               </div>
             </div>
         </div>
-      </div>
-      <div class="footer">
+          <div class="footer">
             <div class="text-center">
                 <strong><a href="ramais.php">Acesso aos ramais</a></strong>
             </div>
         </div>
-    </div>
-</div>
-  
-      
       </div>
+    </div>
+ </div>
+</div>
 
 
     <!-- Mainly scripts -->
@@ -3667,11 +3842,56 @@
 
     <!-- iCheck -->
     <script src="js/plugins/iCheck/icheck.min.js"></script>
+
     <!-- SUMMERNOTE -->
     <script src="js/plugins/summernote/summernote.min.js"></script>
 
+    <!-- Image cropper -->
+    <script src="js/plugins/cropper/cropper.min.js"></script>
+
+<!---->
     <script>
+
         $(document).ready(function(){
+            var $image = $(".image-crop > img")
+            $($image).cropper({
+                aspectRatio: 1.618,
+                preview: ".img-preview",
+                done: function(data) {
+                    // Output the result data for cropping image.
+                }
+            });
+
+            var $inputImage = $("#inputImage");
+            if (window.FileReader) {
+                $inputImage.change(function() {
+                    var fileReader = new FileReader(),
+                            files = this.files,
+                            file;
+
+                    if (!files.length) {
+                        return;
+                    }
+
+                    file = files[0];
+
+                    if (/^image\/\w+$/.test(file.type)) {
+                        fileReader.readAsDataURL(file);
+                        fileReader.onload = function () {
+                            $inputImage.val("");
+                            $image.cropper("reset", true).cropper("replace", this.result);
+                        };
+                    } else {
+                        showMessage("Please choose an image file.");
+                    }
+                });
+            } else {
+                $inputImage.addClass("hide");
+            }
+
+            $("#download").click(function() {
+                window.open($image.cropper("getDataURL"));
+            });
 
             $('.summernote').summernote();
 

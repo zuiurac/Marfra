@@ -6812,6 +6812,10 @@ top: 6px;
     font-weight: bold !important;
     color: #ADADAD;
 }
+.upload_content .form-group .control-label{
+  font-weight: bold !important;
+  color: #ADADAD;
+}
 .title-produto label{
    font-weight: bold !important;
     color: #3E495F;
