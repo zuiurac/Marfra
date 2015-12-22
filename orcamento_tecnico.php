@@ -40,7 +40,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
-                                    <a href="novo_orcamento_tecnico.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr></a>
@@ -53,7 +53,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
-                                    <a href="novo_orcamento_tecnico.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -66,7 +66,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
-                                    <a href="novo_orcamento_tecnico.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -79,7 +79,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-warning">Pendente</label></th>
                                 <td>
-                                    <a href="novo_orcamento_tecnico.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_orcamento_tecnico.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -91,7 +91,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -103,7 +103,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -115,7 +115,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -127,7 +127,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -139,7 +139,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -151,7 +151,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -163,7 +163,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -175,7 +175,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -187,7 +187,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -199,7 +199,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -212,7 +212,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -225,7 +225,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -238,7 +238,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -251,7 +251,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -264,7 +264,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>
@@ -277,7 +277,7 @@
                                 <td>MF 2015000001</td>
                                 <th><label class="label label-primary">Aberto</label></th>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="registro_ocorrencia.php" title="registro de ocorrência"><i class="fa fa-eye text-navy"></i></a>
                                 </td>
                             </tr>

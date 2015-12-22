@@ -3324,7 +3324,7 @@ body.body-small .footer.fixed {
   -moz-border-top-colors: none;
   background: none;
   border-color: #dddddd #dddddd rgba(0, 0, 0, 0);
-  border-bottom: #f3f3f4;
+  border-bottom: #fff;
   border-image: none;
   border-style: solid;
   border-width: 1px;
@@ -6863,7 +6863,7 @@ a[title="não atendido"] i.fa.fa-times.text-navy{
     position: relative;
     color:#ed5565;
 }
-a[title="acessar"] i.fa.fa-arrow-right.text-navy{
+a[title="Acessar"] i.fa.fa-arrow-right.text-navy{
     color:#676a6c;
 }
 a[title="Adicionar novo orçamento"] i.fa.fa-plus.text-navy{
@@ -6900,4 +6900,58 @@ table.table_listagem th{
 }
 table.orcamento_tecnico th{
   width: auto !important;
+}
+#download{
+  display: none
+}
+label[title="Upload image file"]{
+  border-top-right-radius:3px !important;
+  border-bottom-right-radius:3px !important;
+}
+.img-preview{
+  margin-bottom: 20px;
+}
+.foto_local_content .ibox-content{
+  float:left;
+  clear: none;
+  border:none;
+}
+.foto_local_content .ibox-title{
+    border: none;
+    border-bottom: 1px solid #e7eaec;
+}
+.foto_local_content{
+    border: 1px solid #e7eaec;
+}
+.hidden{
+    visibility:hidden;
+}
+
+/*novo orcamento tecnico*/
+
+.nav-tabs > li > a{
+  padding: 10px 5px 0px 10px !important;
+  float: left;
+  border: 1px solid #ddd;
+}
+.editar_aba{
+    margin: 0px;
+    width: 110px;
+    float: right;
+    padding: 0px;
+}
+.nav-tabs li:nth-child(2n) a[data-toggle="tab"]{
+       padding-bottom: 9px !important;
+       padding-right: 14px !important 
+}
+.nav-tabs li:last-child a[data-toggle="tab"]{
+       padding-bottom: 10px !important;
+       background:#009933;
+       border: none;
+}
+.nav-tabs li:last-child a[data-toggle="tab"] i{
+    color:#fff !important;
+}
+.nav-tabs{
+    margin-top: 15px;
 }

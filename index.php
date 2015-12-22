@@ -44,7 +44,7 @@
                                 <td>7485-6523</td>
                                 <td>condominio_mark@gmail.com</td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr></a>
@@ -56,7 +56,7 @@
                                 <td>2568-5123</td>
                                 <td>empresa_jacob@gmail.com</td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -68,7 +68,7 @@
                                 <td>2455-5893</td>
                                 <td>governo_larry@gmail.com</td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -80,7 +80,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -91,7 +91,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -102,7 +102,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -113,7 +113,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -124,7 +124,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -135,7 +135,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -146,7 +146,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -157,7 +157,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -168,7 +168,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -179,7 +179,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -190,7 +190,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -202,7 +202,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -214,7 +214,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -226,7 +226,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -238,7 +238,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -250,7 +250,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>
@@ -262,7 +262,7 @@
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Adicionar novo orçamento"><i class="fa fa-plus text-navy"></i></a>
                                 </td>
                             </tr>

@@ -104,7 +104,7 @@
                                 <td>23/10/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -120,7 +120,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr><tr>
@@ -135,7 +135,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -151,7 +151,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">7 dias</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -167,7 +167,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">5 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -183,7 +183,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-primary">3 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -199,7 +199,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-primary">3 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-times text-danger"></i></a>
                                 </td>
                             </tr>
@@ -215,7 +215,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-default">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -231,7 +231,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-default">7 dias</label></td>
                                 <td>
-                                    <a href="novo_cliente.php" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="novo_cliente.php" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="Em aberto"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -247,7 +247,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-default">3 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -263,7 +263,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -278,7 +278,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -293,7 +293,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr><tr>
@@ -308,7 +308,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-danger">13 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -324,7 +324,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6 dias</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -340,7 +340,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -356,7 +356,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -372,7 +372,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -388,7 +388,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
@@ -404,7 +404,7 @@
                                 <td>27/11/2015</td>
                                 <td><label class="label label-warning">6h</label></td>
                                 <td>
-                                    <a href="#" title="acessar"><i class="fa fa-arrow-right text-navy"></i></a>
+                                    <a href="#" title="Acessar"><i class="fa fa-arrow-right text-navy"></i></a>
                                     <a href="#" title="atendido"><i class="fa fa-check text-navy"></i></a>
                                 </td>
                             </tr>
