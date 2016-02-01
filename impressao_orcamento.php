@@ -13,7 +13,7 @@
 </head>
 <body class="white-bg">
                 <div class="wrapper wrapper-content p-xl">
-                    <div class="ibox-content p-xl border-0">
+                    <div class="ibox-content p-xxs border-0">
                             <div class="row">
                                 <div class="col-sm-12 border-b titulo_impressao">
                                     <h4><strong>Orçamento:</strong> <span class="light"> Grades e portões</span></h4>
@@ -44,13 +44,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br/><strong>2º</strong> Rodolfo<br/><strong>3º</strong> Ana</td>
                                         <td><strong>1º</strong> Subsíndico<br/><strong>2º</strong> Morador<br/><strong>3º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td> 
                                         <td><div><strong>Grade Composta</strong></div>
                                             <small>Grade, portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -58,13 +58,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Severino<br/><strong>2º</strong> Luiz<br/><strong>3º</strong> Philippe</td>
                                         <td><strong>1º</strong> Zelador<br/><strong>2º</strong> Porteiro<br/><strong>3º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Grade Simples</strong></div>
                                             <small>Grade</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -72,13 +72,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Silva<br/><strong>2º</strong> Robson</td>
                                         <td><strong>1º</strong> Morador<br/><strong>2º</strong> Zelador</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -86,13 +86,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Morador</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -100,13 +100,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Bruno</td>
                                         <td><strong>1º</strong>Porteiro<br /><strong>2º</strong> Subsíndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -114,13 +114,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Fábio</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -128,13 +128,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -142,13 +142,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -156,13 +156,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -170,13 +170,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -184,13 +184,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -198,13 +198,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Grade Simples</strong></div>
                                             <small>grade</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -212,13 +212,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Grade Composta</strong></div>
                                             <small>Grade, portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -226,13 +226,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -240,13 +240,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     <tr>
                                         <td>Souza Cruz</td>
@@ -254,13 +254,13 @@
                                         <td>Flamengo</td>
                                         <td><strong>1º</strong> Carlos<br /><strong>2º</strong> Gustavo</td>
                                         <td><strong>1º</strong> Porteiro<br /><strong>2º</strong> Síndico</td>
-                                        <td>(21) 98073-3837</td> 
+                                        <td><strong>1º</strong> (21) 98073-3837<br/><strong>2º</strong> (21) 95673-3212<br/><strong>3º</strong> (21) 94823-3212</td>  
                                         <td><div><strong>Portões e outros</strong></div>
                                             <small>Portão de garagem, corrimão, guarda-corpo</small></td>
                                         <td>20150001</td>
                                         <td>27/11/2015</td>
                                         <td><strong>5</strong> dias</td>
-                                        <td><textarea name="obs" cols="30" rows="4"></textarea></td>
+                                        <td><textarea name="obs" cols="30" rows="4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquet felis eu felis euismod porta.</textarea></td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -281,7 +281,7 @@
     <script src="js/inspinia.js"></script>
 
     <script type="text/javascript">
-        window.print();
+       window.print();
     </script>
 
 </body>

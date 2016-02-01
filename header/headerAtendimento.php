@@ -51,7 +51,7 @@
                     <a href="index.php"><i class="fa fa-user"></i> <span class="nav-label">Cliente</span> </a>
                 </li>
                 <li>
-                    <a href="orcamento.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span> </a>
+                    <a href="orcamento.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span><span class="label label-danger pull-right" title="Restam 24 orçamentos para serem finalizados">24</span></a>
                 </li>
                 <li>
                     <a href="novo_orcamento.php"><i class="fa fa-money"></i> <span class="nav-label">Abertura de Orçamento</span> </a>

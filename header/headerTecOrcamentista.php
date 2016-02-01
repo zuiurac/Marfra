@@ -51,7 +51,7 @@
                     <a href="orcamento_tecnico.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span><span class="label label-danger pull-right" title="Restam 24 orçamentos para serem finalizados">24</span></a>
                 </li>
                 <li>
-                    <a href="orcamento_definitivo.php"><i class="fa fa-check"></i> <span class="nav-label">Pedido</span><span class="label label-primary pull-right" title="Todos os pedidos finalizados">0</span></a>
+                    <a href="orcamento_definitivo.php"><i class="fa fa-check"></i> <span class="nav-label">Pedido</span></a>
                 </li>
             </ul>
 

@@ -64,8 +64,8 @@
                   <thead>
                     <tr>
                       <th>Data</th>
-                      <th>Ação</th>
                       <th>Status</th>
+                      <th>Ação</th>
                       <th>Produto</th>
                       <th>Calculado por</th>
                     </tr>
@@ -73,38 +73,38 @@
                   <tbody>
                     <tr>
                       <td>27/11/2015</td>
+                      <td>Novo produto</td>
                       <td>
                         Modificação
                       </td>
-                      <td>Novo produto</td>
                       <td>Grade simples</td>
                       <td>Mark</td>
                     </tr>
                     </a>
                     <tr>
                       <td>27/11/2015</td>
+                      <td>Reparo na garantia</td>
                       <td>
                         Atualização de custos
                       </td>
-                      <td>Reparo na garantia</td>
                       <td>Grade composta</td>
                       <td>Jacob</td>
                     </tr>
                     <tr>
                       <td>27/11/2015</td>
+                      <td>Reparo na garantia</td>
                       <td>
                         2º Modificação
                       </td>
-                      <td>Reparo na garantia</td>
                       <td>Grade composta</td>
                       <td>Jacob</td>
                     </tr>
                     <tr>
                       <td>23/10/2015</td>
+                      <td>Serviço extra</td>
                       <td>
                         2ª Atualização de custos
                       </td>
-                      <td>Serviço extra</td>
                       <td>Portões e outros</td>
                       <td>Larry</td>
                     </tr>
@@ -144,7 +144,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -153,7 +153,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -162,7 +162,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -171,7 +171,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
                             <i class="fa fa-plus"></i> Nova imagem
                           </label>
@@ -192,7 +192,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-2"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage2" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage2" class="btn btn-default">
                             <input type="file" accept="image/*" name="file2" id="inputImage2" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -211,7 +211,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-3"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage3" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage3" class="btn btn-default">
                             <input type="file" accept="image/*" name="file3" id="inputImage3" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -230,7 +230,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-4"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage4" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage4" class="btn btn-default">
                             <input type="file" accept="image/*" name="file4" id="inputImage4" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -249,7 +249,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-5"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage5" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage5" class="btn btn-default">
                             <input type="file" accept="image/*" name="file5" id="inputImage5" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -268,7 +268,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-6"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage6" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage6" class="btn btn-default">
                             <input type="file" accept="image/*" name="file6" id="inputImage6" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -292,7 +292,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-7"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage7" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage7" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -301,7 +301,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -310,7 +310,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-default">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
@@ -319,7 +319,7 @@
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
                         <div class="btn-group">
-                          <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
                             <i class="fa fa-plus"></i> Nova imagem
                           </label>
@@ -555,13 +555,22 @@
                                             <input type="text" class="form-control">
                                           </div>
                                           <div class="form-group col-lg-2">
+                                            <label class="control-label">Tipo de pintura</label>
+                                            <select class="form-control m-b" name="account">
+                                              <option>Selecione</option>
+                                              <option>Eletrostática</option>
+                                              <option>Anodização</option>
+                                            </select>
+                                          </div>
+                                          <div class="form-group col-lg-2">
                                             <label class="control-label">Cor</label>
                                             <select class="form-control m-b" name="account">
                                               <option>Selecione</option>
-                                              <option>Fumê - 8mm</option>
-                                              <option>opção 2</option>
-                                              <option>opção 3</option>
-                                              <option>opção 4</option>
+                                              <option>Branca</option>
+                                              <option>Verde</option>
+                                              <option><strong>-- Bronze</strong></option>
+                                              <option><strong>-- Fosco</strong></option>
+                                              <option><strong>-- Preto</strong></option>
                                             </select>
                                           </div>
                                           <div class="form-group col-lg-2">
@@ -607,7 +616,7 @@
                                               <div id="collapseOne" class="panel-collapse collapse p-m m-t-md">
                                                 <div class="panel-body">
                                                   <div class="form-group title-produto col-lg-12 m-b-none">
-                                                    <label class="control-label">Pedestres</label>
+                                                    <label class="control-label">Pedestres</label> -- Esse projeto não possui itens desse modo <input type="checkbox" value="" class="js-switch3">
                                                     <div class="hr-line-dashed clear_both m-t-none"></div>
                                                   </div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
@@ -661,7 +670,7 @@
                                                 </div>
                                                 <div class="panel-body">
                                                   <div class="form-group title-produto col-lg-12 m-b-none m-t-lg">
-                                                    <label class="control-label">Garagem</label>
+                                                    <label class="control-label">Garagem</label> -- Esse projeto não possui itens desse modo <input type="checkbox" value="" class="js-switch3">
                                                     <div class="hr-line-dashed clear_both m-t-none"></div>
                                                   </div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
@@ -1222,6 +1231,7 @@
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                       <div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                       <div class="form-group col-lg-2">
                                                         <label class="control-label">Cor</label>
                                                         <select class="form-control m-b" name="account">
@@ -1265,6 +1275,8 @@
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="form-group info-padrao-produto col-lg-12 padding-0 m-b-none">
+                                                      <div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
+
                                                       <div class="espec-produto col-lg-12">
                                                         <label class="control-label">Caixa de correio</label>
                                                         <div class="hr-line-dashed clear_both m-t-none m-b-sm"></div>
@@ -1955,6 +1967,7 @@
                                               <div id="collapseSix" class="panel-collapse collapse p-sm p-top-30">
                                                 <div class="panel-body">
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                                    <div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                     <!--inicio modelo item-->
                                                     <div class="espec-produto col-lg-12 m-t">
                                                       <label class="control-label">Fechadura elétrica HDL</label>
@@ -2171,6 +2184,7 @@
                                               </div>
                                               <div id="collapseSixty" class="panel-collapse collapse p-sm p-top-30">
                                                 <div class="panel-body">
+                                                  <div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="espec-produto col-lg-12 m-t">
@@ -2595,7 +2609,7 @@
                                                 </h4>
                                               </div>
                                               <div id="collapseSeventyone" class="panel-collapse collapse p-sm p-top-30">
-                                                <div class="panel-body">
+                                                <div class="panel-body"><div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="espec-produto col-lg-12 m-t">
@@ -2698,7 +2712,7 @@
                                                 </h4>
                                               </div>
                                               <div id="collapseEighty" class="panel-collapse collapse p-sm p-top-30">
-                                                <div class="panel-body">
+                                                <div class="panel-body"><div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="espec-produto col-lg-12 m-t">
@@ -3087,7 +3101,7 @@
                                               </div>
                                               <div id="collapseNinety" class="panel-collapse collapse p-sm p-top-30">
                                                 <div class="panel-body">
-
+<div class="form-group col-lg-12"><input type="checkbox" value="" class="js-switch3"> Esse projeto não possui itens desse modo</div>
                                                   <div class="form-group col-lg-12 margin-b-0 padding-0">
                                                     <!--inicio modelo item-->
                                                     <div class="espec-produto col-lg-12 m-t">

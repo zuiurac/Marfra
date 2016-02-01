@@ -1066,6 +1066,10 @@ button.dim:active:before {
   padding: 3px 8px;
   text-shadow: none;
 }
+label[title="Prioridade Baixa"]{
+    background-color: #FBF066;
+    color: #5e5e5e;
+}
 label {
   font-weight: normal !important;
 }
@@ -1095,7 +1099,7 @@ label {
 }
 .label-warning,
 .badge-warning {
-  background-color: #f8ac59;
+  background-color: #FF8733;
   color: #FFFFFF;
 }
 .label-warning-light,
@@ -6954,4 +6958,8 @@ label[title="Upload image file"]{
 }
 .nav-tabs{
     margin-top: 15px;
+}
+.dataTables_length label > select + span{
+  font-size: 11px;
+  color:#ed5565;
 }
