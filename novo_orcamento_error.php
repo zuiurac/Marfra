@@ -1,7 +1,7 @@
 <?php include('header/headerAtendimento.php'); ?>
 
             <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-8">
+                <div class="col-lg-10">
                     <h2>Abertura de orçamento</h2>
                     <ol class="breadcrumb">
                         <li>
@@ -15,25 +15,7 @@
                         </li>
                     </ol>
                 </div>
-                 <div class="col-lg-4 ferramentas">
-                    <a href="#">
-                        <span>
-                            <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-times"></i></button>
-                            <br />Fechar
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span>
-                            <button class="btn btn-warning btn-circle" type="button"><i class="fa fa-warning"></i></button>
-                        <br />Salvar e fechar
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span>
-                            <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-check"></i></button>
-                        <br />Salvar
-                        </span>
-                    </a>
+                <div class="col-lg-2">
                 </div>
             </div>
         <div class="wrapper wrapper-content animated fadeInRight">
@@ -44,7 +26,7 @@
                             <h5>Dados gerais</h5>
                         </div>
                 <div class="ibox-content">
-                <div class="form-group col-lg-12 padding-0">
+                <div class="form-group col-lg-12 padding-0 has-error">
                         <div class="col-lg-2">
                             <label class="control-label">Escolha o tipo de cliente</label>
                             <select class="form-control m-b" name="account">
@@ -54,8 +36,11 @@
                                 <option>Empresa</option>
                                 <option>Pessoa física</option>
                             </select>
+                            <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 has-error">
                             <div class="form-group">
                                 <div class="input-group">
                                     <label class="control-label">Selecione o nome do cliente</label>
@@ -65,6 +50,9 @@
                                         <option value="United Kingdom">João</option>
                                         <option value="United Kingdom">Luciano</option>
                                     </select>
+                                    <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -72,7 +60,7 @@
                         </div>
                  </div>
                  <div class="hr-line-dashed clear_both"></div>
-                 <div class="col-lg-12 padding-0 form-group">
+                 <div class="col-lg-12 padding-0 form-group has-error">
                         <div class="col-lg-2">
                             <label class="control-label">Escolha o tipo de serviço</label>
                             <select class="form-control m-b" name="account">
@@ -81,6 +69,9 @@
                                 <option>Serviço extra</option>
                                 <option>Reparo na Garantia</option>
                             </select>
+                            <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                         </div>
                          <div class="col-lg-4">
                             <label class="control-label">Selecione o produto</label>
@@ -94,49 +85,79 @@
                                     <option value="Guarda corpo">Guarda corpo</option>
                                     <option value="Corrimão">Corrimão</option>
                                 </select>
+                                <div class="alert alert-danger">
+                                    Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                </div>
                             </div>
+                            
                         </div>
                 </div>
                 <div class="hr-line-dashed clear_both"></div>
-                            <div class="form-group col-lg-12 padding-0"> 
+                            <div class="form-group col-lg-12 padding-0 has-error"> 
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Responsável</label>
                                     <input type="text" class="form-control">
+                                    <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 </div>
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Telefone</label>
                                     <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                                    <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-12 padding-0 m-b-lg padding-0 m-l"> 
+                            <div class="col-lg-12 padding-0 m-b-lg padding-0 m-l has-error"> 
                                 <label class="control-label">Caso o Responsável não esteja presente durante a visita, procurar:</label>
                             </div>
-                             <div class="form-group col-lg-12 padding-0"> 
+                             <div class="form-group col-lg-12 padding-0 has-error"> 
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Nome</label>
                                     <input type="text" class="form-control">
+                                    <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 </div>
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Telefone</label>
                                     <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                                    <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-group col-lg-12 padding-0">
+                            <div class="form-group col-lg-12 padding-0 has-error">
                                 <div class="form-group col-lg-6">
                                   <label class="control-label">Informações adicionais</label>
                                   <textarea class="form-control"></textarea>
+                                  <div class="alert alert-danger">
+                                    Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                  </div>
                                 </div>
                             </div>
                             <div class="hr-line-dashed clear_both"></div>
-                            <div class="form-group col-lg-12 padding-0" id="data_1">
+                            <div class="form-group col-lg-12 padding-0 has-error" id="data_1">
                              <div class="form-group col-lg-3">
                                   <label class="control-label">Data da visita orçamentária</label>
                                 <div class="input-group date">
                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="dd/mm/yyyy">
                                 </div>
+                                <div class="alert alert-danger">
+                                        Esse campo é <a class="alert-link" href="#">obrigatório.</a>
+                                    </div>
                                 <span class="info">Informe ao cliente a data limite da visita.</span>
                              </div>
                             </div>
+                            <div class="hr-line-dashed clear_both"></div>
+                            <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <button class="btn btn-white btn_cancel" type="submit">Cancelar</button>
+                                        <button class="btn btn-primary btn_yell col-lg-offset-5 col-md-offset-2" type="submit">Salvar e fechar</button>
+                                        <button class="btn btn-primary" type="submit">Salvar</button>
+                                    </div>
+                                </div>
                         <div class="hr-line-dashed clear_both visibility_none"></div>
 
                         </div>
@@ -144,6 +165,8 @@
                 </div>
             </div>       
         </div>
+
+
         <div class="footer">
             <div class="text-center">
                 <strong><a href="ramais.php">Acesso aos ramais</a></strong>

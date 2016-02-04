@@ -10,8 +10,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-    <script src="js/plugins/jeditable/jquery.jeditable.js"></script>
-
+    <!--<script src="js/plugins/jeditable/jquery.jeditable.js"></script>-->
 
     <!-- Flot -->
     <script src="js/plugins/flot/jquery.flot.js"></script>

@@ -25,7 +25,7 @@
 
 </head>
 
-<body class="skin-1">
+<body class="skin-1 desenhista">
     <div id="wrapper">
         <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">

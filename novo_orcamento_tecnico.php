@@ -1,6 +1,6 @@
 <?php include('header/headerTecOrcamentista.php'); ?>
   <div class="row wrapper border-bottom white-bg page-heading">
-    <div class="col-lg-10">
+    <div class="col-lg-8">
       <h2>Orçamento técnico</h2>
       <ol class="breadcrumb">
         <li>
@@ -11,7 +11,31 @@
         </li>
       </ol>
     </div>
-    <div class="col-lg-2">
+     <div class="col-lg-4 ferramentas">
+        <a href="#">
+            <span>
+                <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-times"></i></button>
+                <br />Fechar
+            </span>
+        </a>
+        <a href="#">
+            <span>
+                <button class="btn btn_blue btn-circle" type="button"><i class="fa fa-plus"></i></button>
+            <br />Salvar e abrir pedido
+            </span>
+        </a>
+        <a href="#">
+            <span>
+                <button class="btn btn-warning btn-circle" type="button"><i class="fa fa-warning"></i></button>
+            <br />Salvar e fechar
+            </span>
+        </a>
+        <a href="#">
+            <span>
+                <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-check"></i></button>
+            <br />Salvar
+            </span>
+        </a>
     </div>
   </div>
   <div class="wrapper wrapper-content animated fadeInRight">
@@ -143,40 +167,32 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
                             <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
@@ -191,12 +207,10 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-2"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage2" class="btn btn-default">
                             <input type="file" accept="image/*" name="file2" id="inputImage2" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -210,12 +224,10 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-3"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage3" class="btn btn-default">
                             <input type="file" accept="image/*" name="file3" id="inputImage3" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -229,12 +241,10 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-4"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage4" class="btn btn-default">
                             <input type="file" accept="image/*" name="file4" id="inputImage4" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -248,12 +258,10 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-5"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage5" class="btn btn-default">
                             <input type="file" accept="image/*" name="file5" id="inputImage5" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -267,12 +275,10 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-6"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage6" class="btn btn-default">
                             <input type="file" accept="image/*" name="file6" id="inputImage6" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -291,40 +297,32 @@
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-7"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage7" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-default">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide"> Upload
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="ibox-content">
                         <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
-                        <div class="btn-group">
                           <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
                             <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
                       </div>
                       <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
@@ -3799,15 +3797,6 @@
                         </div>
                       </div>
                       <!--fim tab engloba-->
-                  </div>
-                  <div class="hr-line-dashed clear_both"></div>
-                  <div class="form-group">
-                    <div class="col-sm-12">
-                      <button class="btn btn-white btn_cancel" type="submit"><i class="fa fa-times"></i>&nbsp;&nbsp;Cancelar</button>
-                      <button class="btn btn-primary btn_yell col-lg-offset-5 col-md-offset-2" type="submit"><i class="fa fa-warning"></i>&nbsp;&nbsp;Salvar e fechar</button>
-                      <button class="btn btn-primary" type="submit"><i class="fa fa-check"></i>&nbsp;&nbsp;Salvar</button>
-                      <button class="btn btn-primary btn_blue" type="submit"><i class="fa fa-unlock-alt"></i>&nbsp;&nbsp;Salvar e Liberar orçamento</button>
-                    </div>
                   </div>
                   <div class="hr-line-dashed clear_both visibility_none"></div>
                   </form>

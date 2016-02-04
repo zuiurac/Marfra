@@ -579,10 +579,12 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .btn_blue{
   background-color: #1b388b !important;
   border-color: #1b388b !important;
+  color:#fff;
 }
 .btn_blue:hover{
   background-color: #229AE6 !important;
   border-color: #229AE6 !important;
+  color:#fff;
 }
 .btn_yell{
   background-color: #f7a54a !important;
@@ -1641,10 +1643,10 @@ table.dataTable thead .sorting:after {
 .btn-circle {
   width: 30px;
   height: 30px;
-  padding: 6px 0;
+  padding: 4px 0;
   border-radius: 15px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.428571429;
 }
 .btn-circle.btn-lg {
@@ -1849,12 +1851,12 @@ table.dataTable thead .sorting:after {
   border: 1px solid #e5e6e7;
   border-radius: 1px;
   /*color: inherit;*/
-  color:#acabb0;
+  color:#6B6E70;
   display: block;
   padding: 6px 12px;
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   width: 100%;
-  font-size: 14px;
+  font-size: 11px;
 }
 .loginscreen .form-control,
 .loginscreen .single-line {
@@ -3305,7 +3307,7 @@ body.body-small .footer.fixed {
   background: none;
   margin: 0;
 }
-/*ediÃ§Ã£o luiz*/
+/*edição luiz*/
 .ibox-content .panel-body{
     padding: 0px !important;
 }
@@ -3700,6 +3702,9 @@ table.table td a i.text-navy{
 }
 table.dataTable thead .sorting_asc{
     background: url('plugins/images/sort_asc.png') no-repeat center right;
+}
+table.dataTable thead tr th:first-child{
+    background: none;
 }
 .text-primary {
   color: inherit;
@@ -6861,7 +6866,7 @@ a[title="atendido"] i.fa.fa-check.text-navy{
     top: 1px;
     position: relative;
 }
-a[title="nÃ£o atendido"] i.fa.fa-times.text-navy{
+a[title="não atendido"] i.fa.fa-times.text-navy{
     font-size: 14px;
     top: 1px;
     position: relative;
@@ -6870,7 +6875,7 @@ a[title="nÃ£o atendido"] i.fa.fa-times.text-navy{
 a[title="Acessar"] i.fa.fa-arrow-right.text-navy{
     color:#676a6c;
 }
-a[title="Adicionar novo orÃ§amento"] i.fa.fa-plus.text-navy{
+a[title="Adicionar novo orçamento"] i.fa.fa-plus.text-navy{
     color:#676a6c;
 }
 .invoice-table th,.invoice-table td{
@@ -6963,3 +6968,167 @@ label[title="Upload image file"]{
   font-size: 11px;
   color:#ed5565;
 }
+
+
+label[title="Upload image file"]{
+  border-top-right-radius:3px !important;
+  border-bottom-right-radius:3px !important;
+}
+.img-preview{
+  margin-bottom: 20px;
+}
+.foto_local_content .ibox-content{
+  float:left;
+  clear: none;
+  border:none;
+}
+.foto_local_content .ibox-title{
+    border: none;
+    border-bottom: 1px solid #e7eaec;
+}
+.foto_local_content{
+    border: 1px solid #e7eaec;
+}
+.hidden{
+    visibility:hidden;
+}
+
+/*novo orcamento tecnico*/
+
+.nav-tabs > li > a{
+  padding: 10px 5px 0px 10px !important;
+  float: left;
+  border: 1px solid #ddd;
+}
+.editar_aba{
+    margin: 0px;
+    width: 110px;
+    float: right;
+    padding: 0px;
+}
+.nav-tabs li:nth-child(2n) a[data-toggle="tab"]{
+       padding-bottom: 9px !important;
+       padding-right: 14px !important 
+}
+.nav-tabs li:last-child a[data-toggle="tab"]{
+       padding-bottom: 10px !important;
+       background:#009933;
+       border: none;
+}
+.nav-tabs li:last-child a[data-toggle="tab"] i{
+    color:#fff !important;
+}
+.nav-tabs{
+    margin-top: 15px;
+}
+.dataTables_length label > select + span{
+  font-size: 11px;
+  color:#ed5565;
+}
+tbody td, th{
+  border-right: 1px solid #ECECEC;
+}
+tbody td:first-child, th:first-child{
+  border-right: 0px;
+}
+body.desenhista tbody td:first-child,body.desenhista thead th:first-child{
+  border-right: 1px solid #ECECEC; 
+}
+table.dataTable thead .sorting_asc{
+  /*background:none;*/
+}
+.ferramentas{
+  font-weight: 600;
+  margin-top: 26px;
+  text-align: center;
+  font-size: 12px;
+}
+.ferramentas a{
+  margin-right:20px;
+  float: right;
+  font-size: 10px;
+}
+img[alt="sem telefone"]{
+    width: 14px;
+}
+.telefone span {
+    float: right;
+    text-align:center;
+    line-height: 12px;
+    margin-right: 20px;
+}
+.telefone button{
+	margin-bottom: 5px;
+}
+table.dataTable thead .sorting:after {
+    content: "" !important;
+}
+.dataTables_filter{
+  float: left;
+}
+.dataTables_filter input{
+    padding: 6px 12px;
+    height: 34px;
+    margin-left:0px;
+}
+.impressao h3{
+    text-align: center
+}
+.telefone{
+    margin: 0 auto;
+    width: 270px;
+    margin-top: 25px;
+}
+a[title="imprimir"]{
+  padding-left:10px;
+  border-left:1px solid #ECECEC;
+}
+
+/*Comentado o search funcional*/
+
+table.table + .row > .col-sm-6{
+    width: 45%;
+    text-align: right;
+}
+table.table + .row > .col-sm-6 + .col-sm-6{
+    text-align: left;
+}
+.dataTables_info{
+    margin-top: 7px;
+}
+.dataTables_info select{
+  position: relative;
+  top: 0px;
+}
+.dataTables_info br + span{
+  position: relative;
+  left: 530px
+}
+.dataTables_info br + span + span{
+  font-size: 10px;
+  color:#ED5565;
+  float:left;
+  text-align: left;
+  left:0px;
+}
+.dataTables_info br + span + span + span{
+  position: relative;
+  top: 0px;
+  left: -8px;
+}
+.ibox-content.p-b5 + .ibox-content > .row{
+  
+}
+#editable_wrapper > .row:first-child{
+    display: none
+}
+#editable_wrapper > .row:last-child{
+  border-top: 1px solid #e7eaec
+}
+.dataTables_wrapper{
+  padding-bottom: 0px
+}
+.ibox-content{
+    padding-bottom: 0px;
+}
+

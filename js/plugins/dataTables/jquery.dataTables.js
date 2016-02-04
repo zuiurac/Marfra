@@ -11091,7 +11091,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Mostrando _START_ - _END_ de _TOTAL_ entradas",
+			"sInfo": "<br /><span>Mostrando _START_ - _END_ de _TOTAL_ entradas</span><span>Restam 27 orçamentos para serem finalizados</span>",
 	
 	
 			/**
@@ -11157,7 +11157,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoPostFix": "",
+			"sInfoPostFix": "<span>Exibir</span><select><option>10</option><option>25</option><option>50</option><option>100</option></select>",
 	
 	
 			/**
@@ -11332,6 +11332,7 @@
 			 *      } );
 			 *    } );
 			 */
+			
 			"sSearch": "Procurar:",
 	
 	
