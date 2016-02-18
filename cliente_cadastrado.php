@@ -1,22 +1,27 @@
 <?php include('header/headerAtendimento.php'); ?>
-
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-8">
-                    <h2>Abertura de orçamento</h2>
+                    <h2>Cadastro</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="orcamento.php">Orçamento</a>
+                            <a href="index.html">Cliente</a>
                         </li>
                         <li class="active">
-                            <strong>Abertura de Orçamento</strong>
+                            <strong>Cliente cadastrado</strong>
                         </li>
                     </ol>
                 </div>
-                 <div class="col-lg-4 ferramentas">
+                <div class="col-lg-4 ferramentas">
                     <a href="#">
                         <span>
                             <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-times"></i></button>
                             <br />Fechar
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span>
+                            <button class="btn btn_blue btn-circle" type="button"><i class="fa fa-arrow-right"></i></button>
+                        <br />Próxima etapa
                         </span>
                     </a>
                     
@@ -28,118 +33,153 @@
                     </a>
                 </div>
             </div>
+
         <div class="wrapper wrapper-content animated fadeInRight">
+              <div class="row m-b-lg">
+                <div class="col-lg-2">
+              <div class="btn-group">
+                    <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Modifique o tipo de cliente<span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Governo</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Condomínio</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Empresa</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Pessoa física</a></li>
+                    </ul>
+                </div>
+                 </div>
+              </div>
+         <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Pessoa Física</h5>
+                        </div>
+                            <div class="ibox-content">
+                            <form method="get" class="">
+                                <div class="form-group col-lg-12 padding-0 margin-b-0">
+                                    <div class="form-group col-lg-4 m-t-md">
+                                        <label class="control-label">Nome Completo</label>
+                                        <input type="text" class="form-control" placeholder="Luiz Carlos Silva">
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12 margin-b-0 padding-0">
+                                    <div class="form-group col-lg-2">
+                                      <label class="control-label">Data de Nascimento</label>
+                                      <input type="text" class="form-control" data-mask="99/99/9999" placeholder="27/08/1985">
+                                    </div>
+                                    <div class="form-group col-lg-3">
+                                      <label class="control-label">CPF</label>
+                                       <input type="text" class="form-control" data-mask="999.999.999.99" placeholder="109.606.647.50">
+                                    </div>
+                                    <div class="form-group col-lg-3">
+                                        <label class="control-label">RG</label>
+                                       <input type="text" class="form-control" data-mask="99.999.999-9" placeholder="20.934.429-0">
+                                    </div>
+                                </div>
+                            <div class="form-group col-lg-12 padding-0">
+                                <div class="form-group col-lg-4">
+                                    <label class="control-label">E-mail</label>
+                                    <input type="email" class="form-control" placeholder="luizsolrac@gmail.com">
+                                </div>
+                                <div class="form-group col-lg-2">
+                                    <label class="control-label">Telefone Fixo</label>
+                                    <input type="text" class="form-control" data-mask="(99) 9999-9999"  placeholder="(21) 3358-2792">
+                                </div>
+                                <div class="form-group col-lg-2">
+                                    <label class="control-label">Celular</label>
+                                    <input type="text" class="form-control" data-mask="(99) 99999-9999"  placeholder="(21) 9358-2792">
+                                </div>
+                            </div>
+                                <div class="hr-line-dashed clear_both"></div>
+                            <div class="form-group col-lg-12 padding-0">
+                                <div class="form-group col-lg-4">
+                                        <label class="control-label">Como conheceu a Marfra?</label>
+                                        <select class="form-control" name="account">
+                                            <option>----</option>
+                                            <option>Publicidade na frota</option>
+                                            <option>Faixa</option>
+                                            <option>Plaqueta</option>
+                                            <option>Cliente antigo</option>
+                                            <option>Indicação</option>
+                                            <option>Internet</option>
+                                        </select>
+                                </div>
+                            </div>
+                                <div class="hr-line-dashed clear_both visibility_none"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--segundo módulo-->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ibox float-e-margins">
                         <div class="ibox-title">
-                            <h5>Dados gerais</h5>
+                            <h5>Endereço</h5>
                         </div>
-                <div class="ibox-content">
-                <div class="form-group col-lg-12 padding-0">
-                        <div class="col-lg-2">
-                            <label class="control-label">Escolha o tipo de cliente</label>
-                            <select class="form-control m-b" name="account">
-                                <option>Tipo de cliente</option>
-                                <option>Governo</option>
-                                <option>Condomínio</option>
-                                <option>Empresa</option>
-                                <option>Pessoa física</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <label class="control-label">Selecione o nome do cliente</label>
-                                    <select data-placeholder="Nome do Cliente" class="chosen-select" style="width:350px;" tabindex="2">
-                                        <option value=""></option>
-                                        <option value="United States">Luiz</option>
-                                        <option value="United Kingdom">João</option>
-                                        <option value="United Kingdom">Luciano</option>
-                                    </select>
-                                </div>
-
-                            </div>
-
-                        </div>
-                 </div>
-                 <div class="hr-line-dashed clear_both"></div>
-                 <div class="col-lg-12 padding-0 form-group">
-                        <div class="col-lg-2">
-                            <label class="control-label">Escolha o tipo de serviço</label>
-                            <select class="form-control m-b" name="account">
-                                <option>Tipo de serviço</option>
-                                <option>Novo produto</option>
-                                <option>Serviço extra</option>
-                                <option>Reparo na Garantia</option>
-                            </select>
-                        </div>
-                         <div class="col-lg-4">
-                            <label class="control-label">Selecione o produto</label>
-                            <div class="input-group">
-                                <select data-placeholder="Produto" class="chosen-select" multiple style="width:350px;" tabindex="4">
-                                    <option value="">Selecione</option>
-                                    <option value="Grade">Grade</option>
-                                    <option value="Fechamento de vão">Fechamento de vão</option>
-                                    <option value="Portão de garagem">Portão de garagem</option>
-                                    <option value="Portão de pedestre">Portão de pedestre</option>
-                                    <option value="Guarda corpo">Guarda corpo</option>
-                                    <option value="Corrimão">Corrimão</option>
-                                </select>
-                            </div>
-                        </div>
-                </div>
-                <div class="hr-line-dashed clear_both"></div>
-                            <div class="form-group col-lg-12 padding-0"> 
-                                <div class="form-group col-lg-3">
-                                    <label class="control-label">Responsável</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="form-group col-lg-3">
-                                    <label class="control-label">Telefone</label>
-                                    <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                       <div class="ibox-content">
+                            <form method="get" class="m-t-md">
+                            <div class="form-group col-lg-12 padding-0">
+                                <div class="form-group col-lg-2">
+                                    <label class="control-label">CEP</label>
+                                    <input type="text" class="form-control" data-mask="99999-999" placeholder="99999-999">
                                 </div>
                             </div>
-                            <div class="col-lg-12 padding-0 m-b-lg padding-0 m-l"> 
-                                <label class="control-label">Caso o Responsável não esteja presente durante a visita, procurar:</label>
-                            </div>
-                             <div class="form-group col-lg-12 padding-0"> 
-                                <div class="form-group col-lg-3">
-                                    <label class="control-label">Nome</label>
-                                    <input type="text" class="form-control">
+                                <!--endereco-->
+                            <div class="form-group col-lg-12 padding-0">
+                                <div class="form-group col-lg-5">
+                                    <label class="control-label">Rua</label>
+                                    <input type="text" class="form-control" placeholder="Rua Frederico Edlweiss">
+                                </div>
+                                <div class="form-group col-lg-1">
+                                    <label class="control-label">Nº</label>
+                                    <input type="text" class="form-control" placeholder="76">
                                 </div>
                                 <div class="form-group col-lg-3">
-                                    <label class="control-label">Telefone</label>
-                                    <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                                    <label class="control-label">Complemento</label>
+                                    <input type="text" class="form-control" placeholder="78">
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 padding-0">
-                                <div class="form-group col-lg-6">
-                                  <label class="control-label">Informações adicionais</label>
-                                  <textarea class="form-control"></textarea>
+                                <div class="form-group col-lg-3">
+                                    <label class="control-label">Bairro</label>
+                                    <input type="text" class="form-control" placeholder="Gávea">
                                 </div>
-                            </div>
-                            <div class="hr-line-dashed clear_both"></div>
-                            <div class="form-group col-lg-12 padding-0" id="data_1">
-                             <div class="form-group col-lg-3">
-                                  <label class="control-label">Data da visita orçamentária</label>
-                                <div class="input-group date">
-                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="dd/mm/yyyy">
+                                <div class="form-group col-lg-3">
+                                    <label class="control-label">Estado</label>
+                                        <select class="form-control m-b" name="account">
+                                            <option>Selecione um Estado</option>
+                                            <option>Rio de Janeiro</option>
+                                            <option>São Paulo</option>
+                                            <option>Minas Gerais</option>
+                                            <option>Recife</option>
+                                        </select>
                                 </div>
-                                <span class="info">Informe ao cliente a data limite da visita.</span>
-                             </div>
+                            <div class="form-group col-lg-3">
+                                    <label class="control-label">Cidade</label>
+                                        <select class="form-control m-b" name="account">
+                                            <option>----</option>
+                                            <option>Rio de Janeiro</option>
+                                            <option>São Paulo</option>
+                                            <option>Minas Gerais</option>
+                                            <option>Recife</option>
+                                        </select>
                             </div>
-                        <div class="hr-line-dashed clear_both visibility_none"></div>
-
-                        </div>
+                            </div>
+                            <div class="hr-line-dashed clear_both visibility_none"></div><div class="form-group"></form></div>
                     </div>
                 </div>
-            </div>       
-        </div>
-        <div class="footer">
-            <div class="text-center">
-                <strong><a href="ramais.php">Acesso aos ramais</a></strong>
             </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="text-center">
+            <strong><a href="ramais.php">Acesso aos ramais</a></strong>
         </div>
     </div>
 
@@ -382,4 +422,3 @@
     </script>
 </body>
 </html>
-       

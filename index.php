@@ -10,7 +10,7 @@
                     </ol>
                 </div>
                 <div class="col-lg-2 ferramentas">
-                    <a href="novo_cliente.php">
+                    <a href="cliente_cadastrado.php">
                         <span>
                             <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-pencil"></i></button>
                             <br />Editar
@@ -96,7 +96,7 @@
                             <tbody>
                             <a href="#"><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Mark</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Mark</a></td>
                                 <td>Glória</td>
                                 <td>Condomínio</td>
                                 <td>7485-6523</td>
@@ -104,7 +104,7 @@
                             </tr></a>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Jacob</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Jacob</a></td>
                                 <td>Flamengo</td>
                                 <td>Empresa</td>
                                 <td>2568-5123</td>
@@ -112,7 +112,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Larry</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Larry</a></td>
                                 <td>Botafogo</td>
                                 <td>Governo</td>
                                 <td>2455-5893</td>
@@ -120,77 +120,77 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Cinelândia</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
                                 <td>hudson@gmail.com</td>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -198,7 +198,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -206,7 +206,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -214,7 +214,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -222,7 +222,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -230,7 +230,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>
@@ -238,7 +238,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_cliente.php" title="Acessar">Hudson</a></td>
+                                <td><a href="cliente_cadastrado.php" title="Acessar">Hudson</a></td>
                                 <td>Catete</td>
                                 <td>Pessoa Física</td>
                                 <td>3358-2792</td>

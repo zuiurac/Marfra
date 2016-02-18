@@ -2,13 +2,13 @@
 
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-8">
-                    <h2>Abertura de orçamento</h2>
+                    <h2>Orçamento</h2>
                     <ol class="breadcrumb">
                         <li>
                             <a href="orcamento.php">Orçamento</a>
                         </li>
                         <li class="active">
-                            <strong>Abertura de Orçamento</strong>
+                            <strong>Orçamento cadastrado</strong>
                         </li>
                     </ol>
                 </div>
@@ -93,11 +93,11 @@
                             <div class="form-group col-lg-12 padding-0"> 
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Responsável</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" placeholder="João Dias">
                                 </div>
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Telefone</label>
-                                    <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                                    <input type="text" class="form-control" data-mask="(99) 9999-9999" placeholder="(99) 9999-9999">
                                 </div>
                             </div>
                             <div class="col-lg-12 padding-0 m-b-lg padding-0 m-l"> 
@@ -106,17 +106,17 @@
                              <div class="form-group col-lg-12 padding-0"> 
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Nome</label>
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" placeholder="João Dias">
                                 </div>
                                 <div class="form-group col-lg-3">
                                     <label class="control-label">Telefone</label>
-                                    <input type="text" class="form-control" data-mask="(99) 9999-9999">
+                                    <input type="text" class="form-control" data-mask="(99) 9999-9999" placeholder="(99) 9999-9999">
                                 </div>
                             </div>
                             <div class="form-group col-lg-12 padding-0">
                                 <div class="form-group col-lg-6">
                                   <label class="control-label">Informações adicionais</label>
-                                  <textarea class="form-control"></textarea>
+                                  <textarea class="form-control">Lorem ipsum dolor sit amem</textarea>
                                 </div>
                             </div>
                             <div class="hr-line-dashed clear_both"></div>
@@ -124,7 +124,7 @@
                              <div class="form-group col-lg-3">
                                   <label class="control-label">Data da visita orçamentária</label>
                                 <div class="input-group date">
-                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="dd/mm/yyyy">
+                                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="dd/mm/yyyy" placeholder="27/08/2016">
                                 </div>
                                 <span class="info">Informe ao cliente a data limite da visita.</span>
                              </div>

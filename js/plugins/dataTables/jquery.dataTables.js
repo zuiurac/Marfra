@@ -11091,7 +11091,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "<br /><span>Mostrando _START_ - _END_ de _TOTAL_ entradas</span><span>Restam 27 orçamentos para serem finalizados</span>",
+			"sInfo": "<br /><span>Mostrando _START_ - _END_ de _TOTAL_ entradas</span>",
 	
 	
 			/**

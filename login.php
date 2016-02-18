@@ -28,16 +28,13 @@
             <p>AINDA NÃO POSSUI ACESSO?</p>
             <p><span class="font-bold">21 3559-6800</span> ou pelo fale conosco.</p>
             <form class="m-t" role="form" action="index.php">
-                <div class="form-group has-error">
+                <div class="form-group ">
                     <input type="text" class="form-control" placeholder="Nome do usuário" required="">
                 </div>
-                <div class="form-group has-error">
+                <div class="form-group ">
                     <input type="password" class="form-control" placeholder="Senha" required="">
                 </div>
                 <button type="submit" class="btn btn-primary block full-width m-b">Acesse</button>
-                <div class="alert alert-danger clear-both">
-                    Campos incorretos<br /><a class="alert-link" href="#">Favor tentar novamente</a>
-                </div>
             </form>
             <p class="m-t"> <small>SGi+ de administração MARFRA BRASIL</small> </p>
         </div>

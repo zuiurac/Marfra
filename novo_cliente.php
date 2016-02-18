@@ -24,12 +24,7 @@
                         <br />Salvar e abrir pedido
                         </span>
                     </a>
-                    <a href="#">
-                        <span>
-                            <button class="btn btn-warning btn-circle" type="button"><i class="fa fa-warning"></i></button>
-                        <br />Salvar e fechar
-                        </span>
-                    </a>
+                    
                     <a href="#">
                         <span>
                             <button class="btn btn-primary btn-circle" type="button"><i class="fa fa-check"></i></button>

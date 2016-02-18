@@ -1,37 +1,5 @@
-<?php include('header/headerAtendimento.php'); ?>
-            <div class="row wrapper border-bottom white-bg page-heading">
-                <div class="col-lg-8">
-                    <h2>Listagem de Orçamentos</h2>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="#">Orçamento</a>
-                        </li>
-                        <li class="active">
-                            <strong><a href="orcamento.php">Listagem de Orçamentos</a></strong>
-                        </li>
-                    </ol>
-                </div>
-                 <div class="col-lg-4 ferramentas">
-                    <a href="#modal-form" title="imprimir" data-toggle="modal">
-                        <span>
-                            <button class="btn btn-info btn-circle" type="button"><i class="fa fa-print"></i></button>
-                        <br />Imprimir
-                        </span>
-                    </a>
-                    <a href="orcamento_cadastrado.php">
-                        <span>
-                            <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-pencil"></i></button>
-                            <br />Editar
-                        </span>
-                    </a>
-                    <a href="novo_orcamento.php">
-                        <span>
-                            <button class="btn btn-info btn-circle" type="button"><i class="fa fa-plus"></i></button>
-                        <br />Novo
-                        </span>
-                    </a>
-                </div>
-            </div>
+<?php include('header/headerAtendimento2.php'); ?>
+
         <div class="wrapper wrapper-content animated fadeInRight">
             <!--menu superior-->
             <div class="row">

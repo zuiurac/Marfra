@@ -7,7 +7,7 @@
           <a href="orcamento.html">Listagem de orçamentos</a>
         </li>
         <li class="active">
-          <strong>Orçamento técnico novo</strong>
+          <strong>Orçamento técnico cadastrado</strong>
         </li>
       </ol>
     </div>
@@ -67,6 +67,73 @@
       </div>
       <div class="col-lg-12 padding-0">
         <div class="row">
+          <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+              <div class="ibox-title">
+                <h5>Histórico</h5>
+                <div class="ibox-tools">
+                  <a class="collapse-link">
+                    <i class="fa fa-chevron-down"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="ibox-content">
+                <table class="table dataTables-example table-striped" id="editable">
+                  <thead>
+                    <tr>
+                      <th>Data</th>
+                      <th>Status</th>
+                      <th>Ação</th>
+                      <th>Produto</th>
+                      <th>Calculado por</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>27/11/2015</td>
+                      <td>Novo produto</td>
+                      <td>
+                        Modificação
+                      </td>
+                      <td>Grade simples</td>
+                      <td>Mark</td>
+                    </tr>
+                    </a>
+                    <tr>
+                      <td>27/11/2015</td>
+                      <td>Reparo na garantia</td>
+                      <td>
+                        Atualização de custos
+                      </td>
+                      <td>Grade composta</td>
+                      <td>Jacob</td>
+                    </tr>
+                    <tr>
+                      <td>27/11/2015</td>
+                      <td>Reparo na garantia</td>
+                      <td>
+                        2º Modificação
+                      </td>
+                      <td>Grade composta</td>
+                      <td>Jacob</td>
+                    </tr>
+                    <tr>
+                      <td>23/10/2015</td>
+                      <td>Serviço extra</td>
+                      <td>
+                        2ª Atualização de custos
+                      </td>
+                      <td>Portões e outros</td>
+                      <td>Larry</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
           <div class="form-group col-lg-12 upload_content">
             <div class="ibox float-e-margins">
               <div class="ibox-title">
@@ -85,109 +152,146 @@
                       <!--Bloco 1-->
                       <div class="ibox-title">
                         <h5>Foto local</h5>
+                        <div class="img-crop" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
+                        <div class="img-crop" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
-                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                        <div class="img-preview img-preview-sm img-1"></div>
+                        <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="img-preview img-preview-sm img-1"></div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
                       </div>
                       <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
                   </div>
                   <div class="col-lg-2">
-                    <div class="ibox foto_local_content">
+                    <div class="ibox ">
                       <div class="ibox-title">
                         <h5>Rascunho</h5>
+                        <div class="img-crop2" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
-                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                        <div class="img-preview img-3"></div>
+                         <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
                       </div>
-                          <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
                   </div>
                   <div class="col-lg-2">
-                   <div class="ibox foto_local_content">
-                      <!--Bloco 1-->
+                    <div class="ibox ">
                       <div class="ibox-title">
                         <h5>Desenho orçamentário</h5>
+                        <div class="img-crop3" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
+                        <div class="img-preview img-3"></div>
                           <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
                       </div>
-                      <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
                   </div>
                   <div class="col-lg-2">
-                    <div class="ibox foto_local_content">
-                        <!--Bloco 1-->
-                        <div class="ibox-title">
-                          <h5>Rascunho ratificado</h5>
+                    <div class="ibox ">
+                      <div class="ibox-title">
+                        <h5>Rascunho ratificado</h5>
+                        <div class="img-crop4" style="display: none;">
+                          <img src="img/p3.jpg">
                         </div>
-                        <div class="ibox-content">
-                            <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
-                              <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                              <i class="fa fa-plus"></i> Adicionar imagem
-                            </label>
-                            <label title="Donload image" id="download" class="btn btn-default">Download</label>
-                        </div>
-                        <div class="hr-line-dashed clear_both visibility_none"></div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="img-preview img-3"></div>
+                         <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                            <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
+                            <i class="fa fa-plus"></i> Nova imagem
+                          </label>
+                          <label title="Donload image" id="download" class="btn btn-default">Download</label>
+                      </div>
                     </div>
                   </div>
                   <div class="col-lg-2">
-                    <div class="ibox foto_local_content">
-                      <!--Bloco 1-->
+                    <div class="ibox ">
                       <div class="ibox-title">
                         <h5>Desenho de assinatura</h5>
+                        <div class="img-crop5" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
-                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                        <div class="img-preview img-3"></div>
+                         <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
                       </div>
-                      <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
                   </div>
                   <div class="col-lg-2">
-                    <div class="ibox foto_local_content">
-                      <!--Bloco 1-->
+                    <div class="ibox ">
                       <div class="ibox-title">
                         <h5>Desenho de produção</h5>
+                        <div class="img-crop6" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
-                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                        <div class="img-preview img-3"></div>
+                         <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
                       </div>
-                      <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
                   </div>
-                  <!---->
+                  <!--Foto local finalizado-->
                   <div class="col-lg-12">
                     <div class="ibox foto_local_content">
                       <!--Bloco 1-->
                       <div class="ibox-title">
                         <h5>Foto local (projeto finalizado)</h5>
+                        <div class="img-crop" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
+                        <div class="img-crop" style="display: none;">
+                          <img src="img/p3.jpg">
+                        </div>
                       </div>
                       <div class="ibox-content">
-                          <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
+                        <div class="img-preview img-preview-sm img-1"></div>
+                        <label title="Upload de imagem" for="inputImage" class="btn btn-primary">
                             <input type="file" accept="image/*" name="file" id="inputImage" class="hide">
-                            <i class="fa fa-plus"></i> Adicionar imagem
+                            <i class="fa fa-plus"></i> Nova imagem
                           </label>
                           <label title="Donload image" id="download" class="btn btn-default">Download</label>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="img-preview img-preview-sm img-1"></div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="img-preview img-preview-sm img-1" style="visibility:hidden;"></div>
                       </div>
                       <div class="hr-line-dashed clear_both visibility_none"></div>
                     </div>
@@ -214,7 +318,7 @@
           <div class="col-lg-12 padding-0 m-b lista_produtos">
             <div class="checkbox i-checks col-sm-2">
               <label class="primeiro_produto">
-                <input type="checkbox" value="" disabled="" checked="">
+                <input type="checkbox" value="" checked="">
                 <i></i> Grade
               </label>
             </div>
@@ -286,6 +390,72 @@
                                 <a href="#">
                                   <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
                                 </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
                               </h4>
                               <!--final accordion grade-->
                             </div>
@@ -299,10 +469,12 @@
                                   <a data-toggle="tab" href="#tab-4">Grade com vidro
                                     <div class="col-lg-12 editar_aba">
                                       <button id="edit" class="btn btn-warning btn-xs m-l-sm" onclick="edit()" type="button">Editar</button>
+                                      <button id="save" class="btn btn-primary  btn-xs" onclick="save()" type="button">Salvar</button>
                                     </div>
                                   </a>
                                 </li>
-                                <li class=""><a data-toggle="tab" href="#tab-6" title="Adicionar variação de produto"><i class="fa fa-plus text-navy "></i></a></li>
+                                <li class=""><a data-toggle="tab" href="#tab-5">Grade sem vidro</a></li>
+                                <li class=""><a data-toggle="tab" href="#tab-6" title="Adicionar variação de produto"><i class="fa fa-plus text-navy"></i></a></li>
                               </ul>
                             </div>
                           </div>
@@ -3181,6 +3353,331 @@
                           </div>
                         </div>
                       </div>
+
+
+                      
+                      <div class="ibox-content">
+                        <div class="panel-group" id="accordion">
+                          <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Grade 2 <i class="fa fa-chevron-down"></i></a>
+                                <a href="#">
+                                  <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                              </h4>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="panel-group" id="accordion14">
+                          <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion14" href="#collapseFourteen">Portão de garagem&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                <a href="#">
+                                  <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="panel-group" id="accordion18">
+                          <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion18" href="#collapseEighteen">Porta de pedestre&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                <a href="#">
+                                  <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="ibox-content">
+                        <div class="panel-group" id="accordion21">
+                          <div class="panel panel-info">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwentyOne">Guarda corpo&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></a>
+                                <a href="#">
+                                  <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                              </h4>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
                       <div class="ibox-content">
                         <div class="panel-group" id="accordion25">
                           <div class="panel panel-info">
@@ -3190,8 +3687,81 @@
                                 <a href="#">
                                   <span class="excluir_subitem excluir_produto"><i class="fa fa-times text-navy" title="Excluir produto"></i></span>
                                 </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">PERFIL</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ANODIZAÇÃO / PINTURA</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="traco_produto">--</span>
+                                </a>
+                                <a href="#">
+                                  <span class="quantidade_geral">100kg</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">VIDROS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
+                                <a href="#">
+                                  <span class="barra_produto"> | </span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral_label">ACESSÓRIOS</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">valores totais:</span>
+                                </a>
+                                <a href="#">
+                                  <span class="total_geral">R$800,00</span>
+                                </a>
                               </h4>
                             </div>
+
                           </div>
                         </div>
                       </div>

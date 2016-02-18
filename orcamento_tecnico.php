@@ -9,7 +9,7 @@
                     </ol>
                 </div>
                 <div class="col-lg-2 ferramentas">
-                    <a href="novo_cliente.php">
+                    <a href="novo_orcamento_tecnico.php">
                         <span>
                             <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-pencil"></i></button>
                             <br />Editar
@@ -64,7 +64,7 @@
                             <tbody>
                             <a href="#"><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Mark Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Mark Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Condomínio</td>
                                 <td>27/11/2015</td>
@@ -73,7 +73,7 @@
                             </tr></a>
                             <tr>
                                 <td><input type="checkbox" value="" checked=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Jacob Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Jacob Ltda. Company</a></td>
                                 <td>Vila Valqueire</td>
                                 <td>Empresa</td>
                                 <td>27/11/2015</td>
@@ -82,7 +82,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Larry Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Larry Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Governo</td>
                                 <td>23/10/2015</td>
@@ -91,7 +91,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -99,7 +99,7 @@
                                 <th><label class="label label-warning">Em andamento</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -107,7 +107,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Copacabana</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -115,7 +115,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Barros Filho</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -123,7 +123,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -131,7 +131,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -139,7 +139,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -147,7 +147,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -155,7 +155,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -163,7 +163,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -171,7 +171,7 @@
                                 <th><label class="label label-primary">Concluído</label></th>
                             </tr><tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -180,7 +180,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -189,7 +189,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -198,7 +198,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -207,7 +207,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -216,7 +216,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Anchieta</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
@@ -225,7 +225,7 @@
                             </tr>
                             <tr>
                                 <td><input type="checkbox" value=""></td>
-                                <td><a href="novo_orcamento_tecnico.php" title="Acessar">Hudson Ltda. Company</a></td>
+                                <td><a href="orcamento_tecnico_cadastrado.php" title="Acessar">Hudson Ltda. Company</a></td>
                                 <td>Glória</td>
                                 <td>Pessoa Física</td>
                                 <td>27/11/2015</td>
