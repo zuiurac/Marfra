@@ -164,7 +164,6 @@ h5 {
 }
 .nav > li.active {
   border-left: 4px solid #19aa8d;
-  background: #293846;
 }
 .nav.nav-second-level > li.active {
   border: none;
@@ -481,19 +480,19 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 }
 .top-navigation .nav > li > a {
   padding: 15px 20px;
-  color: #676a6c;
+  color: #fff;
 }
 .top-navigation .nav > li a:hover,
 .top-navigation .nav > li a:focus {
   background: #fff;
   color: #1ab394;
 }
-.top-navigation .nav > li.active {
-  background: #fff;
+.top-navigation .nav > li.active {  
   border: none;
+  padding: 0px 20px;
 }
 .top-navigation .nav > li.active > a {
-  color: #1ab394;
+  color: #fff;
 }
 .top-navigation .navbar-right {
   margin-right: 10px;
@@ -3220,13 +3219,13 @@ ol.unstyled {
     color:#acabb0;
  }
 .footer a{
-  background: none repeat scroll 0 0 white;
+  /*background: none repeat scroll 0 0 white;
   border-top: 1px solid #e7eaec;
   bottom: 0;
   left: 0;
   padding: 10px 20px;
   position: absolute;
-  right: 0;
+  right: 0;*/
 }
 .footer.fixed_full {
   position: fixed;
@@ -7039,18 +7038,15 @@ label[title="Upload image file"]{
 tbody td, th{
   border-right: 1px solid #ECECEC;
 }
-tbody td:first-child, th:first-child{
-  border-right: 0px;
-}
-body.desenhista tbody td:first-child,body.desenhista thead th:first-child{
-  border-right: 1px solid #ECECEC; 
+table thead{
+  color:#fff;
 }
 table.dataTable thead .sorting_asc{
   /*background:none;*/
 }
 .ferramentas{
   font-weight: 600;
-  margin-top: 26px;
+  margin-top: 10px;
   text-align: center;
   font-size: 12px;
 }
@@ -7092,7 +7088,13 @@ table.dataTable thead .sorting:after {
 }
 a[title="imprimir"]{
   padding-left:10px;
-  border-left:1px solid #ECECEC;
+  color:#646568;
+}
+a[title="imprimir"] button{
+  border: 1px solid #646568;
+  background: #fff;
+  font-weight: 600;
+  color:#646568;
 }
 
 /*Comentado o search funcional*/
@@ -7142,3 +7144,85 @@ table tbody tr:hover td {
     background-color: #e8f6fe;
 }
 
+/*novo layout*/
+
+.atendimento .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    width: 360px;
+}
+.atendimento .page-heading{
+    padding: 4px 0px 10px 0;
+}
+.white-bg .navbar-fixed-top, .white-bg .navbar-static-top {
+    background: #13496d;
+    padding: 6px 0;
+}
+.top-navigation .nav > li.active{
+    padding: 0px 20px;
+}
+.top-navigation .nav > li.active > a {
+    color: #fff;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.top-navigation .nav > li a:hover, .top-navigation .nav > li a:focus {
+    background: none;
+    color: #5187AB;
+}
+.page-heading{
+    padding: 0px;
+}
+.page-heading h2{
+    padding-left: 36px;
+    color: #13496d;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.footer{
+    background: #13496d;
+    bottom: 0;
+    left: 0;
+    padding: 34px 20px 25px 20px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+.footer a{
+  color:#fff;
+  margin: 10px 20px 0px 20px;
+}
+.r_ocorrencia a{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+table thead{
+  background:#b2b2b2;
+}
+.atendimento table td:last-child span.red{
+    background: #ccc;
+    width: 10px;
+    height: 34px;
+    float: right;
+}
+.atendimento table td:last-child span.orange{
+    background: #ccc;
+    width: 10px;
+    height: 34px;
+    float: right;
+}
+.atendimento table td:last-child span.yellow{
+    background: #ccc;
+    width: 10px;
+    height: 34px;
+    float: right;
+}
+.footer img{
+    margin-left: 20px;
+    width:100px;
+  }

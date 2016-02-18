@@ -25,103 +25,39 @@
 
 </head>
 
-<body class="skin-1">
+<body class="top-navigation atendimento">
     <div id="wrapper">
-        <nav class="navbar-default navbar-static-side" role="navigation">
-        <div class="sidebar-collapse">
-            <ul class="nav" id="side-menu">
-                <li class="nav-header">
-                    <div class="dropdown profile-element"> <span>
-                            <a href="index.php"><img alt="image" class="img-circle" width="170px" src="img/MARFRA-BRASIL.png"/></a>
-                             </span>
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-md"> <strong class="font-bold">João Dias</strong>
-                             </span> <span class="text-muted text-xs block">Atendimento<b class="caret"></b></span> </span> </a>
-                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                            <li><a href="perfil.php">Perfil</a></li>
-                            <li class="divider"></li>
-                            <li><a href="login.php">Sair</a></li>
-                        </ul>
-                    </div>
-                    <div class="logo-element">
-                        <img src="img/logo_top.png" alt="logotipo" width="50">
-                    </div>
-                </li>
-                <li class="active">
-                    <a href="index.php"><i class="fa fa-user"></i> <span class="nav-label">Cliente</span> </a>
-                </li>
-                <li>
-                    <a href="orcamento.php"><i class="fa fa-dollar"></i> <span class="nav-label">Orçamento</span><span class="label label-danger pull-right" title="Restam 24 orçamentos para serem finalizados">24</span></a>
-                </li>
-                <li>
-                    <a href="novo_orcamento.php"><i class="fa fa-money"></i> <span class="nav-label">Abertura de Orçamento</span> </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-
         <div id="page-wrapper" class="gray-bg">
-        <div class="row border-bottom">
-        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-        <div class="navbar-header">
-            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
-            <span>Retrair / Expandir menu</span>
-        </div>
+        <!-- ****************fim header**************** -->
+<div class="row border-bottom white-bg">
+        <nav class="navbar navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <i class="fa fa-reorder"></i>
+                </button>
+                <a href="index.php"><img alt="image" width="200px" src="img/MARFRA-logotipo.png"></a>
+            </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">Bem vindo ao SGi+ da MAFRA BRASIL</span>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                        <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
-                    </a>
-                    <ul class="dropdown-menu dropdown-alerts">
-                        <li>
-                            <a href="mailbox.php">
-                                <div>
-                                    <i class="fa fa-user fa-fw"></i> Novo cliente cadastrado
-                                    <span class="pull-right text-muted small">4 minutos atrás</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="profile.php">
-                                <div>
-                                    <i class="fa fa-dollar fa-fw"></i> Orçamento 'B' rejeitado
-                                    <span class="pull-right text-muted small">12 minutos atrás</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="grid_options.php">
-                                <div>
-                                    <i class="fa fa-dollar fa-fw"></i> Orçamento 'A' aprovado
-                                    <span class="pull-right text-muted small">4 minutos atrás</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <div class="text-center link-block">
-                                <a href="notificações.php">
-                                    <strong>Veja todas as notificações</strong>
-                                    <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <li>
-                    <a href="login.php">
+                    <a href="login.html">
                         <i class="fa fa-sign-out"></i> Sair
                     </a>
                 </li>
             </ul>
-
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="index.php"> Clientes </a>
+                    </li>
+                    <li class="active">
+                        <a aria-expanded="false" role="button" href="#" > Orçamentos</a>
+                    </li>
+                    <li>
+                        <a aria-expanded="false" role="button" href="#" > Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        
         </nav>
+
         </div>

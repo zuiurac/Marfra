@@ -1,6 +1,11 @@
-<div class="footer">
-            <div class="text-center">
-                <strong><a href="ramais.php">Acesso aos ramais</a></strong>
+        <div class="footer">
+            <div class="pull-right">
+                <a href="suporte.php">Suporte</a>
+                <img src="img/logo_wda.png" alt="wda">
+            </div>
+            <div class="r_ocorrencia">
+                <a href="#">Registros de ocorrência</a>
+                <a href="ramais.php">Ramais</a>
             </div>
         </div>
     </div>

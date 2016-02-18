@@ -1,34 +1,15 @@
 <?php include('header/headerAtendimento.php'); ?>
+
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-8">
                     <h2>Listagem de Orçamentos</h2>
-                    <ol class="breadcrumb">
-                        <li>
-                            <a href="#">Orçamento</a>
-                        </li>
-                        <li class="active">
-                            <strong><a href="orcamento.php">Listagem de Orçamentos</a></strong>
-                        </li>
-                    </ol>
                 </div>
                  <div class="col-lg-4 ferramentas">
                     <a href="#modal-form" title="imprimir" data-toggle="modal">
-                        <span>
-                            <button class="btn btn-info btn-circle" type="button"><i class="fa fa-print"></i></button>
-                        <br />Imprimir
-                        </span>
-                    </a>
-                    <a href="orcamento_cadastrado.php">
-                        <span>
-                            <button class="btn btn-edit btn-circle" type="button"><i class="fa fa-pencil"></i></button>
-                            <br />Editar
-                        </span>
+                        <button class="btn" type="submit">Imprimir</button>
                     </a>
                     <a href="novo_orcamento.php">
-                        <span>
-                            <button class="btn btn-info btn-circle" type="button"><i class="fa fa-plus"></i></button>
-                        <br />Novo
-                        </span>
+                        <button class="btn btn-primary" type="submit">Novo orçamento</button>
                     </a>
                 </div>
             </div>
@@ -94,10 +75,9 @@
                         <table class="table dataTables-example table-striped orcamento_tecnico" id="editable">
                             <thead>
                             <tr>
-                                <th><input type="checkbox" value=""></th>
+                                <th>Nº Orçamento</th>
                                 <th>Cliente</th>
                                 <th>Bairro</th>
-                                <th>nº Orçamento</th>
                                 <th>Responsável</th>
                                 <th>Cargo</th>
                                 <th>Telefone</th>
@@ -108,240 +88,221 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php" title="Acessar">Souza Cruz</a></td>
+                                <td><a href="orcamento_cadastrado.php" title="Acessar">20150000</a></td>
+                                <td>Souza Cruz</td>
                                 <td>Botafogo</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Subsíndico</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>
                                 <td>23/10/2015</td>
-                                <td><label class="label label-danger" title="Prioridade Máxima">13 dias</label></td>
+                                <td title="Prioridade Máxima">13 dias<span class="red"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Vila Isabel</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Morador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger" title="Prioridade Máxima">13 dias</label></td>
-                            </tr><tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td class="red" title="Prioridade Máxima">13 dias<span class="red"></span></td>
+                            </tr>
+                            <tr>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-danger" title="Prioridade Máxima">13 dias</label></td>
+                                <td class="red" title="Prioridade Máxima">13 dias<span class="red"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Souza Cruz</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Souza Cruz</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Síndico</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Portões e outros</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-warning" title="Prioridade Média">7 dias</label></td>
+                                <td class="orange" title="Prioridade Média">7 dias<span class="orange"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-warning" title="Prioridade Média">5 dias</label></td>
+                                <td class="orange" title="Prioridade Média">5 dias<span class="orange"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td class="orange" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Antônio LTDA.</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Antônio LTDA.</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td class="yellow" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Bruno Ltda.</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Bruno Ltda.</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td class="yellow" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Souza Cruz</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Souza Cruz</td>
                                 <td>Flamengo</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Porteiro</td>
                                 <td>(21) 98073-3837</td> 
                                 <td>Grade simples</td>
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Carlos LTDA.</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Carlos LTDA.</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr><tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                            <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Porteiro</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr><tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                            <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr><tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                            <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Síndico</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Subsíndico</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Morador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" value=""></td>
-                                <td><a href="orcamento_cadastrado.php">Mark</a></td>
+                                <td><a href="orcamento_cadastrado.php">20150000</a></td>
+                                <td>Mark</td>
                                 <td>Glória</td>
-                                <td>20150000</td>
                                 <td>Carlos</td>
                                 <td>Zelador</td>
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td><label class="label label-default" title="Prioridade Baixa">3 dias</label></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             </tbody>
                         </table>
@@ -349,7 +310,6 @@
                 </div>
             </div>
             </div>
-        
         </div>
 
        <?php include('footer/footerAtendimento.php'); ?>
