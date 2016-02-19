@@ -4,7 +4,7 @@
                 <img src="img/logo_wda.png" alt="wda">
             </div>
             <div class="r_ocorrencia">
-                <a href="#">Registros de ocorrência</a>
+                <a href="#">Registro de ocorrências</a>
                 <a href="ramais.php">Ramais</a>
             </div>
         </div>

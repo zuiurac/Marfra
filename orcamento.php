@@ -45,22 +45,30 @@
                                 </div>
                         </div>
                         <!--Fim Modal ocorrencia-->
-                 <div class="col-lg-8 padding-0">
+                 <div class="col-lg-6 padding-0">
                      <div class="dataTables_filter">
                         <label>
                             <input placeholder="Procurar:" type="search" class="form-control input-sm" placeholder="" aria-controls="editable">
                         </label>
+                        <span>Exibir</span><select><option>10</option><option>25</option><option>50</option><option>100</option></select>
                      </div>
                  </div>   
-                 <div class="col-lg-4 p_r_0">
-                    <div class="col-lg-6">
+                 <div class="col-lg-6 p_r_0">
+                      <div class="col-lg-4">
+                        <select class="form-control m-b" name="account">
+                            <option>- Selecionar Status -</option>
+                            <option>Atendido</option>
+                            <option>Em aberto</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
                         <select class="form-control m-b" name="account">
                             <option>- Selecionar Bairro -</option>
                             <option>opção 1</option>
                             <option>opção 2</option>
                         </select>
                     </div>
-                    <div class="col-lg-6 p_r_0">
+                    <div class="col-lg-4 p_r_0">
                         <select class="form-control m-b" name="account">
                             <option>- Selecionar Produto -</option>
                             <option>Grade Simples</option>
@@ -107,7 +115,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="red" title="Prioridade Máxima">13 dias<span class="red"></span></td>
+                                <td title="Prioridade Máxima">13 dias<span class="red"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -118,7 +126,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="red" title="Prioridade Máxima">13 dias<span class="red"></span></td>
+                                <td title="Prioridade Máxima">13 dias<span class="red"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -129,7 +137,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Portões e outros</td>  
                                 <td>27/11/2015</td>
-                                <td class="orange" title="Prioridade Média">7 dias<span class="orange"></span></td>
+                                <td title="Prioridade Média">7 dias<span class="orange"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -140,7 +148,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="orange" title="Prioridade Média">5 dias<span class="orange"></span></td>
+                                <td title="Prioridade Média">5 dias<span class="orange"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -151,7 +159,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="orange" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -162,7 +170,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="yellow" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>
@@ -173,7 +181,7 @@
                                 <td>(21) 98073-3837</td>
                                 <td>Grade composta</td>  
                                 <td>27/11/2015</td>
-                                <td class="yellow" title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
+                                <td title="Prioridade Baixa">3 dias<span class="yellow"></span></td>
                             </tr>
                             <tr>
                                 <td><a href="orcamento_cadastrado.php">20150000</a></td>

@@ -44,6 +44,8 @@ h5 {
 }
 .nav.navbar-right > li > a {
   color: #999c9e;
+  margin:5px 15px 0px 15px;
+  padding:1px 0px 0px 15px !important;
 }
 .nav > li.active > a {
   color: #ffffff;
@@ -65,6 +67,9 @@ h5 {
 .nav > li > a i {
   margin-right: 6px;
 }
+img[alt="logotipo"]{
+  padding-top: 8px;
+}
 .navbar {
   border: 0;
 }
@@ -79,8 +84,9 @@ h5 {
   margin-right: 40px;
 }
 .navbar-top-links li a {
-  padding: 20px 10px;
+  padding: 19px 15px 10px 0px;
   min-height: 50px;
+  color:#fff;
 }
 .dropdown-menu {
   border: medium none;
@@ -184,7 +190,7 @@ h5 {
     margin: 15px 0px 15px 55px;
  }
 .nav{
-  margin-top: 8px !important;
+  margin-top: 10px !important;
 }
 
 /*fim navbar top*/
@@ -479,8 +485,14 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   margin-bottom: 0;
 }
 .top-navigation .nav > li > a {
-  padding: 15px 20px;
+  padding: 15px 15px 20px 15px;
   color: #fff;
+}
+.top-navigation .navbar-right li i{
+    float: right;
+    font-size: 33px;
+    color: #fff;
+    margin-top: 25px;
 }
 .top-navigation .nav > li a:hover,
 .top-navigation .nav > li a:focus {
@@ -495,7 +507,16 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   color: #fff;
 }
 .top-navigation .navbar-right {
-  margin-right: 10px;
+  margin-right: 43px;
+  text-align: right;
+  margin-bottom: 0px;
+}
+.top-navigation .navbar-right a{
+  float: right;
+  font-size: 14px;
+}
+.top-navigation .navbar-right a span{
+  font-weight: bold;
 }
 .top-navigation .navbar-nav .dropdown-menu {
   box-shadow: none;
@@ -3217,16 +3238,8 @@ ol.unstyled {
 .footer a{
     font-size: 15px;
     color:#acabb0;
+    font-weight: 600
  }
-.footer a{
-  /*background: none repeat scroll 0 0 white;
-  border-top: 1px solid #e7eaec;
-  bottom: 0;
-  left: 0;
-  padding: 10px 20px;
-  position: absolute;
-  right: 0;*/
-}
 .footer.fixed_full {
   position: fixed;
   bottom: 0;
@@ -7101,7 +7114,7 @@ a[title="imprimir"] button{
 
 table.table + .row > .col-sm-6{
     width: 45%;
-    text-align: right;
+    /*text-align: right;*/
 }
 table.table + .row > .col-sm-6 + .col-sm-6{
     text-align: left;
@@ -7109,10 +7122,18 @@ table.table + .row > .col-sm-6 + .col-sm-6{
 .dataTables_info{
     margin-top: 7px;
 }
+.dataTables_filter label{
+  margin-right: 10px;
+}
+.dataTables_filter select{
+  margin-left: 5px;
+  height: 33px; 
+}
 .dataTables_info select{
   position: relative;
   top: 0px;
 }
+/*
 .dataTables_info br + span{
   position: relative;
   left: 530px;
@@ -7121,7 +7142,7 @@ table.table + .row > .col-sm-6 + .col-sm-6{
   position: relative;
   top: 0px;
   left: -8px;
-}
+}*/
 .ibox-content.p-b5 + .ibox-content > .row{
   
 }
@@ -7195,32 +7216,43 @@ table tbody tr:hover td {
 .footer a{
   color:#fff;
   margin: 10px 20px 0px 20px;
+  text-transform: uppercase;
 }
-.r_ocorrencia a{
+.r_ocorrencia a:first-child{
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px;
+  text-transform: none;
 }
 table thead{
   background:#b2b2b2;
 }
+.atendimento table td:last-child{
+  position: relative;
+}
 .atendimento table td:last-child span.red{
-    background: #ccc;
+    background: #FF0000;
     width: 10px;
     height: 34px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .atendimento table td:last-child span.orange{
-    background: #ccc;
+    background: #FF7300;
     width: 10px;
     height: 34px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .atendimento table td:last-child span.yellow{
-    background: #ccc;
+    background: #FFDA00;
     width: 10px;
     height: 34px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .footer img{
     margin-left: 20px;
